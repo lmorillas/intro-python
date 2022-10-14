@@ -1,0 +1,7 @@
+
+[submodule "themes/docsy"]
+	path = themes/docsy
+	url = https://github.com/google/docsy
+[submodule "ejemplos/themes/vanilla-bootstrap-hugo-theme"]
+	path = ejemplos/themes/vanilla-bootstrap-hugo-theme
+	url = https://github.com/zwbetz-gh/vanilla-bootstrap-hugo-theme.git
