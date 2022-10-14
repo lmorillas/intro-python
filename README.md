@@ -5,4 +5,4 @@
 Recursos para el aula
 
 
-https://lmorillas.github.com/intro-python
+https://lmorillas.github.io/intro-python
