@@ -85,38 +85,15 @@
         
 
 &lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;
-&lt;p&gt;Primeros pasos:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Instalar python (windows)&lt;/li&gt;
-&lt;li&gt;Instalar pip &lt;a href=&#34;https://pip.pypa.io/en/stable/installation/&#34;&gt;https://pip.pypa.io/en/stable/installation/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Instalar extensión VS Code Python&lt;/li&gt;
-&lt;li&gt;Algunas extensiones interesantes para iniciar&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;Estructura propuesta&lt;/p&gt;
 
 &lt;/div&gt;
 
-&lt;h2 id=&#34;documentación-básica&#34;&gt;Documentación básica&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.python.org/&#34;&gt;https://www.python.org/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://docs.python.org/3/&#34;&gt;https://docs.python.org/3/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;documentación-de-instalación&#34;&gt;Documentación de instalación&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://code.visualstudio.com/docs/python/python-tutorial&#34;&gt;https://code.visualstudio.com/docs/python/python-tutorial&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;introducción&#34;&gt;Introducción&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://docs.python.org/es/3/tutorial/introduction.html&#34;&gt;https://docs.python.org/es/3/tutorial/introduction.html&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;cuadernos-de-tutoriales-y-ejercicios&#34;&gt;Cuadernos de tutoriales y ejercicios&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/lmorillas/Introduccion-Python-3&#34;&gt;https://github.com/lmorillas/Introduccion-Python-3&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;secuencia-propuesta&#34;&gt;Secuencia propuesta:&lt;/h3&gt;
+&lt;h2 id=&#34;secuencia-propuesta&#34;&gt;Secuencia propuesta:&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Strings&lt;/li&gt;
 &lt;li&gt;Numbers&lt;/li&gt;
-&lt;li&gt;Conditionals&lt;/li&gt;
+&lt;li&gt;Conditionales&lt;/li&gt;
 &lt;li&gt;Listas&lt;/li&gt;
 &lt;li&gt;Dictionaries&lt;/li&gt;
 &lt;li&gt;For loops&lt;/li&gt;
