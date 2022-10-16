@@ -14,5 +14,307 @@
       
     
     
+    <item>
+      <title>Docs: Instalación</title>
+      <link>https://lmorillas.github.io/intro-python/docs/instalacion/</link>
+      <pubDate>Wed, 15 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://lmorillas.github.io/intro-python/docs/instalacion/</guid>
+      <description>
+        
+        
+        
+
+&lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;
+&lt;h3 id=&#34;objetivos&#34;&gt;Objetivos:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Instalación del intérprete y del entorno de desarrollo&lt;/li&gt;
+&lt;li&gt;Documentación básica&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;
+
+&lt;h2 id=&#34;instalación&#34;&gt;Instalación&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Instalar python &lt;a href=&#34;https://www.python.org/downloads/&#34;&gt;https://www.python.org/downloads/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Instalar pip &lt;a href=&#34;https://pip.pypa.io/en/stable/installation/&#34;&gt;https://pip.pypa.io/en/stable/installation/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# Windows&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;C:&amp;gt; py -m ensurepip --upgrade
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;Instalar extensión VS Code Python
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://code.visualstudio.com/docs/python/python-tutorial&#34;&gt;https://code.visualstudio.com/docs/python/python-tutorial&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://marketplace.visualstudio.com/items?itemName=ms-python.python&#34;&gt;https://marketplace.visualstudio.com/items?itemName=ms-python.python&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Algunas extensiones interesantes para iniciar&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;documentación-básica&#34;&gt;Documentación básica&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.python.org/3/&#34;&gt;https://docs.python.org/3/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.python.org/es/3/tutorial/introduction.html&#34;&gt;https://docs.python.org/es/3/tutorial/introduction.html&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Tutorial en castellano &lt;a href=&#34;https://docs.python.org/es/3/tutorial/&#34;&gt;https://docs.python.org/es/3/tutorial/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.python.org/3/faq/general.html&#34;&gt;Preguntas frecuentes&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;recursos-adicionales&#34;&gt;Recursos adicionales&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://automatetheboringstuff.com/&#34;&gt;https://automatetheboringstuff.com/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.edx.org/learn/python&#34;&gt;https://www.edx.org/learn/python&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://openbookproject.net/thinkcs/python/english3e/&#34;&gt;https://openbookproject.net/thinkcs/python/english3e/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Grupo PyAr &lt;a href=&#34;https://www.python.org.ar/&#34;&gt;https://www.python.org.ar/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;eventos&#34;&gt;Eventos&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://2022.es.pycon.org/&#34;&gt;https://2022.es.pycon.org/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://lmorillas.github.io/python_events/&#34;&gt;https://lmorillas.github.io/python_events/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Contenidos</title>
+      <link>https://lmorillas.github.io/intro-python/docs/contenido/</link>
+      <pubDate>Wed, 15 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://lmorillas.github.io/intro-python/docs/contenido/</guid>
+      <description>
+        
+        
+        
+
+&lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;
+&lt;p&gt;Primeros pasos:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Instalar python (windows)&lt;/li&gt;
+&lt;li&gt;Instalar pip &lt;a href=&#34;https://pip.pypa.io/en/stable/installation/&#34;&gt;https://pip.pypa.io/en/stable/installation/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Instalar extensión VS Code Python&lt;/li&gt;
+&lt;li&gt;Algunas extensiones interesantes para iniciar&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;
+
+&lt;h2 id=&#34;documentación-básica&#34;&gt;Documentación básica&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.python.org/&#34;&gt;https://www.python.org/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.python.org/3/&#34;&gt;https://docs.python.org/3/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;documentación-de-instalación&#34;&gt;Documentación de instalación&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://code.visualstudio.com/docs/python/python-tutorial&#34;&gt;https://code.visualstudio.com/docs/python/python-tutorial&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;introducción&#34;&gt;Introducción&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.python.org/es/3/tutorial/introduction.html&#34;&gt;https://docs.python.org/es/3/tutorial/introduction.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;cuadernos-de-tutoriales-y-ejercicios&#34;&gt;Cuadernos de tutoriales y ejercicios&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/lmorillas/Introduccion-Python-3&#34;&gt;https://github.com/lmorillas/Introduccion-Python-3&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;secuencia-propuesta&#34;&gt;Secuencia propuesta:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Strings&lt;/li&gt;
+&lt;li&gt;Numbers&lt;/li&gt;
+&lt;li&gt;Conditionals&lt;/li&gt;
+&lt;li&gt;Listas&lt;/li&gt;
+&lt;li&gt;Dictionaries&lt;/li&gt;
+&lt;li&gt;For loops&lt;/li&gt;
+&lt;li&gt;Functions&lt;/li&gt;
+&lt;li&gt;File I/O&lt;/li&gt;
+&lt;li&gt;Classes&lt;/li&gt;
+&lt;li&gt;Modules y packages&lt;/li&gt;
+&lt;li&gt;Virtual environment&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Jupyter</title>
+      <link>https://lmorillas.github.io/intro-python/docs/jupyter/</link>
+      <pubDate>Wed, 15 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://lmorillas.github.io/intro-python/docs/jupyter/</guid>
+      <description>
+        
+        
+        
+
+&lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;
+&lt;h3 id=&#34;objetivos&#34;&gt;Objetivos:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Introducción a Google Colab&lt;/li&gt;
+&lt;li&gt;Uso de notebooks en Visual Studio Code&lt;/li&gt;
+&lt;li&gt;Instalación local de Jupyter para usar los notebooks de clase&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;
+
+&lt;h2 id=&#34;uso-en-visual-studio-code&#34;&gt;Uso en Visual Studio Code&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://code.visualstudio.com/docs/datascience/jupyter-notebooks&#34;&gt;https://code.visualstudio.com/docs/datascience/jupyter-notebooks&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;google-colaboratory&#34;&gt;Google Colaboratory&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://research.google.com/colaboratory/faq.html&#34;&gt;https://research.google.com/colaboratory/faq.html&lt;/a&gt;&lt;/p&gt;
+
+
+&lt;div class=&#34;pageinfo pageinfo-secondary&#34;&gt;
+&lt;p&gt;Colaboratory, también llamado Colab, es un producto de Google Research. Colab permite que todos puedan escribir y ejecutar código arbitrario de Python en el navegador. Es ideal para aplicarlo en proyectos de aprendizaje automático, análisis de datos y educación. En términos técnicos, Colab es un servicio de notebooks de Jupyter alojados que no requiere instalación para usarlo y brinda acceso sin costo a recursos computacionales, incluidas GPU.&lt;/p&gt;
+
+&lt;/div&gt;
+
+&lt;h3 id=&#34;ejercicio&#34;&gt;Ejercicio&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Abre &lt;a href=&#34;https://colab.research.google.com/notebooks/intro.ipynb&#34;&gt;https://colab.research.google.com/notebooks/intro.ipynb&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Copialo en tu Drive para poderlo modificar&lt;/li&gt;
+&lt;li&gt;Añade una celda debajo de los segundos de una semana y escribe el código para calcular los segundos de un mes (este mes)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;instalación-local&#34;&gt;Instalación local&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# Crea una nueva carpeta y entra en ella&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;mkdir intro-python    
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#204a87&#34;&gt;cd&lt;/span&gt; intro-python
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# Crea un entorno virtual y actívalo&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;$ python3 -m venv venv
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;$ &lt;span style=&#34;color:#204a87&#34;&gt;source&lt;/span&gt; venv/bin/activate
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# En windows:&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;C:&lt;span style=&#34;color:#4e9a06&#34;&gt;\&amp;gt;&lt;/span&gt; env&lt;span style=&#34;color:#4e9a06&#34;&gt;\S&lt;/span&gt;cripts&lt;span style=&#34;color:#4e9a06&#34;&gt;\a&lt;/span&gt;ctivate.bat
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# Instala jupyter&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;$ pip install jupyter
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# Ejecuta jupyter&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;$ jupyter notebook
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# Esto abrirá una ventana en tu navegador en el puerto 8888&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Primeros pasos</title>
+      <link>https://lmorillas.github.io/intro-python/docs/primeros-pasos/</link>
+      <pubDate>Wed, 15 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://lmorillas.github.io/intro-python/docs/primeros-pasos/</guid>
+      <description>
+        
+        
+        
+
+&lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;
+&lt;h3 id=&#34;objetivos&#34;&gt;Objetivos:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Primeros pasos con Python&lt;/li&gt;
+&lt;li&gt;Cadenas y números&lt;/li&gt;
+&lt;li&gt;Condicionales&lt;/li&gt;
+&lt;li&gt;Listas&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;
+
+&lt;p&gt;Los notebooks que vamos a usar están en &lt;a href=&#34;https://github.com/lmorillas/Introduccion-Python-3&#34;&gt;https://github.com/lmorillas/Introduccion-Python-3&lt;/a&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Haz un fork del respositorio a tu cuenta de Github y después clónalo en tu equipo&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;strings&#34;&gt;Strings&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/lmorillas/Introduccion-Python-3/blob/master/notebooks/beginner/notebooks/strings.ipynb&#34;&gt;https://github.com/lmorillas/Introduccion-Python-3/blob/master/notebooks/beginner/notebooks/strings.ipynb&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Ejercicio: &lt;a href=&#34;https://github.com/lmorillas/Introduccion-Python-3/blob/master/notebooks/beginner/exercises/strings_exercise.ipynb&#34;&gt;https://github.com/lmorillas/Introduccion-Python-3/blob/master/notebooks/beginner/exercises/strings_exercise.ipynb&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;números&#34;&gt;Números&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;*&lt;a href=&#34;https://github.com/lmorillas/learn-python3/blob/master/notebooks/beginner/notebooks/numbers.ipynb&#34;&gt;https://github.com/lmorillas/learn-python3/blob/master/notebooks/beginner/notebooks/numbers.ipynb&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Ejercicio&lt;/strong&gt;: &lt;a href=&#34;https://github.com/lmorillas/learn-python3/blob/master/notebooks/beginner/exercises/numbers_exercise.ipynb&#34;&gt;https://github.com/lmorillas/learn-python3/blob/master/notebooks/beginner/exercises/numbers_exercise.ipynb&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;condicionales&#34;&gt;Condicionales&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/lmorillas/learn-python3/blob/master/notebooks/beginner/notebooks/conditionals.ipynb&#34;&gt;https://github.com/lmorillas/learn-python3/blob/master/notebooks/beginner/notebooks/conditionals.ipynb&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Ejercicio&lt;/strong&gt;: &lt;a href=&#34;https://github.com/lmorillas/learn-python3/blob/master/notebooks/beginner/exercises/conditionals_exercise.ipynb&#34;&gt;https://github.com/lmorillas/learn-python3/blob/master/notebooks/beginner/exercises/conditionals_exercise.ipynb&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Contenedores</title>
+      <link>https://lmorillas.github.io/intro-python/docs/contenedores/</link>
+      <pubDate>Wed, 15 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://lmorillas.github.io/intro-python/docs/contenedores/</guid>
+      <description>
+        
+        
+        
+
+&lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;
+&lt;h3 id=&#34;objetivos&#34;&gt;Objetivos:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Tipos de objetos para almacenar datos&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;
+
+&lt;h2 id=&#34;listas&#34;&gt;listas&lt;/h2&gt;
+&lt;h2 id=&#34;diccionarios&#34;&gt;diccionarios&lt;/h2&gt;
+&lt;h2 id=&#34;tuplas&#34;&gt;tuplas&lt;/h2&gt;
+&lt;h2 id=&#34;sets&#34;&gt;sets&lt;/h2&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Bucles</title>
+      <link>https://lmorillas.github.io/intro-python/docs/bucles/</link>
+      <pubDate>Wed, 15 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://lmorillas.github.io/intro-python/docs/bucles/</guid>
+      <description>
+        
+        
+        
+
+&lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;
+&lt;h3 id=&#34;objetivos&#34;&gt;Objetivos:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;For &amp;amp; while&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;
+
+&lt;h2 id=&#34;bucles-for&#34;&gt;Bucles &lt;code&gt;for&lt;/code&gt;&lt;/h2&gt;
+&lt;h2 id=&#34;bucles-while&#34;&gt;Bucles &lt;code&gt;while&lt;/code&gt;&lt;/h2&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Funciones</title>
+      <link>https://lmorillas.github.io/intro-python/docs/funciones/</link>
+      <pubDate>Wed, 15 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://lmorillas.github.io/intro-python/docs/funciones/</guid>
+      <description>
+        
+        
+        
+
+&lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;
+&lt;h3 id=&#34;objetivos&#34;&gt;Objetivos:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Funciones&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;
+
+&lt;h2 id=&#34;funciones&#34;&gt;Funciones&lt;/h2&gt;
+
+      </description>
+    </item>
+    
   </channel>
 </rss>

@@ -4,7 +4,6 @@
     <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="generator" content="Hugo 0.102.3" />
-<link rel="alternate" type="application/rss&#43;xml" href="https://lmorillas.github.io/intro-python/docs/index.xml">
 <meta name="robots" content="index, follow">
 
 
@@ -19,20 +18,25 @@
 <link rel="icon" type="image/png" href="/intro-python/favicons/android-144x144.png" sizes="144x144">
 <link rel="icon" type="image/png" href="/intro-python/favicons/android-192x192.png" sizes="192x192">
 
-<title>Inmersión en Python | Introducción a Python</title>
-<meta name="description" content="Inmersión a la programación con Python
+<title>Primeros pasos | Introducción a Python</title>
+<meta name="description" content="Cadenas, números, condicionales y listas
 ">
-<meta property="og:title" content="Inmersión en Python" />
-<meta property="og:description" content="Inmersión a la programación con Python
+<meta property="og:title" content="Primeros pasos" />
+<meta property="og:description" content="Cadenas, números, condicionales y listas
 " />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://lmorillas.github.io/intro-python/docs/" /><meta property="og:site_name" content="Introducción a Python" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://lmorillas.github.io/intro-python/docs/primeros-pasos/" /><meta property="article:section" content="docs" />
+<meta property="article:published_time" content="2021-09-15T00:00:00+00:00" />
+<meta property="article:modified_time" content="2021-09-15T00:00:00+00:00" /><meta property="og:site_name" content="Introducción a Python" />
 
-<meta itemprop="name" content="Inmersión en Python">
-<meta itemprop="description" content="Inmersión a la programación con Python
-"><meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Inmersión en Python"/>
-<meta name="twitter:description" content="Inmersión a la programación con Python
+<meta itemprop="name" content="Primeros pasos">
+<meta itemprop="description" content="Cadenas, números, condicionales y listas
+"><meta itemprop="datePublished" content="2021-09-15T00:00:00+00:00" />
+<meta itemprop="dateModified" content="2021-09-15T00:00:00+00:00" />
+<meta itemprop="wordCount" content="47">
+<meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Primeros pasos"/>
+<meta name="twitter:description" content="Cadenas, números, condicionales y listas
 "/>
 
 
@@ -47,7 +51,7 @@
   crossorigin="anonymous"></script>
 
   </head>
-  <body class="td-section">
+  <body class="td-page">
     <header>
       
 <nav class="js-navbar-scroll navbar navbar-expand navbar-dark flex-column flex-md-row td-navbar">
@@ -80,7 +84,7 @@
   <nav class="collapse td-sidebar-nav foldable-nav" id="td-section-nav">
     <ul class="td-sidebar-nav__section pr-md-3 ul-0">
       <li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child active-path" id="m-intro-pythondocs-li">
-  <a href="/intro-python/docs/" title="Inmersión en Python" class="align-left pl-0 active td-sidebar-link td-sidebar-link__section tree-root" id="m-intro-pythondocs"><span class="td-sidebar-nav-active-item">Python</span></a>
+  <a href="/intro-python/docs/" title="Inmersión en Python" class="align-left pl-0 td-sidebar-link td-sidebar-link__section tree-root" id="m-intro-pythondocs"><span class="">Python</span></a>
   <ul class="ul-1">
     <li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-intro-pythondocsinstalacion-li">
   <input type="checkbox" id="m-intro-pythondocsinstalacion-check"/>
@@ -94,9 +98,9 @@
   <input type="checkbox" id="m-intro-pythondocsjupyter-check"/>
   <label for="m-intro-pythondocsjupyter-check"><a href="/intro-python/docs/jupyter/" class="align-left pl-0  td-sidebar-link td-sidebar-link__page" id="m-intro-pythondocsjupyter"><span class="">Jupyter</span></a></label>
   
-</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-intro-pythondocsprimeros-pasos-li">
-  <input type="checkbox" id="m-intro-pythondocsprimeros-pasos-check"/>
-  <label for="m-intro-pythondocsprimeros-pasos-check"><a href="/intro-python/docs/primeros-pasos/" class="align-left pl-0  td-sidebar-link td-sidebar-link__page" id="m-intro-pythondocsprimeros-pasos"><span class="">Primeros pasos</span></a></label>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child active-path" id="m-intro-pythondocsprimeros-pasos-li">
+  <input type="checkbox" id="m-intro-pythondocsprimeros-pasos-check" checked/>
+  <label for="m-intro-pythondocsprimeros-pasos-check"><a href="/intro-python/docs/primeros-pasos/" class="align-left pl-0  active td-sidebar-link td-sidebar-link__page" id="m-intro-pythondocsprimeros-pasos"><span class="td-sidebar-nav-active-item">Primeros pasos</span></a></label>
   
 </li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-intro-pythondocscontenedores-li">
   <input type="checkbox" id="m-intro-pythondocscontenedores-check"/>
@@ -150,17 +154,20 @@
             
   
 
-            <nav aria-label="breadcrumb" class="td-breadcrumbs td-breadcrumbs__single">
+            <nav aria-label="breadcrumb" class="td-breadcrumbs">
   <ol class="breadcrumb">
+  <li class="breadcrumb-item">
+    <a href="https://lmorillas.github.io/intro-python/docs/">Python</a>
+  </li>
   <li class="breadcrumb-item active" aria-current="page">
-    <a href="https://lmorillas.github.io/intro-python/docs/" aria-disabled="true" class="btn-link disabled">Python</a>
+    <a href="https://lmorillas.github.io/intro-python/docs/primeros-pasos/" aria-disabled="true" class="btn-link disabled">Primeros pasos</a>
   </li>
   </ol>
 </nav>
             
 <div class="td-content">
-	<h1>Inmersión en Python</h1>
-  <div class="lead">Inmersión a la programación con Python</div>
+	<h1>Primeros pasos</h1>
+	<div class="lead">Cadenas, números, condicionales y listas</div>
 	<header class="article-meta">
 		
 
@@ -175,110 +182,49 @@
   
 
 		
-	</header>
+	</header>    
 	
 
 <div class="pageinfo pageinfo-primary">
-<h3 id="justificación">Justificación:</h3>
+<h3 id="objetivos">Objetivos:</h3>
 <ul>
-<li>¿Por qué Python?</li>
-<li>Dónde está la documentación básica</li>
-<li>Por dónde empezar</li>
+<li>Primeros pasos con Python</li>
+<li>Cadenas y números</li>
+<li>Condicionales</li>
+<li>Listas</li>
 </ul>
 
 </div>
 
-<h2 id="por-qué-python">¿Por qué Python?</h2>
+<p>Los notebooks que vamos a usar están en <a href="https://github.com/lmorillas/Introduccion-Python-3">https://github.com/lmorillas/Introduccion-Python-3</a></p>
+<blockquote>
+<p>Haz un fork del respositorio a tu cuenta de Github y después clónalo en tu equipo</p>
+</blockquote>
+<h2 id="strings">Strings</h2>
 <ul>
-<li><a href="https://www.tiobe.com/tiobe-index/">https://www.tiobe.com/tiobe-index/</a></li>
-<li><a href="https://www.python.or">https://www.python.or</a></li>
+<li>
+<p><a href="https://github.com/lmorillas/Introduccion-Python-3/blob/master/notebooks/beginner/notebooks/strings.ipynb">https://github.com/lmorillas/Introduccion-Python-3/blob/master/notebooks/beginner/notebooks/strings.ipynb</a></p>
+</li>
+<li>
+<p>Ejercicio: <a href="https://github.com/lmorillas/Introduccion-Python-3/blob/master/notebooks/beginner/exercises/strings_exercise.ipynb">https://github.com/lmorillas/Introduccion-Python-3/blob/master/notebooks/beginner/exercises/strings_exercise.ipynb</a></p>
+</li>
+</ul>
+<h2 id="números">Números</h2>
+<ul>
+<li>*<a href="https://github.com/lmorillas/learn-python3/blob/master/notebooks/beginner/notebooks/numbers.ipynb">https://github.com/lmorillas/learn-python3/blob/master/notebooks/beginner/notebooks/numbers.ipynb</a></li>
+<li><strong>Ejercicio</strong>: <a href="https://github.com/lmorillas/learn-python3/blob/master/notebooks/beginner/exercises/numbers_exercise.ipynb">https://github.com/lmorillas/learn-python3/blob/master/notebooks/beginner/exercises/numbers_exercise.ipynb</a></li>
+</ul>
+<h2 id="condicionales">Condicionales</h2>
+<ul>
+<li><a href="https://github.com/lmorillas/learn-python3/blob/master/notebooks/beginner/notebooks/conditionals.ipynb">https://github.com/lmorillas/learn-python3/blob/master/notebooks/beginner/notebooks/conditionals.ipynb</a></li>
+<li><strong>Ejercicio</strong>: <a href="https://github.com/lmorillas/learn-python3/blob/master/notebooks/beginner/exercises/conditionals_exercise.ipynb">https://github.com/lmorillas/learn-python3/blob/master/notebooks/beginner/exercises/conditionals_exercise.ipynb</a></li>
 </ul>
 
-
-<div class="pageinfo pageinfo-secondary">
-<p>Python is an interpreted, interactive, object-oriented programming language. It incorporates modules, exceptions, dynamic typing, very high level dynamic data types, and classes. It supports multiple programming paradigms beyond object-oriented programming, such as procedural and functional programming. Python combines remarkable power with very clear syntax. It has interfaces to many system calls and libraries, as well as to various window systems, and is extensible in C or C++. It is also usable as an extension language for applications that need a programmable interface. Finally, Python is portable: it runs on many Unix variants including Linux and macOS, and on Windows.</p>
-<p><a href="https://docs.python.org/3/faq/general.html#what-is-python">https://docs.python.org/3/faq/general.html#what-is-python</a></p>
-
-</div>
-
-
-        <div class="section-index">
-    
-    
-    
-    
-    
-    
-    
-    
-    <hr class="panel-line">
-        
-            
-            <div class="entry">
-                <h5>
-                    <a href="/intro-python/docs/instalacion/">Instalación</a>
-                </h5>
-                <p>Instalación del entorno de desarrollo</p>
-            </div>
-        
-            
-            <div class="entry">
-                <h5>
-                    <a href="/intro-python/docs/contenido/">Contenidos</a>
-                </h5>
-                <p>Contenido</p>
-            </div>
-        
-            
-            <div class="entry">
-                <h5>
-                    <a href="/intro-python/docs/jupyter/">Jupyter</a>
-                </h5>
-                <p>Instalación del entorno de aprendizaje</p>
-            </div>
-        
-            
-            <div class="entry">
-                <h5>
-                    <a href="/intro-python/docs/primeros-pasos/">Primeros pasos</a>
-                </h5>
-                <p>Cadenas, números, condicionales y listas</p>
-            </div>
-        
-            
-            <div class="entry">
-                <h5>
-                    <a href="/intro-python/docs/contenedores/">Contenedores</a>
-                </h5>
-                <p>Listas, Diccionarios, Tuplas y Sets</p>
-            </div>
-        
-            
-            <div class="entry">
-                <h5>
-                    <a href="/intro-python/docs/bucles/">Bucles</a>
-                </h5>
-                <p>Funciones</p>
-            </div>
-        
-            
-            <div class="entry">
-                <h5>
-                    <a href="/intro-python/docs/funciones/">Funciones</a>
-                </h5>
-                <p>Funciones</p>
-            </div>
-        
-    
-</div>
-
 	
 	
-	<div class="text-muted mt-5 pt-3 border-top">
-  Última modificación October 14, 2022: <a href="https://github.com/lmorillas/dwes/commit/baf9d7fc4fb4ba107d2a622d2a6295952ebbdefe">inicio (baf9d7f)</a>
+	
 </div>
 
-</div>
 
           </main>
         </div>

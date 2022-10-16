@@ -2,7 +2,7 @@
 ---
 title: "Inmersión en Python"
 linkTitle: "Python"
-weight: 3
+weight: 0
 date: 2021-09-15
 description: >
   Inmersión a la programación con Python
@@ -22,39 +22,19 @@ mirar: >
 ---
 
 {{% pageinfo %}}
-Primeros pasos:
-* Instalar python (windows) 
-* Instalar pip https://pip.pypa.io/en/stable/installation/
-* Instalar extensión VS Code Python
-* Algunas extensiones interesantes para iniciar
+### Justificación:
+* ¿Por qué Python?
+* Dónde está la documentación básica  
+* Por dónde empezar
 {{% /pageinfo %}}
 
 
-## Documentación básica
-* https://www.python.org/
-* https://docs.python.org/3/
+## ¿Por qué Python?
+* https://www.tiobe.com/tiobe-index/
+* https://www.python.or
 
+{{% pageinfo  color="secondary" %}}
+Python is an interpreted, interactive, object-oriented programming language. It incorporates modules, exceptions, dynamic typing, very high level dynamic data types, and classes. It supports multiple programming paradigms beyond object-oriented programming, such as procedural and functional programming. Python combines remarkable power with very clear syntax. It has interfaces to many system calls and libraries, as well as to various window systems, and is extensible in C or C++. It is also usable as an extension language for applications that need a programmable interface. Finally, Python is portable: it runs on many Unix variants including Linux and macOS, and on Windows.
 
-## Documentación de instalación
-* https://code.visualstudio.com/docs/python/python-tutorial
-  
-
-## Introducción
-* https://docs.python.org/es/3/tutorial/introduction.html 
-
-## Cuadernos de tutoriales y ejercicios
-* https://github.com/lmorillas/Introduccion-Python-3
-
-### Secuencia propuesta:
-* Strings
-* Numbers
-* Conditionals
-* Listas
-* Dictionaries
-* For loops
-* Functions
-* File I/O
-* Classes
-* Modules y packages
-* Virtual environment
-  
+https://docs.python.org/3/faq/general.html#what-is-python
+{{% /pageinfo %}}
