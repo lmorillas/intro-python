@@ -91,17 +91,17 @@
 
 &lt;h2 id=&#34;secuencia-propuesta&#34;&gt;Secuencia propuesta:&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;Strings&lt;/li&gt;
-&lt;li&gt;Numbers&lt;/li&gt;
-&lt;li&gt;Conditionales&lt;/li&gt;
-&lt;li&gt;Listas&lt;/li&gt;
-&lt;li&gt;Dictionaries&lt;/li&gt;
-&lt;li&gt;For loops&lt;/li&gt;
-&lt;li&gt;Functions&lt;/li&gt;
-&lt;li&gt;File I/O&lt;/li&gt;
-&lt;li&gt;Classes&lt;/li&gt;
-&lt;li&gt;Modules y packages&lt;/li&gt;
-&lt;li&gt;Virtual environment&lt;/li&gt;
+&lt;li&gt;Cadenas&lt;/li&gt;
+&lt;li&gt;Números&lt;/li&gt;
+&lt;li&gt;Condicionales&lt;/li&gt;
+&lt;li&gt;Contenedores (listas, diccionarios, tuplas, sets)&lt;/li&gt;
+&lt;li&gt;Bucles for y while&lt;/li&gt;
+&lt;li&gt;Funciones&lt;/li&gt;
+&lt;li&gt;Archivos&lt;/li&gt;
+&lt;li&gt;Clases&lt;/li&gt;
+&lt;li&gt;Módules y paquetes&lt;/li&gt;
+&lt;li&gt;Errores y Excepciones&lt;/li&gt;
+&lt;li&gt;Testing&lt;/li&gt;
 &lt;/ul&gt;
 
       </description>
@@ -237,9 +237,24 @@
 &lt;/div&gt;
 
 &lt;h2 id=&#34;listas&#34;&gt;listas&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/lmorillas/learn-python3/blob/master/notebooks/beginner/notebooks/lists.ipynb&#34;&gt;notebook&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/lmorillas/learn-python3/blob/master/notebooks/beginner/exercises/lists_exercise.ipynb&#34;&gt;ejercicio&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h2 id=&#34;diccionarios&#34;&gt;diccionarios&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/lmorillas/learn-python3/blob/master/notebooks/beginner/notebooks/dictionaries.ipynb&#34;&gt;notebook&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/lmorillas/learn-python3/blob/master/notebooks/beginner/exercises/dictionaries_exercise.ipynb&#34;&gt;ejercicio&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h2 id=&#34;tuplas&#34;&gt;tuplas&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://colab.research.google.com/github/computationalcore/introduction-to-python/blob/master/notebooks/2-data-structures/PY0101EN-2-1-Tuples.ipynb&#34;&gt;Ejemplo tuplas en colab&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h2 id=&#34;sets&#34;&gt;sets&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/jmportilla/Complete-Python-Bootcamp/blob/master/Sets%20and%20Booleans.ipynb&#34;&gt;https://github.com/jmportilla/Complete-Python-Bootcamp/blob/master/Sets%20and%20Booleans.ipynb&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/jmportilla/Complete-Python-Bootcamp/blob/master/Advanced%20Sets.ipynb&#34;&gt;https://github.com/jmportilla/Complete-Python-Bootcamp/blob/master/Advanced%20Sets.ipynb&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
       </description>
     </item>
@@ -264,7 +279,15 @@
 &lt;/div&gt;
 
 &lt;h2 id=&#34;bucles-for&#34;&gt;Bucles &lt;code&gt;for&lt;/code&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/lmorillas/learn-python3/blob/master/notebooks/beginner/notebooks/for_loops.ipynb&#34;&gt;notebook&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/lmorillas/learn-python3/blob/master/notebooks/beginner/exercises/for_loops_exercise.ipynb&#34;&gt;exercise&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h2 id=&#34;bucles-while&#34;&gt;Bucles &lt;code&gt;while&lt;/code&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/jmportilla/Complete-Python-Bootcamp/blob/master/While%20loops.ipynb&#34;&gt;notebook&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/lmorillas/learn-python3/blob/master/notebooks/beginner/exercises/while_exercise.ipynb&#34;&gt;ejercicio&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
       </description>
     </item>
@@ -289,6 +312,10 @@
 &lt;/div&gt;
 
 &lt;h2 id=&#34;funciones&#34;&gt;Funciones&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/lmorillas/learn-python3/blob/master/notebooks/beginner/notebooks/functions.ipynb&#34;&gt;notebook&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/lmorillas/learn-python3/blob/master/notebooks/beginner/exercises/functions_exercise.ipynb&#34;&gt;ejercicio&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
       </description>
     </item>
