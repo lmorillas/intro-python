@@ -190,28 +190,28 @@
 
 &lt;/div&gt;
 
-&lt;p&gt;Los notebooks que vamos a usar están en &lt;a href=&#34;https://github.com/lmorillas/Introduccion-Python-3&#34;&gt;https://github.com/lmorillas/Introduccion-Python-3&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Los notebooks que vamos a usar están en &lt;a href=&#34;https://colab.research.google.com/github/lmorillas/Introduccion-Python-3&#34;&gt;https://colab.research.google.com/github/lmorillas/Introduccion-Python-3&lt;/a&gt;&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Haz un fork del respositorio a tu cuenta de Github y después clónalo en tu equipo&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;h2 id=&#34;strings&#34;&gt;Strings&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://github.com/lmorillas/Introduccion-Python-3/blob/master/notebooks/beginner/notebooks/strings.ipynb&#34;&gt;https://github.com/lmorillas/Introduccion-Python-3/blob/master/notebooks/beginner/notebooks/strings.ipynb&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/lmorillas/Introduccion-Python-3/blob/master/beginner/notebooks/strings.ipynb&#34;&gt;https://colab.research.google.com/github/lmorillas/Introduccion-Python-3/blob/master/beginner/notebooks/strings.ipynb&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Ejercicio: &lt;a href=&#34;https://github.com/lmorillas/Introduccion-Python-3/blob/master/notebooks/beginner/exercises/strings_exercise.ipynb&#34;&gt;https://github.com/lmorillas/Introduccion-Python-3/blob/master/notebooks/beginner/exercises/strings_exercise.ipynb&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Ejercicio: &lt;a href=&#34;https://colab.research.google.com/github/lmorillas/Introduccion-Python-3/blob/master/beginner/exercises/strings_exercise.ipynb&#34;&gt;https://colab.research.google.com/github/lmorillas/Introduccion-Python-3/blob/master/beginner/exercises/strings_exercise.ipynb&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;números&#34;&gt;Números&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;*&lt;a href=&#34;https://github.com/lmorillas/learn-python3/blob/master/notebooks/beginner/notebooks/numbers.ipynb&#34;&gt;https://github.com/lmorillas/learn-python3/blob/master/notebooks/beginner/notebooks/numbers.ipynb&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Ejercicio&lt;/strong&gt;: &lt;a href=&#34;https://github.com/lmorillas/learn-python3/blob/master/notebooks/beginner/exercises/numbers_exercise.ipynb&#34;&gt;https://github.com/lmorillas/learn-python3/blob/master/notebooks/beginner/exercises/numbers_exercise.ipynb&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://colab.research.google.com/github/lmorillas/learn-python3/blob/master/beginner/notebooks/numbers.ipynb&#34;&gt;https://colab.research.google.com/github/lmorillas/learn-python3/blob/master/beginner/notebooks/numbers.ipynb&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Ejercicio&lt;/strong&gt;: &lt;a href=&#34;https://colab.research.google.com/github/lmorillas/learn-python3/blob/master/beginner/exercises/numbers_exercise.ipynb&#34;&gt;https://colab.research.google.com/github/lmorillas/learn-python3/blob/master/beginner/exercises/numbers_exercise.ipynb&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;condicionales&#34;&gt;Condicionales&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/lmorillas/learn-python3/blob/master/notebooks/beginner/notebooks/conditionals.ipynb&#34;&gt;https://github.com/lmorillas/learn-python3/blob/master/notebooks/beginner/notebooks/conditionals.ipynb&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Ejercicio&lt;/strong&gt;: &lt;a href=&#34;https://github.com/lmorillas/learn-python3/blob/master/notebooks/beginner/exercises/conditionals_exercise.ipynb&#34;&gt;https://github.com/lmorillas/learn-python3/blob/master/notebooks/beginner/exercises/conditionals_exercise.ipynb&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://colab.research.google.com/github/lmorillas/learn-python3/blob/master/beginner/notebooks/conditionals.ipynb&#34;&gt;https://colab.research.google.com/github/lmorillas/learn-python3/blob/master/beginner/notebooks/conditionals.ipynb&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Ejercicio&lt;/strong&gt;: &lt;a href=&#34;https://colab.research.google.com/github/lmorillas/learn-python3/blob/master/beginner/exercises/conditionals_exercise.ipynb&#34;&gt;https://colab.research.google.com/github/lmorillas/learn-python3/blob/master/beginner/exercises/conditionals_exercise.ipynb&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
       </description>
@@ -238,17 +238,17 @@
 
 &lt;h2 id=&#34;listas&#34;&gt;listas&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/lmorillas/learn-python3/blob/master/notebooks/beginner/notebooks/lists.ipynb&#34;&gt;notebook&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/lmorillas/learn-python3/blob/master/notebooks/beginner/exercises/lists_exercise.ipynb&#34;&gt;ejercicio&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://colab.research.google.com/github/lmorillas/learn-python3/blob/master/beginner/notebooks/lists.ipynb&#34;&gt;notebook&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://colab.research.google.com/github/lmorillas/learn-python3/blob/master/beginner/exercises/lists_exercise.ipynb&#34;&gt;ejercicio&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;diccionarios&#34;&gt;diccionarios&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/lmorillas/learn-python3/blob/master/notebooks/beginner/notebooks/dictionaries.ipynb&#34;&gt;notebook&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/lmorillas/learn-python3/blob/master/notebooks/beginner/exercises/dictionaries_exercise.ipynb&#34;&gt;ejercicio&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://colab.research.google.com/github/lmorillas/learn-python3/blob/master/beginner/notebooks/dictionaries.ipynb&#34;&gt;notebook&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://colab.research.google.com/github/lmorillas/learn-python3/blob/master/beginner/exercises/dictionaries_exercise.ipynb&#34;&gt;ejercicio&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;tuplas&#34;&gt;tuplas&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://colab.research.google.com/github/computationalcore/introduction-to-python/blob/master/notebooks/2-data-structures/PY0101EN-2-1-Tuples.ipynb&#34;&gt;Ejemplo tuplas en colab&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://colab.research.google.com/github/computationalcore/introduction-to-python/blob/master/2-data-structures/PY0101EN-2-1-Tuples.ipynb&#34;&gt;Ejemplo tuplas en colab&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;sets&#34;&gt;sets&lt;/h2&gt;
 &lt;ul&gt;
@@ -280,13 +280,12 @@
 
 &lt;h2 id=&#34;bucles-for&#34;&gt;Bucles &lt;code&gt;for&lt;/code&gt;&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/lmorillas/learn-python3/blob/master/notebooks/beginner/notebooks/for_loops.ipynb&#34;&gt;notebook&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/lmorillas/learn-python3/blob/master/notebooks/beginner/exercises/for_loops_exercise.ipynb&#34;&gt;exercise&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://colab.research.google.com/github/lmorillas/learn-python3/blob/master/beginner/notebooks/for_loops.ipynb&#34;&gt;notebook&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://colab.research.google.com/github/lmorillas/learn-python3/blob/master/beginner/exercises/for_loops_exercise.ipynb&#34;&gt;exercise&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;bucles-while&#34;&gt;Bucles &lt;code&gt;while&lt;/code&gt;&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/jmportilla/Complete-Python-Bootcamp/blob/master/While%20loops.ipynb&#34;&gt;notebook&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/lmorillas/learn-python3/blob/master/notebooks/beginner/exercises/while_exercise.ipynb&#34;&gt;ejercicio&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://colab.research.google.com/github/jmportilla/Complete-Python-Bootcamp/blob/master/While%20loops.ipynb&#34;&gt;notebook&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
       </description>
@@ -313,8 +312,8 @@
 
 &lt;h2 id=&#34;funciones&#34;&gt;Funciones&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/lmorillas/learn-python3/blob/master/notebooks/beginner/notebooks/functions.ipynb&#34;&gt;notebook&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/lmorillas/learn-python3/blob/master/notebooks/beginner/exercises/functions_exercise.ipynb&#34;&gt;ejercicio&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://colab.research.google.com/github/lmorillas/learn-python3/blob/master/beginner/notebooks/functions.ipynb&#34;&gt;notebook&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://colab.research.google.com/github/lmorillas/learn-python3/blob/master/beginner/exercises/functions_exercise.ipynb&#34;&gt;ejercicio&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
       </description>

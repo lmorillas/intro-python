@@ -16,5 +16,5 @@ description: >
 {{% /pageinfo %}}
 
 ## Funciones
-* [notebook](https://github.com/lmorillas/learn-python3/blob/master/notebooks/beginner/notebooks/functions.ipynb) 
-* [ejercicio](https://github.com/lmorillas/learn-python3/blob/master/notebooks/beginner/exercises/functions_exercise.ipynb)
+* [notebook](https://colab.research.google.com/github/lmorillas/learn-python3/blob/master/beginner/notebooks/functions.ipynb) 
+* [ejercicio](https://colab.research.google.com/github/lmorillas/learn-python3/blob/master/beginner/exercises/functions_exercise.ipynb)

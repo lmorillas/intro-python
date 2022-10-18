@@ -16,9 +16,9 @@ description: >
 {{% /pageinfo %}}
 
 ## Bucles `for`
-* [notebook](https://github.com/lmorillas/learn-python3/blob/master/notebooks/beginner/notebooks/for_loops.ipynb) 
-* [exercise](https://github.com/lmorillas/learn-python3/blob/master/notebooks/beginner/exercises/for_loops_exercise.ipynb)
+* [notebook](https://colab.research.google.com/github/lmorillas/learn-python3/blob/master/beginner/notebooks/for_loops.ipynb) 
+* [exercise](https://colab.research.google.com/github/lmorillas/learn-python3/blob/master/beginner/exercises/for_loops_exercise.ipynb)
 
 ## Bucles `while`
-* [notebook](https://github.com/jmportilla/Complete-Python-Bootcamp/blob/master/While%20loops.ipynb)
-* [ejercicio](https://github.com/lmorillas/learn-python3/blob/master/notebooks/beginner/exercises/while_exercise.ipynb)
+* [notebook](https://colab.research.google.com/github/jmportilla/Complete-Python-Bootcamp/blob/master/While%20loops.ipynb)
+  
