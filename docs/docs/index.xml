@@ -280,8 +280,15 @@
 
 &lt;h2 id=&#34;bucles-for&#34;&gt;Bucles &lt;code&gt;for&lt;/code&gt;&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://colab.research.google.com/github/lmorillas/learn-python3/blob/master/beginner/notebooks/for_loops.ipynb&#34;&gt;notebook&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://colab.research.google.com/github/lmorillas/learn-python3/blob/master/beginner/exercises/for_loops_exercise.ipynb&#34;&gt;exercise&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/lmorillas/learn-python3/blob/master/beginner/notebooks/for_loops.ipynb&#34;&gt;notebook&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/lmorillas/learn-python3/blob/master/beginner/exercises/for_loops_exercise.ipynb&#34;&gt;exercise&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/drive/1nczBfY3z_no-wbMqFTP4bWfNSKfYUwhr?usp=sharing&#34;&gt;Ejercicio de repaso&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;bucles-while&#34;&gt;Bucles &lt;code&gt;while&lt;/code&gt;&lt;/h2&gt;
 &lt;ul&gt;
