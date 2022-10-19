@@ -38,3 +38,7 @@ Python is an interpreted, interactive, object-oriented programming language. It 
 
 https://docs.python.org/3/faq/general.html#what-is-python
 {{% /pageinfo %}}
+
+## Recursos adicionales
+* https://learn.microsoft.com/es-es/training/paths/beginner-python/
+* https://www.pythoncheatsheet.org/
