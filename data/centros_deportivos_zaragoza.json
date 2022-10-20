@@ -1,0 +1,2084 @@
+[
+    {
+        "id": "806",
+        "title": "Pabellon Deportivo Municipal Casetas",
+        "tipoEquipamiento": [
+            "centros-deportivos",
+            "pabellones-deportivos"
+        ],
+        "telephone": "976 774175",
+        "url": "http://www.zaragoza.es/deporte/",
+        "titularidadPublica": true,
+        "streetAddress": "Avda. Constitución, 19",
+        "postalCode": "50620",
+        "portalId": "13739",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -1.0261094874440744,
+                41.72044760695276
+            ]
+        },
+        "latitud": 41.7223080295801,
+        "longitud": -1.024752196419589,
+        "distritoId": "Casetas",
+        "description": "<p>En 1984 se inauguró el Pabellón Cubierto. Fue una de primeras instalaciones cubiertas de la Ciudad, se encuentra situado sobre los terrenos de la Antigua Azucarera en el Camino de la Estación. Recientemente esta Instalación se ha completado con la construcción de nuevos espacios deportivos: pistas de tenis, baloncesto y pista polideportiva. El PDM Casetas ofrece unas instalaciones muy completas. El Pabellón dispone de una pista de 45 x 36 m, donde se pueden practicar todos los deportes de sala. Se subdivide en tres espacios de 27 x 15 m, también cuenta con una amplia batería de vestuarios y un graderío fijo para 500 espectadores, ampliable a otros 500 con uno telescópico.El PDM Casetas, además de dar respuesta a los Centros Educativos para el desarrollo de las clases de Educación Física e iniciación deportiva, ha sido un importante elemento generador del asociacionismo deportivo del Barrio de Casetas.<br />\r<a href=\"/ciudad/deporte/enlace/gestionmunicipal/calidad/brintro.htm\"><strong>Certificado por AENOR</strong></a></p>",
+        "creationDate": "2013-03-19T00:00:00",
+        "lastUpdated": "2021-11-09T07:48:21"
+    },
+    {
+        "id": "119",
+        "title": "Centro Deportivo Municipal David Cañada (antiguo Pinares Venecia)",
+        "tipoEquipamiento": [
+            "centros-deportivos",
+            "deporte"
+        ],
+        "telephone": "976377200",
+        "url": "http://www.zaragoza.es/ciudad/deporte/",
+        "titularidadPublica": true,
+        "openingHours": "De lunes a sabado de 8 a 22 h. Domingos de 8 a 15 h.",
+        "streetAddress": "Pº Duque de Alba, 11",
+        "postalCode": "50007",
+        "portalId": "28285",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -0.8986346466612729,
+                41.61773048531374
+            ]
+        },
+        "latitud": 41.61959027859705,
+        "longitud": -0.8972743795707846,
+        "distritoId": "Torrero",
+        "description": "<p>El Vel&oacute;dromo es una instalaci&oacute;n deportiva especializada, finalizada en 1992 con la colaboraci&oacute;n del Consejo Superior de Deportes. Se encuentra ubicada en los Pinares de Venecia, al sudeste de la Ciudad, junto al Parque de Atracciones y pr&oacute;xima al Canal Imperial de Arag&oacute;n. Para muchos zaragozanos esta zona se ha convertido en un lugar ideal de ocio y recreaci&oacute;n, sobre todo los fines de semana. El Vel&oacute;dromo, en su breve historia, ha sufrido importantes transformaciones para orientarlo definitivamente a la pr&aacute;ctica de tres modalidades deportivas: ciclismo, patinaje y rugby, ya que estos deportes no contaban con ninguna instalaci&oacute;n p&uacute;blica en Zaragoza. En estos &uacute;ltimos a&ntilde;os, por su situaci&oacute;n y las posibilidades del edificio de servicios generales, se ha convertido en un importante centro log&iacute;stico para el desarrollo de competiciones de moutain bike, cross, y otros deportes similares que se desarrollan en espacios naturales.</p>",
+        "creationDate": "2013-02-04T00:00:00",
+        "lastUpdated": "2021-11-09T07:48:21"
+    },
+    {
+        "id": "808",
+        "title": "Pabellon Deportivo Municipal Cecilio Pallarés (Monzalbarba)",
+        "tipoEquipamiento": [
+            "centros-deportivos",
+            "pabellones-deportivos"
+        ],
+        "telephone": "976 773 310",
+        "url": "http://www.zaragoza.es/deporte/",
+        "titularidadPublica": true,
+        "streetAddress": "Andador de Quinto, nº 4",
+        "postalCode": "50120",
+        "portalId": "3262",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -0.9718193898714645,
+                41.699821868654624
+            ]
+        },
+        "latitud": 41.701682051489485,
+        "longitud": -0.9704607137987735,
+        "distritoId": "Monzalbarba",
+        "description": "<p>El PDM Monzalbarba se encuentra situado en el casco urbano del barrio. Fue inaugurado en 1991. Es un pabellón cubierto en el que, por sus características, se combinan los usos deportivos con los culturales, ya que dispone de escenario, camerinos, bar, pista..etc.<br />\r<a href=\"/ciudad/deporte/enlace/gestionmunicipal/calidad/brintro.htm\"><strong>Certificado por AENOR</strong></a></p>",
+        "creationDate": "2013-03-19T00:00:00",
+        "lastUpdated": "2021-11-09T07:48:21"
+    },
+    {
+        "id": "3073",
+        "title": "Pabellon Deportivo Municipal Actur V",
+        "tipoEquipamiento": [
+            "centros-deportivos",
+            "pabellones-deportivos"
+        ],
+        "telephone": "976 726 263",
+        "url": "http://www.zaragoza.es/ciudad/deporte/",
+        "titularidadPublica": true,
+        "openingHours": "<ul>\r    <li>De lunes a sábado: de 09:00 a 23:00.</li>\r    <li>Domingos y festivos: de 08:00 a 15:00</li>\r</ul>",
+        "streetAddress": "C/ Cineasta Adolfo Aznar, 38",
+        "postalCode": "50018",
+        "portalId": "29114",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -0.8843623606564913,
+                41.67379030254266
+            ]
+        },
+        "latitud": 41.67565023770121,
+        "longitud": -0.8830013357576866,
+        "distritoId": "Actur - Rey Fernando",
+        "description": "<p>El P.D.M. Actur V se inauguró en el año 2007, fruto del convenio  suscrito entre el Ayuntamiento de Zaragoza y el Consejo Superior de  Deportes para la dotación de pabellones polideportivos en centros  escolares.</p>\r<p>Está situado en el barrio del Actur, anexo al C.D.M. Actur y  al Colegio Público Josefa Amar y Borbón.</p>\r<p>Dispone de una superficie de  juego de 45x27 m. que puede separarse en tres espacios independientes,  permitiendo la práctica de todas las modalidades deportivas de sala y la  Educación Física Escolar, así como el desarrollo de programas  físico-recreativos para todos los vecinos y entidades del barrio.</p>",
+        "creationDate": "2013-03-14T00:00:00",
+        "lastUpdated": "2021-11-09T07:45:35"
+    },
+    {
+        "id": "110",
+        "title": "Centro Deportivo Municipal San Juan de Mozarrifar",
+        "tipoEquipamiento": [
+            "piscinas-municipales",
+            "centros-deportivos",
+            "deporte",
+            "piscinas-de-verano"
+        ],
+        "email": "cdmsanjuan@zaragoza.es",
+        "telephone": "976 726405",
+        "url": "http://www.zaragoza.es/ciudad/deporte/",
+        "titularidadPublica": true,
+        "openingHours": "\r\r\r\r<ul><li><strong>Apertura:</strong> el día 12 de junio en todos los Centros Deportivos Municipales\r</li><li><strong>Cierre:</strong> el día 5 de septiembre en todos los CDM</li></ul>\r\r\r<p><strong>Piscinas de Verano</strong></p>\r<ul><li>De 10:30 a 21:00 horas</li></ul>\r<p><a href=\"https://www.zaragoza.es/sede/servicio/tramite/4801\">Ver más información en el Trámite Abonos</a></p>\r ",
+        "streetAddress": "Pº Antonio Negre García, 35",
+        "postalCode": "50820",
+        "portalId": "19897",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -0.8448131986581713,
+                41.717212353013416
+            ]
+        },
+        "latitud": 41.71907237719426,
+        "longitud": -0.8434508119096172,
+        "distritoId": "San Juan Mozarrifar",
+        "description": "<p>El CDM Mozarrifar se encuentra situado en el Bº Rural de San Juan de Mozarrifar, Autovía de Huesca, a 11 Km. y al norte del centro de Zaragoza. Es una de las mayores Instalaciones Deportivas al aire libre, fuera del casco urbano. Fue inaugurada en el año 1991.Esta Instalación, por sus características, no sólo cubre las necesidades del Barrio, sino que complementa a los Centros Deportivos de la Margen Izquierda. La nota predominante del CDM Mozarrifar es la tranquilidad, dada la relación m2 por usuario. Está muy orientada al uso familiar e infantil. En cuanto a la práctica deportiva, ofrece un espacio acotado para la natación y sus pistas son una importante oferta por su disponibilidad ya que no se encuentran saturadas.<br />\r<a href=\"/ciudad/deporte/enlace/gestionmunicipal/calidad/brintro.htm\"><strong>Certificado por AENOR</strong></a></p>",
+        "creationDate": "2013-03-19T00:00:00",
+        "lastUpdated": "2022-09-13T12:26:17"
+    },
+    {
+        "id": "827",
+        "title": "Pabellón Deportivo Municipal La Jota",
+        "tipoEquipamiento": [
+            "centros-deportivos",
+            "pabellones-deportivos"
+        ],
+        "telephone": "976 476 809",
+        "url": "http://www.zaragoza.es/deporte/",
+        "titularidadPublica": true,
+        "openingHours": "De lunes a sabado de 8 a 22 h. Domingos de 8 a 15 h.",
+        "streetAddress": "C/ Asunción Delmás. 6",
+        "postalCode": "50014",
+        "portalId": "2728",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -0.8591221044383315,
+                41.65695588899084
+            ]
+        },
+        "latitud": 41.65881575592543,
+        "longitud": -0.8577604423307178,
+        "distritoId": "El Rabal",
+        "description": "<p>El P.D.M. La Jota es una instalaci&oacute;n deportiva situada en el Distrito n&ordm;10, Margen Izquierda, anexa al Colegio P&uacute;blico del mismo nombre. Fue el primer pabell&oacute;n cubierto construido gracias al Convenio de Colaboraci&oacute;n Ayuntamiento de Zaragoza- Ministerio de Educaci&oacute;n.Esta Instalaci&oacute;n tiene unas dimensiones de 33 m x 40 m que posibilita la practica deportiva de: f&uacute;tbol sala, balonmano, baloncesto, voleibol, badminton, gimnasia ritmica, judo, karate,..etc.El Pabell&oacute;n Deportivo, por su proximidad con el C.D.M. La Jota, unos trescientos metros, es el complemento ideal a esta Instalaci&oacute;n. Ambos Centros Deportivos ofrecen una gran diversidad de opciones para la actividad deportiva y recreativa de esta zona de la Ciudad.</p>",
+        "creationDate": "2013-02-07T00:00:00",
+        "lastUpdated": "2022-09-14T07:04:29"
+    },
+    {
+        "id": "830",
+        "title": "Centro Deportivo Municipal La Almozara",
+        "tipoEquipamiento": [
+            "centros-deportivos",
+            "deporte"
+        ],
+        "email": "cdmalmozara@zaragoza.es",
+        "telephone": "976 726401",
+        "url": "http://www.zaragoza.es/deporte/",
+        "titularidadPublica": true,
+        "openingHours": "De 8 a 23h.",
+        "streetAddress": "Avda. de la Almozara, 65",
+        "postalCode": "50003",
+        "portalId": "24214",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -0.9007373726914388,
+                41.661561249091356
+            ]
+        },
+        "latitud": 41.66342116394033,
+        "longitud": -0.8993768892403693,
+        "distritoId": "La Almozara",
+        "description": "<p>El CDM Almozara se encuentra ubicada en el Distrito n&ordm; 7, antiguo B&ordm; de la Qu&iacute;mica. El CDM Almozara comenz&oacute; siendo un Pabell&oacute;n Cubierto, fruto del Convenio de Colaboraci&oacute;n Ayuntamiento-M.E.C. en 1991. Con la finalizaci&oacute;n de la 2&ordf; Fase en 1996, esta Instalaci&oacute;n se ha convertido en un importante centro de actividad deportiva, ya que cuenta con una diferenciada oferta de espacios deportivos. Destacan sus pistas de p&aacute;del y la superficie de las polideportivas. Dada su situaci&oacute;n, junto a diferentes Colegios P&uacute;blicos, predomina el uso para la Educaci&oacute;n F&iacute;sica y la iniciaci&oacute;n deportiva escolar. En torno a est&aacute; Instalaci&oacute;n, se ha generado un importante desarrollo de las asociaciones deportivas del B&ordm; de La Almozara, especialmente de balonmano, voleibol y baloncesto.</p>",
+        "creationDate": "2013-01-25T00:00:00",
+        "lastUpdated": "2022-09-13T12:30:20"
+    },
+    {
+        "id": "805",
+        "title": "Centro Deportivo Municipal Monzalbarba. Piscinas y Pistas",
+        "tipoEquipamiento": [
+            "piscinas-municipales",
+            "centros-deportivos",
+            "deporte",
+            "piscinas-de-verano"
+        ],
+        "email": "cdmmonzalbarba@zaragoza.es",
+        "telephone": "976 773769",
+        "url": "http://www.zaragoza.es/ciudad/deporte/",
+        "titularidadPublica": true,
+        "openingHours": "<ul><li><strong>Apertura:</strong> el día 12 de junio en todos los Centros Deportivos Municipales\r</li><li><strong>Cierre:</strong> el día 5 de septiembre en todos los CDM</li></ul>\r\r\r<p><strong>Piscinas de Verano</strong></p>\r<ul><li>De 10:30 a 21:00 horas</li></ul>\r<p><a href=\"https://www.zaragoza.es/sede/servicio/tramite/4801\">Ver más información en el Trámite Abonos</a></p>\r ",
+        "streetAddress": "Camino de La Mejana, 22",
+        "postalCode": "50120",
+        "portalId": "585",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -0.9708584435105299,
+                41.70453326206305
+            ]
+        },
+        "latitud": 41.706393449086185,
+        "longitud": -0.9694997081785799,
+        "distritoId": "Monzalbarba",
+        "description": "<p>El Barrio Rural de Monzalbarba se encuentra situado a 12 Km. de distancia y al oeste de Zaragoza, en el eje de la Autovia de Logroño. Actualmente cuenta con una población aproximada de 2.000 habitantes. Monumentalmente destaca su Torre de estilo mudéjar y sus permanentes inquilinas, las cigüeñas.</p>\r<p>El CDM Monzalbarba es una instalación deportiva de tipo recreativo. Desde el año 1985 en que pasó a ser de titularidad municipal, viene siendo una importante oferta veraniega no solo para los vecinos del barrio, sino para muchos zaragozanos que se acercan los fines de semana a disfrutar de la amplia piscina.</p>\r<p class=\"destacado\">Más Información</p>\r<ul>\r    <li><a href=\"http://www.zaragoza.es/ciudad/deporte/piscinas/verano/\">Piscinas de Verano</a></li>\r    <li><a href=\"/ciudad/deporte/enlace/gestionmunicipal/calidad/brintro.htm\">Certificado por AENOR</a></li>\r</ul>",
+        "creationDate": "2013-03-19T00:00:00",
+        "lastUpdated": "2021-11-04T09:00:38"
+    },
+    {
+        "id": "108",
+        "title": "Centro Deportivo Municipal Movera",
+        "tipoEquipamiento": [
+            "piscinas-municipales",
+            "centros-deportivos",
+            "deporte",
+            "piscinas-de-verano"
+        ],
+        "email": "cdmmovera@zaragoza.es",
+        "telephone": "976 726407",
+        "url": "http://www.zaragoza.es/ciudad/deporte/",
+        "titularidadPublica": true,
+        "openingHours": "<ul><li><strong>Apertura:</strong> el día 12 de junio en todos los Centros Deportivos Municipales\r</li><li><strong>Cierre:</strong> el día 5 de septiembre en todos los CDM</li></ul>\r\r\r<p><strong>Piscinas de Verano</strong></p>\r<ul><li>De 10:30 a 21:00 horas</li></ul>\r<p><a href=\"https://www.zaragoza.es/sede/servicio/tramite/4801\">Ver más información en el Trámite Abonos</a></p>",
+        "streetAddress": "Avda. de Movera, 602",
+        "postalCode": "50194",
+        "portalId": "27334",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -0.8082443106587232,
+                41.64049238691454
+            ]
+        },
+        "latitud": 41.642352219702445,
+        "longitud": -0.8068812200782154,
+        "distritoId": "Movera",
+        "description": "<p>El CDM Movera está ubicado en el propio Barrio de Movera a 8 Km. Del centro de Zaragoza, junto a la Residencia de Tercera Edad y al Campo de Fútbol. Actualmente esta zona de la Ciudad y, el cercano, Bº Rural de Sta. Isabel están experimentando importantes cambios, dada la proliferación de viviendas unifamiliares.Esta Instalación fue una de las primeras piscinas municipales de la Red de Centros Deportivos en los Barrios Rurales. En el año 1999 ha cambiado totalmente su fisonomía, se ha remodelado en su conjunto: revestimientos de los vasos, renovación de los sistemas de depuración, riego, césped, mejora de la pista polideportiva y realización de una zona de voleibol-playa.Es una piscina muy tranquila y familiar, destacan sus zonas de sombra y su oferta de servicios.</p>\r<ul>\r    <li>Supresión de barreras arquitectónicas: (actuación realizada en el año 2005)</li>\r</ul>\r<p><br />\r<a href=\"/ciudad/deporte/enlace/gestionmunicipal/calidad/brintro.htm\"><strong>Certificado por AENOR</strong></a></p>",
+        "creationDate": "2013-03-19T00:00:00",
+        "lastUpdated": "2022-09-13T12:28:06"
+    },
+    {
+        "id": "116",
+        "title": "Pabellon Deportivo Municipal Garrapinillos",
+        "tipoEquipamiento": [
+            "centros-deportivos",
+            "pabellones-deportivos"
+        ],
+        "telephone": "976 726402",
+        "url": "http://www.zaragoza.es/ciudad/deporte/",
+        "titularidadPublica": true,
+        "streetAddress": "Avda. Zaragoza, 40",
+        "postalCode": "50190",
+        "portalId": "29024",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -1.0291439283193908,
+                41.67954776754954
+            ]
+        },
+        "latitud": 41.681408219598865,
+        "longitud": -1.027787117800903,
+        "distritoId": "Garrapinillos",
+        "description": "<p>Su construcción es fruto del Convenio entre el Ayuntamiento de Zaragoza y el Ministerio de Educación. Comenzó su funcionamiento en 1998. Este Pabellón cubierto se encuentra situado dentro del centro urbano del Bº de Garrapinillos.Destaca por su funcionalidad y por la calidad de la superficie de juego. Se puede dividir en tres espacios independientes para la práctica de actividades físicas e iniciación deportiva.En la zona exterior del Pabellón Cubierto existe una pista exterior polideportiva de 800 m2 que, en el futuro, se verá acompañada de zona ajardinada, árboles, pistas de petanca y aparcamientos.<br />\r<a href=\"/ciudad/deporte/enlace/gestionmunicipal/calidad/brintro.htm\"><strong>Certificado por AENOR</strong></a></p>",
+        "creationDate": "2013-03-19T00:00:00",
+        "lastUpdated": "2022-09-13T12:22:33"
+    },
+    {
+        "id": "828",
+        "title": "Pabellon Deportivo Municipal Monsalud",
+        "tipoEquipamiento": [
+            "centros-deportivos",
+            "pabellones-deportivos"
+        ],
+        "telephone": "976 335 948",
+        "url": "http://www.zaragoza.es/ciudad/deporte/",
+        "titularidadPublica": true,
+        "streetAddress": "C/ Doctor Julián Sanz Ibañez, 20",
+        "postalCode": "50017",
+        "portalId": "28444",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -0.9148080315395352,
+                41.65059854649906
+            ]
+        },
+        "latitud": 41.6524584579874,
+        "longitud": -0.9134480229159953,
+        "distritoId": "Delicias",
+        "description": "<p>El PDM Monsalud es un pabell&oacute;n cubierto situado en el Barrio de Delicias, anexo al Colegio P&uacute;blico del mismo nombre, pr&oacute;ximo al Parque Castillo Palomar. Comenz&oacute; su funcionamiento en 1998.El PDM Monsalud es una sala de tipo escolar con unas dimensiones reducidas. Es una oferta complementaria a los pabellones cubiertos del B&ordm; de Delicias -PDM Ciudad de Zaragoza y CDM Delicias- ya que se puede practicar en el , por el tipo de pavimento, otras modalidades deportivas como el patinaje.El uso de esta Instalaci&oacute;n est&aacute; orientado, fundamentalmente, a la Educaci&oacute;n F&iacute;sica y a la iniciaci&oacute;n deportiva escolar.</p>",
+        "creationDate": "2013-03-14T00:00:00",
+        "lastUpdated": "2021-11-09T07:48:21"
+    },
+    {
+        "id": "105",
+        "title": "Centro Deportivo Municipal Ciudad Jardín",
+        "tipoEquipamiento": [
+            "piscinas-municipales",
+            "centros-deportivos",
+            "deporte",
+            "piscinas-de-verano"
+        ],
+        "email": "cdmciudadjardin@zaragoza.es",
+        "telephone": "976 723888",
+        "url": "http://www.zaragoza.es/ciudad/deporte/",
+        "titularidadPublica": true,
+        "openingHours": "<ul><li><strong>Apertura:</strong> el día 12 de junio en todos los Centros Deportivos Municipales\r</li><li><strong>Cierre:</strong> el día 5 de septiembre en todos los CDM</li></ul>\r<p><strong>Piscinas de Verano</strong></p>\r<ul><li>De 10:30 a 21:00 horas</li></ul>\r<p><a href=\"https://www.zaragoza.es/sede/servicio/tramite/4801\">Ver más información en el Trámite Abonos</a></p>",
+        "streetAddress": "C/ Santo Domingo Savio, 1",
+        "postalCode": "50009",
+        "portalId": "28442",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -0.9032426016600891,
+                41.64436332241131
+            ]
+        },
+        "latitud": 41.64622319221586,
+        "longitud": -0.9018822993715002,
+        "distritoId": "Delicias",
+        "description": "<p>El C.D.M. Ciudad Jardín, antiguo Club San Fernando, fue una de las primeras instalaciones que pasaron a ser de titularidad municipal. Se encuentra ubicado en el Distrito nº3, Barrio de las Delicias. En estos últimos años, las Delicias se ha convertido en el barrio más popular y de mayor densidad de población, con más de 100.000 habitantes. La Piscina de la Ciudad Jardín, como se le denomina habitualmente, es una de las instalaciones más concurridas. El tipo de público que accede es, mayoritariamente, el familiar, vecinos del sector que presentan un alto grado de fidelidad a su Instalación.</p>\r<p> </p>\r<p>Dentro de la Instalación está ubicado el gimnasio Antonio Ochoa, en el cual entrenan las Federaciones Aragonesas de Lucha y Halterofilia. Dicho gimnasio está dotado de material muy diverso para la práctica de dichos deportes.</p>\r<p> </p>\r<p>El C.D.M. Ciudad Jardín por sus características, dimensiones reducidas, situación, tipo de públic..., podríamos calificarlo como la \"típica piscina\", lugar de diversión ,encuentro y tertulia. Como una oferta, ideal, para combatir las altas temperaturas del verano.</p>",
+        "creationDate": "2013-03-19T00:00:00",
+        "lastUpdated": "2021-11-04T09:04:09"
+    },
+    {
+        "id": "829",
+        "title": "Pabellón Deportivo Municipal Ramiro Solans",
+        "tipoEquipamiento": [
+            "centros-deportivos",
+            "pabellones-deportivos"
+        ],
+        "telephone": "976 344 570",
+        "url": "http://www.zaragoza.es/ciudad/deporte/",
+        "titularidadPublica": true,
+        "openingHours": "De lunes a sabado de 8 a 22 h. Domingos de 8 a 15 h.",
+        "streetAddress": "C/ Miguel Agustín Principe, 7",
+        "postalCode": "50011",
+        "portalId": "4057",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -0.925322348893229,
+                41.65097732521136
+            ]
+        },
+        "latitud": 41.65283726604195,
+        "longitud": -0.9239626397083907,
+        "distritoId": "Oliver-Valdefierro",
+        "description": "<p>El PDM Ramiro Solans es un pabell&oacute;n cubierto situado en el B&ordm; Oliver, Distrito n&ordm; 8, anexo al Colegio P&uacute;blico del mismo nombre. Su construcci&oacute;n es fruto del Convenio de Colaboraci&oacute;n Ayuntamiento -Ministerio de Educaci&oacute;n. Se inaugur&oacute; en 1991.Es una Instalaci&oacute;n funcional y, est&eacute;ticamente, muy c&aacute;lida por sus detalles decorativos. La pista del PDM Ramiro Solans tiene unas dimensiones de 45 x 27 m..De pavimento sint&eacute;tico, puede dividirse en tres espacios independientes para todo tipo de actividades f&iacute;sicas y deportes de sala.La construcci&oacute;n de esta Instalaci&oacute;n, junto a los programas promovidos por el Ayuntamiento, ha posibilitado un importante desarrollo deportivo del B&ordm; Oliver.</p>",
+        "creationDate": "2013-03-14T00:00:00",
+        "lastUpdated": "2021-11-09T07:48:21"
+    },
+    {
+        "id": "11959",
+        "title": "Pabellón Colegio San Valero",
+        "tipoEquipamiento": [
+            "centros-deportivos",
+            "deporte",
+            "pabellones-deportivos"
+        ],
+        "telephone": "976 466 599",
+        "titularidadPublica": false,
+        "streetAddress": "C/ Violeta Parra, 9",
+        "postalCode": "50015",
+        "portalId": "7614",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -0.8798750039294553,
+                41.66789222054417
+            ]
+        },
+        "latitud": 41.669752135457365,
+        "longitud": -0.8785138773351229,
+        "creationDate": "2013-02-14T00:00:00",
+        "lastUpdated": "2021-03-23T07:36:49"
+    },
+    {
+        "id": "11955",
+        "title": "Pabellón Dominicos",
+        "tipoEquipamiento": [
+            "centros-deportivos",
+            "pabellones-deportivos"
+        ],
+        "telephone": "976 791 130",
+        "titularidadPublica": false,
+        "streetAddress": "Pza. San Francisco, 15",
+        "postalCode": "50006",
+        "portalId": "11765",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -0.8970912344727718,
+                41.63989731031591
+            ]
+        },
+        "latitud": 41.641757162709055,
+        "longitud": -0.8957307824703202,
+        "creationDate": "2013-02-14T00:00:00",
+        "lastUpdated": "2021-03-23T07:36:49"
+    },
+    {
+        "id": "11972",
+        "title": "Pabellón Colegio María Auxiliadora",
+        "tipoEquipamiento": [
+            "centros-deportivos",
+            "deporte",
+            "pabellones-deportivos"
+        ],
+        "telephone": "976 272 750",
+        "titularidadPublica": false,
+        "streetAddress": "C/ Mornes, 14",
+        "postalCode": "50007",
+        "portalId": "8943",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -0.8819691444737209,
+                41.63479786475734
+            ]
+        },
+        "latitud": 41.63665769025347,
+        "longitud": -0.8806082880873216,
+        "creationDate": "2013-02-15T00:00:00",
+        "lastUpdated": "2021-03-23T07:36:49"
+    },
+    {
+        "id": "11953",
+        "title": "Pabellón Colegio Británico de Aragón",
+        "tipoEquipamiento": [
+            "centros-deportivos",
+            "deporte",
+            "pabellones-deportivos"
+        ],
+        "telephone": "976 505 223",
+        "titularidadPublica": false,
+        "streetAddress": "Ctra. Valencia Km. 8,5",
+        "creationDate": "2013-02-14T10:04:46",
+        "lastUpdated": "2021-03-23T07:36:49"
+    },
+    {
+        "id": "11975",
+        "title": "Pabellón Colegio Santo Domingo de Silos",
+        "tipoEquipamiento": [
+            "centros-deportivos",
+            "pabellones-deportivos"
+        ],
+        "telephone": "976 424 947",
+        "titularidadPublica": false,
+        "streetAddress": "C/ Amistad, 6",
+        "postalCode": "50002",
+        "portalId": "29825",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -0.8621234703578138,
+                41.645238751507414
+            ]
+        },
+        "latitud": 41.647098588592094,
+        "longitud": -0.8607619723052945,
+        "distritoId": "Las Fuentes",
+        "creationDate": "2013-02-15T00:00:00",
+        "lastUpdated": "2021-03-23T07:36:49"
+    },
+    {
+        "id": "11986",
+        "title": "Pabellón Colegio Corazonistas 1",
+        "tipoEquipamiento": [
+            "centros-deportivos",
+            "deporte",
+            "pabellones-deportivos"
+        ],
+        "telephone": "976 224 864",
+        "titularidadPublica": false,
+        "streetAddress": "Pº de la Mina, 4-10",
+        "postalCode": "50001",
+        "portalId": "39795",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -0.880093301057299,
+                41.64516945219861
+            ]
+        },
+        "latitud": 41.64702930456679,
+        "longitud": -0.8787323236025764,
+        "creationDate": "2013-02-15T09:36:37",
+        "lastUpdated": "2021-03-23T07:36:49"
+    },
+    {
+        "id": "99",
+        "title": "CDM Perico Fernandez",
+        "tipoEquipamiento": [
+            "centros-deportivos",
+            "piscinas-de-verano"
+        ],
+        "telephone": "976 72 60 78",
+        "titularidadPublica": false,
+        "streetAddress": "Pº Renovales s/n",
+        "postalCode": "50006",
+        "portalId": "28422",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -0.8934547777076582,
+                41.631668150130295
+            ]
+        },
+        "latitud": 41.633527976930914,
+        "longitud": -0.8920942729292143,
+        "distritoId": "Universidad",
+        "creationDate": "2022-06-09T00:00:00",
+        "lastUpdated": "2022-06-16T12:08:51"
+    },
+    {
+        "id": "101",
+        "title": "Centro Deportivo Municipal Delicias",
+        "tipoEquipamiento": [
+            "piscinas-municipales",
+            "centros-deportivos",
+            "deporte",
+            "piscinas-de-verano"
+        ],
+        "email": "cdmdelicias@zaragoza.es",
+        "telephone": "976 726 131",
+        "url": "http://www.zaragoza.es/ciudad/deporte/",
+        "titularidadPublica": true,
+        "openingHours": "<ul><li><strong>Apertura:</strong> el día 12 de junio en todos los Centros Deportivos Municipales\r</li><li><strong>Cierre:</strong> el día 5 de septiembre en todos los CDM</li></ul>\r\r\r<p><strong>Piscinas de Verano</strong></p>\r<ul><li>De 10:30 a 21:00 horas</li></ul>\r<p><a href=\"https://www.zaragoza.es/sede/servicio/tramite/4801\">Ver más información en el Trámite Abonos</a></p>",
+        "streetAddress": "C/ Moreno Alcañiz, 2",
+        "postalCode": "50017",
+        "portalId": "28387",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -0.9194370335736737,
+                41.65375375453684
+            ]
+        },
+        "latitud": 41.65561368687514,
+        "longitud": -0.9180771381194118,
+        "distritoId": "Delicias",
+        "description": "<p>El CDM Delicias se encuentra ubicado en el Distrito nº3, Delicias, al oeste de la ciudad, en la zona de la Bombarda.</p>\r<p>Esta instalación se ha construido en varias fases. En la primera fase se construyó el pabellón cubierto, inaugurado en 1986. En la segunda fase, inaugurada en 1997, se construyeron  una piscina recreativa y diversos servicios: vestuarios, bar, parking, etc. Por último, la tercera fase, inaugurada en mayo de 2010 ha consistido en la construcción de: 1 frontón cubierto con gradas, 6 pistas de pádel de césped artificial (cuatro de ellas cubiertas), 3 pistas de tenis de césped artificial y una pista polideportiva al aire libre, además de la construcción de varios espacios auxiliares y la mejora de condiciones de la instalación.</p>\r<p>Con estas inversiones, el nuevo CDM Delicias supone una completa oferta que vendrá a paliar las carencias existentes en el sistema deportivo del Distrito de Delicias. En la programación de uso y funcionamiento del CDM Delicias, destacan dos periodos. Por un lado, la temporada deportivo-escolar, con el Pabellón. Este equipamiento tiene un alto grado de utilización, predomina el uso para la iniciación deportiva y los equipos federados. También hay grupos de actividad física para adultos y tercera edad en horarios de mañana. En cuanto a la piscina de verano, es una instalación consolidada.</p>",
+        "creationDate": "2013-02-07T00:00:00",
+        "lastUpdated": "2021-11-04T09:20:27"
+    },
+    {
+        "id": "103",
+        "title": "Pabellon Deportivo Municipal César Augusto",
+        "tipoEquipamiento": [
+            "centros-deportivos",
+            "pabellones-deportivos"
+        ],
+        "telephone": "976 724 484",
+        "url": "http://www.zaragoza.es/deporte/",
+        "titularidadPublica": true,
+        "streetAddress": "C/ Miguel Asín y Palacios, 26",
+        "postalCode": "50009",
+        "portalId": "30167",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -0.9069688679157992,
+                41.63437842458406
+            ]
+        },
+        "latitud": 41.636238270626585,
+        "longitud": -0.9056087361002778,
+        "distritoId": "Universidad",
+        "description": "<p>El P.D.M. C&eacute;sar Augusto es una instalaci&oacute;n deportiva situada en el Distrito n&ordm;4, Universidad, anexa al Colegio P&uacute;blico del mismo nombre. Su construcci&oacute;n es fruto del Convenio de Colaboraci&oacute;n Ayuntamiento de Zaragoza - Ministerio de Educaci&oacute;n. Es un pabell&oacute;n cubierto, de dimensiones reducidas, que posibilita fundamentalmente la pr&aacute;ctica de las modalidades deportivas de baloncesto y voleibol; tambi&eacute;n puede tener otros uso como: gimnasia r&iacute;tmica, badminton, judo, karate,..etc.Por todas estas caracter&iacute;sticas es una instalaci&oacute;n muy orientada al deporte en edad escolar -educaci&oacute;n f&iacute;sica e iniciaci&oacute;n deportiva- aunque tambi&eacute;n da respuesta a un alto n&uacute;mero de equipos de deporte federado y laboral en diferentes horarios.El P.D.M. C&eacute;sar Augusto, por su proximidad con el C.D.M. Gran V&iacute;a, menos de quinientos metros, es el complemento ideal a esta Instalaci&oacute;n. Ambos Centros Deportivos ofrecen una gran diversidad de opciones para la actividad deportiva y recreativa de esta zona de la Ciudad</p>",
+        "creationDate": "2013-03-18T00:00:00",
+        "lastUpdated": "2021-11-09T07:48:21"
+    },
+    {
+        "id": "2727",
+        "title": "Centro Deportivo Municipal San Gregorio . Piscinas",
+        "tipoEquipamiento": [
+            "piscinas-municipales",
+            "centros-deportivos",
+            "piscinas-de-verano"
+        ],
+        "email": "cdmsangregorio@zaragoza.es",
+        "telephone": "976 726406",
+        "url": "http://www.zaragoza.es/ciudad/deporte/",
+        "titularidadPublica": true,
+        "openingHours": "<ul><li><strong>Apertura:</strong> el día 12 de junio en todos los Centros Deportivos Municipales\r</li><li><strong>Cierre:</strong> el día 5 de septiembre en todos los CDM</li></ul>\r\r<p><strong>Piscinas de Verano</strong></p>\r<ul><li>De 10:30 a 21:00 horas</li></ul>\r<p><a href=\"https://www.zaragoza.es/sede/servicio/tramite/4801\">Ver más información en el Trámite Abonos</a></p>",
+        "streetAddress": "C/ Cascajo, 10",
+        "postalCode": "50015",
+        "portalId": "28311",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -0.8639179021296229,
+                41.68738913963078
+            ]
+        },
+        "latitud": 41.68924909493926,
+        "longitud": -0.8625562198811305,
+        "distritoId": "San Gregorio",
+        "description": "<p>El C.D.M. es una instalación deportivo recreativa centrada en el servicio de piscinas de verano.</p>\r<ul>\r    <li>Más Información sobre <a href=\"http://www.zaragoza.es/ciudad/deporte/piscinas/verano/\">Piscinas de Verano</a></li>\r</ul>\r<p><a href=\"/ciudad/deporte/enlace/gestionmunicipal/calidad/brintro.htm\"><strong>Certificado por AENOR</strong></a></p>\r<p> </p>",
+        "creationDate": "2013-02-07T00:00:00",
+        "lastUpdated": "2022-09-13T12:24:00"
+    },
+    {
+        "id": "104",
+        "title": "Pabellon Deportivo Municipal Ciudad de Zaragoza",
+        "tipoEquipamiento": [
+            "centros-deportivos",
+            "pabellones-deportivos"
+        ],
+        "telephone": "976 723 890",
+        "url": "http://www.zaragoza.es/deporte/",
+        "titularidadPublica": true,
+        "streetAddress": "C/ Ntra. Sra. del Salz, 28",
+        "postalCode": "50017",
+        "portalId": "38654",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -0.9160858652952605,
+                41.645689818735036
+            ]
+        },
+        "latitud": 41.6475497205698,
+        "longitud": -0.9147259240395353,
+        "distritoId": "Delicias",
+        "description": "<p>El P.D.M. Ciudad de Zaragoza es un pabell&oacute;n deportivo situado en el Barrio de Delicias, muy pr&oacute;ximo al Parque y anexo al Colegio P&uacute;blico del mismo nombre. Se inaugur&oacute; en 1991,siendo su  construcci&oacute;n  fruto del Convenio de Colaboraci&oacute;n Ayuntamiento de Zaragoza - Ministerio de Educaci&oacute;n. Es una instalaci&oacute;n muy completa. La pista del P.D.M. Ciudad de Zaragoza tiene una dimensi&oacute;n de 43 x 30 metros , puede dividirse en tres espacios deportivos independientes , transform&aacute;ndose en tres pistas de juego con dimensiones reglamentarias para entrenamientos y partidos de baloncesto, voleibol, minibasket y balonmano. En este pabell&oacute;n tambi&eacute;n tienen cabida la educaci&oacute;n f&iacute;sica escolar, la iniciaci&oacute;n deportiva y los programas de actividad f&iacute;sica para adultos y tercera edad. Todas estas posibilidades de uso son completadas con un magn&iacute;fico grader&iacute;o.  Este Pabell&oacute;n Deportivo, junto con el C.D.M. Ciudad Jard&iacute;n, el Patin&oacute;dromo del Barrio de la Bozada y las dos pistas exteriores del Parque Delicias , forman una oferta con multitud de opciones para la actividad deportiva y recreativa de este popular Barrio de la Ciudad.</p>",
+        "creationDate": "2013-03-18T00:00:00",
+        "lastUpdated": "2021-11-09T07:48:21"
+    },
+    {
+        "id": "945",
+        "title": "Centro Deportivo Municipal Garrapinillos. Piscinas",
+        "tipoEquipamiento": [
+            "piscinas-municipales",
+            "centros-deportivos",
+            "deporte",
+            "piscinas-de-verano"
+        ],
+        "email": "cdmgarrapinillos@zaragoza.es",
+        "telephone": "976 72 38 86",
+        "url": "http://www.zaragoza.es/ciudad/deporte/",
+        "titularidadPublica": true,
+        "openingHours": "<ul><li><strong>Apertura:</strong> el día 12 de junio en todos los Centros Deportivos Municipales\r</li><li><strong>Cierre:</strong> el día 5 de septiembre en todos los CDM</li></ul>\r\r\r<p><strong>Piscinas de Verano</strong></p>\r<ul><li>De 10:30 a 21:00 horas</li></ul>\r<p><a href=\"https://www.zaragoza.es/sede/servicio/tramite/4801\">Ver más información en el Trámite Abonos</a></p>\r ",
+        "streetAddress": "Avda. de La Jota, 13",
+        "postalCode": "50190",
+        "portalId": "10261",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -1.023807210624293,
+                41.681076582644124
+            ]
+        },
+        "latitud": 41.68293699631965,
+        "longitud": -1.022450219520483,
+        "distritoId": "Garrapinillos",
+        "description": "<p>El Barrio de Garrapinillos se encuentra al sur de la Autovia de Logroño, antes de Casetas, y al norte del Aeropuerto, a una distancia del centro de Zaragoza de 12 Km.</p>\r<p>Actualmente combina una población nueva de tipo residencial con los vecinos asentados hace muchos años que desarrollan su actividad en el sector agropecuario. En época estival la población supera los 6.000 habitantes. Garrapinillos cuenta con un importante monumento, La Iglesia de San Lorenzo, y con un conjunto lleno de interés, La Plaza España.</p>\r<p>El CDM Garrapinillos se encuentra situado muy próximo al C.P. Gustavo Adolfo Bécquer. Es una instalación con más de 30 años de historia, fue adquirido por el Ayuntamiento de Zaragoza en 1995. Hoy en día se encuentra totalmente renovado y actualizado. Si por algo destaca esta piscina en comparación con otras, es, sin duda, por su masa arbórea y sus 2.500 m2 de césped.</p>\r<p>El CDM Garrapinillos es el típico centro recreativo, orientado a un público familiar y juvenil. Merece la pena desplazarse hasta el Barrio de Garrapinillos, conocerlo, y acceder a la Instalación como una opción frente algunas piscinas del casco urbano que en algunas fechas se encuentran muy saturadas.</p>\r<p class=\"destacado\">Más Información</p>\r<ul>\r    <li><a href=\"http://www.zaragoza.es/ciudad/deporte/piscinas/verano/\">Piscinas de Verano</a></li>\r    <li><a href=\"/ciudad/deporte/enlace/gestionmunicipal/calidad/brintro.htm\">Certificado por AENOR</a></li>\r</ul>",
+        "creationDate": "2013-03-19T00:00:00",
+        "lastUpdated": "2021-11-04T09:20:58"
+    },
+    {
+        "id": "96",
+        "title": "Centro Deportivo Municipal La Granja",
+        "tipoEquipamiento": [
+            "piscinas-municipales",
+            "centros-deportivos",
+            "deporte",
+            "piscinas-de-verano",
+            "deporte:-fitness"
+        ],
+        "email": "cdmlagranja@zaragoza.es",
+        "telephone": "976 723867",
+        "url": "http://www.zaragoza.es/ciudad/deporte/",
+        "titularidadPublica": true,
+        "openingHours": "<a href=\"https://www.zaragoza.es/sede/portal/deporte/precios-piscinas\">Tarifas</a>>\r\r\r<p><strong>Piscinas de Verano</strong></p>\r<ul><li>De 10:30 a 21:00 horas</li></ul>\r<p><a href=\"https://www.zaragoza.es/sede/servicio/tramite/4801\">Ver más información en el Trámite Abonos</a></p>",
+        "streetAddress": "Camino de Cabaldos, 45",
+        "postalCode": "50013",
+        "portalId": "16508",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -0.8702012302032905,
+                41.633342579275734
+            ]
+        },
+        "latitud": 41.63520239058699,
+        "longitud": -0.8688400434556032,
+        "distritoId": "San José",
+        "description": "<p>El C.D.M. La Granja se encuentra ubicado en el Distrito nº5, San José, uno de los barrios más populares de Zaragoza. Esta Instalación es colindante con el Parque del mismo nombre. Las piscinas abrieron al público en el verano de 1983. Ya en su primer año de andadura se hizo patente la necesidad de aumentar sus espacios deportivos que se completarían con una nueva piscina, pistas polideportivas, pistas de tenis, frontón, pabellón cubierto...etc. Hoy por hoy, constituye uno de los centros deportivos con mayores posibilidades de uso. De todo su amplio catálogo de oferta deportiva destacamos, por su singularidad y especialización, la Pista de Atletismo.</p>\r<p> </p>\r<p>El CDM La Granja ha iniciado un proceso de renovación en diferentes fases. Desde el verano de 1999 cuenta con nuevos vasos, piscinas con juegos acuaticos, chorros y cascadas de agua; y renovación de todo el sistema hidraulico.</p>\r<p> </p>\r<p>En verano es la Instalación Municipal más utilizada por los zaragozanos, registra unos 120.000 usos en la época de piscinas. Su Pabellón Cubierto acoge a los equipos de máximo nivel de nuestra Ciudad, balonmano, baloncesto , fútbol sala y baloncesto en silla de ruedas. Al encontrarse a escasos metros del P. Príncipe Felipe, la convierte en una importante instalación complementaria para numerosos acontecimientos deportivos de ámbito internacional y nacional.</p>\r<p> </p>\r<p>La Granja es un Centro Deportivo abierto, se puede practicar deporte, ser espectador o simplemente pasear con la familia. Es muy difícil que alguien se encuentre sólo. El C.D.M. La Granja es \"algo especial\" que invita a disfrutar de su numerosa oferta deportiva.</p>\r<p> </p>",
+        "creationDate": "2013-03-14T00:00:00",
+        "lastUpdated": "2021-11-04T09:22:33"
+    },
+    {
+        "id": "117",
+        "title": "Centro Deportivo Municipal Eduardo Espiau Ramírez (Peñaflor). Piscinas",
+        "tipoEquipamiento": [
+            "piscinas-municipales",
+            "centros-deportivos",
+            "deporte",
+            "piscinas-de-verano"
+        ],
+        "email": "cdmmonpen@zaragoza.es",
+        "telephone": "976 726404",
+        "url": "http://www.zaragoza.es/ciudad/deporte/",
+        "titularidadPublica": true,
+        "openingHours": "<ul><li><strong>Apertura:</strong> el día 12 de junio en todos los Centros Deportivos Municipales\r</li><li><strong>Cierre:</strong> el día 5 de septiembre en todos los CDM</li></ul>\r\r<p><strong>Piscinas de Verano</strong></p>\r<ul><li>De 10:30 a 21:00 horas</li></ul>\r<p><a href=\"https://www.zaragoza.es/sede/servicio/tramite/4801\">Ver más información en el Trámite Abonos</a></p>",
+        "streetAddress": "C/ San Cristobal, 89",
+        "postalCode": "50003",
+        "portalId": "28432",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -0.7894581798929537,
+                41.76296041778616
+            ]
+        },
+        "latitud": 41.76482050656641,
+        "longitud": -0.7880938553710496,
+        "distritoId": "Peñaflor",
+        "description": "<p>El Barrio Rural de Peñaflor se encuentra situado al nordeste y a 14 Km. del centro de la Ciudad. En muchos sentidos es un barrio privilegiado, cuenta con diferentes atractivos, una población cercana a los 1.000 habitantes, la ermita de San Cristóbal con un extenso pinar y, en sus proximidades, la Cartuja de Aula Dei (Goya).</p>\r<p>El CDM Peñaflor fue inaugurado en 1995, es una construcción muy reciente, moderna y funcional, con una oferta de servicios muy completa. En cuanto a su uso, mayoritariamente son vecinos del propio barrio y de Montañana. Esta Instalación por el nº de usuarios, es una interesante opción a las piscinas saturadas del casco urbano de Zaragoza.</p>\r<ul>\r    <li><a href=\"http://www.zaragoza.es/ciudad/deporte/piscinas/verano/\">Piscinas de Verano</a></li>\r</ul>\r<p><a href=\"/ciudad/deporte/enlace/gestionmunicipal/calidad/brintro.htm\"><strong>Certificado por AENOR</strong></a></p>\r<p><a href=\"http://www.zaragoza.es/ciudad/deporte/piscinas/verano/\"><br />\r</a></p>",
+        "creationDate": "2013-03-19T00:00:00",
+        "lastUpdated": "2022-09-13T12:27:13"
+    },
+    {
+        "id": "100",
+        "title": "Centro Deportivo Municipal Torrero",
+        "tipoEquipamiento": [
+            "piscinas-municipales",
+            "centros-deportivos",
+            "deporte",
+            "piscinas-de-verano"
+        ],
+        "email": "cdmtorrero@zaragoza.es",
+        "telephone": "976 723868",
+        "url": "http://www.zaragoza.es/ciudad/deporte/",
+        "titularidadPublica": true,
+        "openingHours": "<ul><li><strong>Apertura:</strong> el día 12 de junio en todos los Centros Deportivos Municipales\r</li><li><strong>Cierre:</strong> el día 5 de septiembre en todos los CDM</li></ul>\r\r<p><strong>Piscinas de Verano</strong></p>\r<ul><li>De 10:30 a 21:00 horas</li></ul>\r<p><a href=\"https://www.zaragoza.es/sede/servicio/tramite/4801\">Ver más información en el Trámite Abonos</a></p>",
+        "streetAddress": "Oviedo, s/n",
+        "postalCode": "50007",
+        "portalId": "28392",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -0.8866221490849773,
+                41.62343877724821
+            ]
+        },
+        "latitud": 41.625298575687864,
+        "longitud": -0.8852614998435021,
+        "distritoId": "Torrero",
+        "description": "<p>El C.D.M. Torrero es una instalaci&oacute;n deportiva de reciente construcci&oacute;n, finalizada en 1997. Se encuentra ubicada en el Distrito n&ordm;9, Torrero, en el sudeste de la Ciudad, pr&oacute;xima a los Pinares de Venecia. Un barrio que en los &uacute;ltimos a&ntilde;os ha experimentado un importante desarrollo, sin perder sus se&ntilde;as de identidad, muy popular y de gran tradici&oacute;n entre los zaragozanos.Este Centro Deportivo Municipal se caracteriza por el alto n&uacute;mero de espacios deportivos y la diversidad de los mismos que ofrece al ciudadano. Entre ellos podemos destacar su piscina de 50 x 25 m y su pabell&oacute;n cubierto de 44 x 22m., as&iacute; como sus cuatro pistas de padel.Es una instalaci&oacute;n que por su juventud, todav&iacute;a est&aacute; muy lejos de la plena utilizaci&oacute;n de toda su oferta de espacios,especialmente sus pistas exteriores. Consideramos que es una importante alternativa a otras piscinas municipales, donde, en &eacute;poca estival est&aacute;n saturadas de p&uacute;blico.</p>",
+        "creationDate": "2013-05-15T00:00:00",
+        "lastUpdated": "2021-11-04T08:56:32"
+    },
+    {
+        "id": "113",
+        "title": "Centro Deportivo Municipal Valdefierro",
+        "tipoEquipamiento": [
+            "piscinas-municipales",
+            "centros-deportivos",
+            "deporte",
+            "piscinas-de-verano"
+        ],
+        "email": "cdmvaldefierro@zaragoza.es",
+        "telephone": "976 723848",
+        "titularidadPublica": true,
+        "openingHours": "<ul><li><strong>Apertura:</strong> el día 12 de junio en todos los Centros Deportivos Municipales\r</li><li><strong>Cierre:</strong> el día 5 de septiembre en todos los CDM</li></ul>\r<p><strong>Piscinas de Verano</strong></p>\r<ul><li>De 10:30 a 21:00 horas</li></ul>\r<p><a href=\"https://www.zaragoza.es/sede/servicio/tramite/4801\">Ver más información en el Trámite Abonos</a></p>\r ",
+        "streetAddress": "C/ Campillo de Llerena, nº 1",
+        "postalCode": "50012",
+        "portalId": "28453",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -0.9262570494997275,
+                41.6359756541398
+            ]
+        },
+        "latitud": 41.637835558554805,
+        "longitud": -0.9248974604988823,
+        "distritoId": "Oliver-Valdefierro",
+        "description": "<p>El CDM Valdefierro es una de las primeras instalaciones de titularidad municipal, entró en funcionamiento en el año 1981. Está ubicada en el popular Barrio de Valdefierro, Distrito nº 8, en la zona suroeste de la ciudad, próximo al inicio de la Ctca. de Madrid. En su origen era la típica instalación deportiva de uso recreativo, con una piscina de 50 m. y una amplia zona de césped. Las características del terreno donde se asienta provocaron roturas en este vaso con grandes filtraciones que obligaron a cerrar la piscina de verano durante los años 2004 y 2005</p>\r<p>En julio de 2006 se han inaugurado las nuevas piscinas de verano y está en obras un pabellón polideportivo anexo. Con esta remodelación , el CDM Valdefierro ofrecerá una oferta permanente y diversificada de actividades y servicios a su entorno.</p>\r<p>Las nuevas piscinas de verano han supuesto una inversión superior al 1.250.000,00 euros . Se han construido totalmente practicables en sus laterales y fondo , de modo que se detecte al momento cualquier posible fuga o rotura, utilizando un sistema similar al de las piscinas cubiertas</p>",
+        "creationDate": "2013-03-18T00:00:00",
+        "lastUpdated": "2021-11-04T08:56:00"
+    },
+    {
+        "id": "3023",
+        "title": "Centro Deportivo Municipal Siglo XXI",
+        "tipoEquipamiento": [
+            "piscinas-municipales",
+            "centros-deportivos",
+            "piscinas-cubiertas",
+            "deporte:-fitness",
+            "deporte:-balnearios"
+        ],
+        "email": "cdmsigloXXI@zaragoza.es",
+        "telephone": "976 72 38 06",
+        "url": "http://www.zaragoza.es/ciudad/deporte/",
+        "titularidadPublica": true,
+        "openingHours": "<p><a href=\"https://www.zaragoza.es/sede/portal/deporte/piscinas-cubiertas-calendario\">Piscinas Cubiertas</a></p>",
+        "streetAddress": "C/ Luis Legaz Lacambra, 35",
+        "postalCode": "50018",
+        "portalId": "34415",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -0.8986273680692476,
+                41.67369669185073
+            ]
+        },
+        "latitud": 41.67555663881091,
+        "longitud": -0.8972667575585289,
+        "distritoId": "Actur - Rey Fernando",
+        "description": "<p><em><strong>El Centro Deportivo Municipal Siglo XXI</strong></em> es una instalación que responde a dos tipos de necesidades  : crear un equipamiento , que dentro de la red básica, juegue un papel específico de apoyo al deporte de competición, y al mismo tiempo crear un equipamiento para el deporte en edad escolar ( iniciación deportiva y educación física curricular ) y el deporte para todos en el distrito del ACTUR, uno de los más poblados de Zaragoza y con menor dotación de espacios deportivos municipales.</p>\r<p>Como instalación de apoyo al deporte de competición, el centro tendrá un pabellón de 2.780 espectadores, sustituto del papel actual del pabellón del CDM La Granja ( 700 espectadores ) e intermedio con respecto al equipamiento especializado del Pabellón Príncipe Felipe ( 11.700 espectadores ). Lógicamente en este pabellón tendrán lugar preferente los entrenamientos y partidos de equipos en categorías estatales e interautonómicas que por aforo puedan encontrar un acomodo más racional que en el Pabellón Príncipe Felipe. Alternando con los usos deportivos, este pabellón podrá albergar también usos culturales y sociales.</p>\r<p>El centro tiene un área de influencia de unos 50.000 habitantes, con un entorno de población joven en expansión , con un Instituto de Educación Secundaria colindante y varios centros educativos públicos de primaria y secundaria muy cercanos. Para este entorno, las ofertas actuales privadas o sociales no cubren la demanda actual , tanto en el campo del deporte en edad escolar, como en la oferta general de actividades físico-deportivas para el conjunto de la población. Por ello se han proyectado espacios considerados básicos dentro del sistema deportivo local : pabellón de uso escolar y para competición local, salas de actividades dirigidas, piscinas cubiertas y , como novedad y elemento complementario, un Area de Fitness y Salud.</p>\r<p>En el CDM Siglo XXI tiene su sede administrativa el <em>Servicio de Instalaciones Deportivas.</em></p>\r<p><a href=\"http://www.zaragoza.es/contenidos/deporte/SXXI-Presentacion.pps\">Presentación del Pabellón</a></p>",
+        "creationDate": "2013-03-15T00:00:00",
+        "lastUpdated": "2021-12-16T13:05:23"
+    },
+    {
+        "id": "11996",
+        "title": "Pabellón I.E.S. Medina Albaida",
+        "tipoEquipamiento": [
+            "centros-deportivos",
+            "pabellones-deportivos"
+        ],
+        "titularidadPublica": false,
+        "streetAddress": "C/ José Luis Pomarón, 4",
+        "postalCode": "50008",
+        "portalId": "29063",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -0.8777892497427819,
+                41.6446097149351
+            ]
+        },
+        "latitud": 41.64646956378985,
+        "longitud": -0.876428209214621,
+        "creationDate": "2013-02-15T00:00:00",
+        "lastUpdated": "2021-03-23T07:36:49"
+    },
+    {
+        "id": "11969",
+        "title": "Pabellón Colegio La Salle Gran Vía",
+        "tipoEquipamiento": [
+            "centros-deportivos",
+            "deporte",
+            "pabellones-deportivos"
+        ],
+        "telephone": "625 809 247",
+        "titularidadPublica": false,
+        "streetAddress": "C/ Santa Teresea de Jesús, 23 ",
+        "postalCode": "50006",
+        "portalId": "15944",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -0.8947752068621475,
+                41.63830258242966
+            ]
+        },
+        "latitud": 41.64016242849232,
+        "longitud": -0.8934146980321025,
+        "distritoId": "Universidad",
+        "creationDate": "2013-02-15T00:00:00",
+        "lastUpdated": "2021-03-23T07:36:49"
+    },
+    {
+        "id": "11994",
+        "title": "Pabellón C.P. Miraflores",
+        "tipoEquipamiento": [
+            "centros-deportivos",
+            "deporte",
+            "pabellones-deportivos"
+        ],
+        "telephone": "976 493105",
+        "titularidadPublica": false,
+        "streetAddress": "Parque Miraflores, 1",
+        "postalCode": "50008",
+        "portalId": "35147",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -0.8803981247281251,
+                41.640659614588174
+            ]
+        },
+        "latitud": 41.642519454820366,
+        "longitud": -0.8790371851777388,
+        "creationDate": "2013-02-15T00:00:00",
+        "lastUpdated": "2021-03-23T07:36:49"
+    },
+    {
+        "id": "11967",
+        "title": "Pabellón Colegio El Salvador",
+        "tipoEquipamiento": [
+            "centros-deportivos",
+            "deporte",
+            "pabellones-deportivos"
+        ],
+        "telephone": "976 353 400",
+        "titularidadPublica": false,
+        "streetAddress": "c/ Padre Arrupe, 13",
+        "postalCode": "50009",
+        "portalId": "39194",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -0.9041630117370101,
+                41.630462358252295
+            ]
+        },
+        "latitud": 41.63232219090836,
+        "longitud": -0.9028028235796589,
+        "creationDate": "2013-02-15T00:00:00",
+        "lastUpdated": "2021-03-23T07:36:49"
+    },
+    {
+        "id": "11948",
+        "title": "Pabellón Bomberos",
+        "tipoEquipamiento": [
+            "centros-deportivos",
+            "deporte",
+            "piscinas-cubiertas",
+            "pabellones-deportivos"
+        ],
+        "telephone": "976 721 600",
+        "titularidadPublica": false,
+        "streetAddress": "C/ Valle de Broto, 16",
+        "postalCode": "50015",
+        "portalId": "11981",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -0.8767328357604304,
+                41.66510229561326
+            ]
+        },
+        "latitud": 41.66696220012501,
+        "longitud": -0.8753716319989951,
+        "creationDate": "2013-02-14T00:00:00",
+        "lastUpdated": "2021-03-23T07:36:49"
+    },
+    {
+        "id": "3025",
+        "title": "Pabellon Deportivo Municipal Río Ebro",
+        "tipoEquipamiento": [
+            "centros-deportivos",
+            "pabellones-deportivos"
+        ],
+        "telephone": "976 733 189",
+        "url": "http://www.zaragoza.es/ciudad/deporte/",
+        "titularidadPublica": true,
+        "openingHours": "<ul>\r<li>Laborables de 8 a 23 horas</li>\r<li>Sábados de 8 a 23 horas</li>\r<li>Domingos y festivos de 8 a 15 horas</li></ul>",
+        "streetAddress": "Avda. de Ranillas, 40",
+        "postalCode": "50018",
+        "portalId": "28419",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -0.8973427588350098,
+                41.66669318736423
+            ]
+        },
+        "latitud": 41.668553113573154,
+        "longitud": -0.8959821458111307,
+        "distritoId": "Actur - Rey Fernando",
+        "description": "<p>El PDM R&iacute;o Ebro es un pabell&oacute;n deportivo cubierto situado en el Distrito Actur-Rey Fernando,  en la Avenida Ranillas, muy pr&oacute;ximo a la margen izquierda del R&iacute;o Ebro y al recinto de La Expo 2008, y anexo al Colegio P&uacute;blico R&iacute;o Ebro. Se inaugur&oacute; en mayo 2007. Su concepci&oacute;n responde a la t&iacute;pica sala polideportiva de barrio, us&aacute;ndose principalmente para la pr&aacute;ctica de la Educaci&oacute;n f&iacute;sica escolar y para la iniciaci&oacute;n deportiva. La pista del P.D.M. R&iacute;o Ebro tiene unas dimensiones de 45 x 25 metros y es de pavimento sint&eacute;tico (lin&oacute;leo), permitiendo la pr&aacute;ctica de patinaje. Esta pista se puede  dividir en dos, pudiendo practicar varios deportes en pistas transversales. En cuanto a sus aspectos arquitect&oacute;nicos, destaca su distribuci&oacute;n de espacios y la zona de servicios para los deportistas con 3 vestuarios de equipos, todos de ellos adaptados al uso de disminuidos. Cuenta con calefacci&oacute;n en vestuarios y pista.</p>",
+        "creationDate": "2013-03-14T00:00:00",
+        "lastUpdated": "2021-11-09T07:45:53"
+    },
+    {
+        "id": "809",
+        "title": "Pabellon Deportivo Municipal Fernando Escartín (Santa Isabel)",
+        "tipoEquipamiento": [
+            "centros-deportivos",
+            "pabellones-deportivos"
+        ],
+        "telephone": "976 577 293",
+        "url": "http://www.zaragoza.es/deporte/",
+        "titularidadPublica": true,
+        "streetAddress": "C/ Iglesia, 34",
+        "postalCode": "50058",
+        "portalId": "19578",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -0.831165389593165,
+                41.668462278983355
+            ]
+        },
+        "latitud": 41.67032217581934,
+        "longitud": -0.829802810731965,
+        "distritoId": "Santa Isabel",
+        "description": "<p>Este Pabell&oacute;n Cubierto, fue inaugurado en 1997, es similar al construido en el Barrio de La Cartuja Baja. Destaca por su polivalencia; la pista se puede dividir en tres espacios independientes. El tipo de superficie permite la pr&aacute;ctica de la mayor&iacute;a de deportes de sala, especialmente, el patinaje. Junto a los diferentes usos deportivos, tambi&eacute;n se desarrollan todo tipo de actividades socio-culturales. Ya que dispone de un escenario y un grader&iacute;o con capacidad para 290 espectadores.</p>",
+        "creationDate": "2013-03-18T00:00:00",
+        "lastUpdated": "2021-11-09T07:48:21"
+    },
+    {
+        "id": "2432",
+        "title": "Centro Deportivo Municipal Alejandro Pérez Blanque. (La Cartuja)",
+        "tipoEquipamiento": [
+            "piscinas-municipales",
+            "centros-deportivos",
+            "deporte",
+            "piscinas-de-verano"
+        ],
+        "email": "cdmlacartuja@zaragoza.es",
+        "telephone": "976 726408",
+        "url": "http://www.zaragoza.es/ciudad/deporte/",
+        "titularidadPublica": true,
+        "openingHours": "<ul><li><strong>Apertura:</strong> el día 12 de junio en todos los Centros Deportivos Municipales\r</li><li><strong>Cierre:</strong> el día 5 de septiembre en todos los CDM</li></ul>\r\r\r<p><strong>Piscinas de Verano</strong></p>\r<ul><li>De 10:30 a 21:00 horas</li></ul>\r<p><a href=\"https://www.zaragoza.es/sede/servicio/tramite/4801\">Ver más información en el Trámite Abonos</a></p>",
+        "streetAddress": "Avda. de la Constitución, 2",
+        "postalCode": "50720",
+        "portalId": "28331",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -0.8270543213145036,
+                41.60624294774355
+            ]
+        },
+        "latitud": 41.60810268256477,
+        "longitud": -0.8256920517913666,
+        "distritoId": "La Cartuja Baja",
+        "description": "<p>El CDM La Cartuja fue construido en 1982, se encuentra situado en una zona estratégica, ya que esta muy próximo al Centro Cultural y al C.P. \"Ángel Escoriaza\". En la oferta de espacios destacan sus dos piscinas, amplias zonas de sombra y su pista de voley-playa. Es la típica instalación recreativa y deportiva. En época estival se ha convertido en lugar ideal de encuentro y diversión, tanto para los adultos como para los más pequeños. Aunque, lógicamente, la mayoría de usuarios son del propio Bº de La Cartuja, cada año aumenta el nº de personas que vienen del centro de la Ciudad ya que esta Instalación es una interesante opción frente a la piscinas urbanas, frecuentemente saturadas, dada su proximidad y buena comunicación.<br />\r<a href=\"/ciudad/deporte/enlace/gestionmunicipal/calidad/brintro.htm\"><strong>Certificado por AENOR</strong></a></p>\r<p>Entre las características que hacen que esta instalación sea sostenible y respetuosa con el medio ambiente están la instalación de bancos y papeleras fabricados con materiales reciclados, existen contenedores de recogida selectiva para el reciclado de residuos por parte de los usuarios; se ha construido un pozo de captación de agua subterránea para riego; se recupera el agua de duchas para el riego y los servicios, lo que supone un ahorro; luminarias y fluorescentes de bajo consumo en todo el recinto, entre otras.</p>",
+        "creationDate": "2013-03-19T00:00:00",
+        "lastUpdated": "2022-09-13T12:28:53"
+    },
+    {
+        "id": "2118",
+        "title": "Centro Deportivo Municipal Palafox",
+        "tipoEquipamiento": [
+            "piscinas-municipales",
+            "centros-deportivos",
+            "deporte",
+            "piscinas-cubiertas"
+        ],
+        "email": "cdmpalafox@zaragoza.es",
+        "telephone": "976 724 257",
+        "url": "http://www.zaragoza.es/ciudad/deporte/",
+        "titularidadPublica": true,
+        "openingHours": "<p><a href=\"https://www.zaragoza.es/sede/portal/deporte/piscinas-cubiertas-calendario\">Piscinas Cubiertas</a></p>",
+        "streetAddress": "C/ Mayoral, 10",
+        "postalCode": "50004",
+        "portalId": "28639",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -0.8907285850988622,
+                41.653213734118566
+            ]
+        },
+        "latitud": 41.65507361764229,
+        "longitud": -0.8893678641521536,
+        "distritoId": "Casco Histórico",
+        "description": "<p><em><strong>El C.D.M. Palafox</strong></em> se caracteriza por su singular ubicaci&oacute;n, en los bajos de un edificio de viviendas de car&aacute;cter social promovido por la Sociedad Municipal de Rehabilitaci&oacute;n y Promoci&oacute;n de la Edificaci&oacute;n de Zaragoza S.L.</p>",
+        "creationDate": "2008-01-10T00:00:00",
+        "lastUpdated": "2021-11-04T09:23:35"
+    },
+    {
+        "id": "118",
+        "title": "Pabellon Deportivo Municipal San Braulio",
+        "tipoEquipamiento": [
+            "centros-deportivos",
+            "pabellones-deportivos"
+        ],
+        "telephone": "976 731 220",
+        "url": "http://www.zaragoza.es/ciudad/deporte/",
+        "titularidadPublica": true,
+        "streetAddress": "Cno. Juslibol, 3",
+        "postalCode": "50015",
+        "portalId": "36597",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -0.8758367641597709,
+                41.66700857812348
+            ]
+        },
+        "latitud": 41.668868487166996,
+        "longitud": -0.8744755244592963,
+        "distritoId": "El Rabal",
+        "description": "<p>El PDM San Braulio es un pabell&oacute;n deportivo cubierto situado en la Margen Izquierda, Junta de Distrito n&ordm; 10, B&ordf; de Zalfonada, anexo al Colegio P&uacute;blico del mismo nombre y junto al Campo Municipal de F&uacute;tbol &quot;Picarral&quot;. Su construcci&oacute;n es fruto del Convenio de Colaboraci&oacute;n Ayuntamiento de Zaragoza- Ministerio de Educaci&oacute;n. Comenz&oacute; su funcionamiento en 1996.Es la t&iacute;pica instalaci&oacute;n de uso polivalente, para la pr&aacute;ctica de casi todos los deportes de sala. La pista del PDM San Braulio tiene una superficie de 45 x 27 m. Con pavimento sint&eacute;tico, puede dividirse en tres espacios independientes para entrenamientos y actividades f&iacute;sicas para adultos y tercera edad.Si comparamos esta Instalaci&oacute;n que, conceptualmente, es la t&iacute;pica sala deportiva de barrio con otras de la Ciudad, destaca por su espacio para psicomotricidad y por su grader&iacute;o. Estamos ante una Instalaci&oacute;n con un alto grado de calidad, dado el nivel de servicios y de equipamiento.</p>",
+        "creationDate": "2013-03-18T00:00:00",
+        "lastUpdated": "2021-11-09T07:48:21"
+    },
+    {
+        "id": "2486",
+        "title": "Centro Deportivo Municipal Oliver. Piscinas",
+        "tipoEquipamiento": [
+            "piscinas-municipales",
+            "centros-deportivos",
+            "deporte",
+            "piscinas-de-verano"
+        ],
+        "email": "cdmoliver@zaragoza.es",
+        "telephone": "976 329073",
+        "url": "http://www.zaragoza.es/ciudad/deporte/",
+        "titularidadPublica": true,
+        "openingHours": "<ul><li><strong>Apertura:</strong> el día 12 de junio en todos los Centros Deportivos Municipales\r</li><li><strong>Cierre:</strong> el día 5 de septiembre en todos los CDM</li></ul>\r\r\r<p><strong>Piscinas de Verano</strong></p>\r<ul><li>De 10:30 a 21:00 horas</li></ul>\r<p><a href=\"https://www.zaragoza.es/sede/servicio/tramite/4801\">Ver más información en el Trámite Abonos</a></p>",
+        "streetAddress": "C/ Doctor Jesús Valdés Guzmán, 11",
+        "postalCode": "50011",
+        "portalId": "28451",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -0.929335099779785,
+                41.64719070057978
+            ]
+        },
+        "latitud": 41.64905064244225,
+        "longitud": -0.927975529313742,
+        "distritoId": "Oliver-Valdefierro",
+        "description": "<p>El CDM Oliver está ubicado en el Distrito nº 8, Oliver-Valdefierro, colindante con el Parque Oeste.</p>\r<p>Es una Instalación que comenzó a funcionar en 1995 y siendo una  de las piscinas más desconocidas de toda la Red Municipal, no cuenta todavía con un alto grado de utilización. Constituye una importante oferta frente a otras Instalaciones que en algunos días de la temporada estival están saturadas. Del conjunto de servicios y posibilidades, el CDM Oliver destaca por su amplísima pradera de césped.</p>\r<p class=\"destacado\">Más Información</p>\r<ul>\r    <li><a href=\"http://www.zaragoza.es/ciudad/deporte/piscinas/verano/\">Piscinas de Verano</a></li>\r</ul>",
+        "creationDate": "2013-03-19T00:00:00",
+        "lastUpdated": "2021-11-04T08:59:27"
+    },
+    {
+        "id": "2206",
+        "title": "Centro Deportivo Municipal José Garcés",
+        "tipoEquipamiento": [
+            "piscinas-municipales",
+            "centros-deportivos",
+            "deporte",
+            "piscinas-cubiertas",
+            "deporte:-fitness",
+            "deporte:-balnearios"
+        ],
+        "email": "cdmjosegarces@zaragoza.es",
+        "telephone": "976 723883",
+        "url": "http://www.zaragoza.es/ciudad/deporte/",
+        "titularidadPublica": true,
+        "openingHours": "<p><a href=\"https://www.zaragoza.es/sede/portal/deporte/piscinas-cubiertas-calendario\">Piscinas Cubiertas</a></p>",
+        "streetAddress": "C/ Tetuán, 1",
+        "postalCode": "50007",
+        "portalId": "687",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -0.8806062988577146,
+                41.62957904109869
+            ]
+        },
+        "latitud": 41.63143885111611,
+        "longitud": -0.8792454367529897,
+        "distritoId": "San José",
+        "description": "<p><em><strong>El Centro Deportivo Municipal José Garcés</strong></em> nació con un doble objetivo: completar la oferta en una zona de la ciudad que todavía carecía de Instalaciones deportivas, y adecuar sus características a las necesidades reales y parámetros de demanda de calidad de vida en una ciudad europea del siglo XXI. Para ello, se contó con la experiencia acumulada de casi veinte años en la gestión y construcción de instalaciones deportivas municipales, que hace de Zaragoza una de las grandes ciudadades mejor dotadas de España en este tipo de servicios.</p>\r<p>Así, el centro está orientado preferentemente a la iniciativa deportiva, a la recreación, al mantenimiento de la condición física y a los componentes de salud que la práctica fisico-deportiva comporta. El conjunto de servicios que ofrece permite su utilización por una amplia banda de edades y de forma combinada, de modo que los usuarios y abonados pueden hacer uso de dos o más servicios consecutivamente y a la carta, posibilitando además su uso regular durante prácticamente todo el año.</p>\r<p>El área de influencia de este centro se extiende a las zonas residenciales de la parte sur del Distrito de San José y al entorno de La Paz-Torrero, mientras que el corredor del Canal Imperial facilita el acceso de usuarios de otras zonas de la ciudad.</p>",
+        "creationDate": "2013-03-14T00:00:00",
+        "lastUpdated": "2022-01-19T10:45:16"
+    },
+    {
+        "id": "11992",
+        "title": "Pabellón Colegio Santa Ana",
+        "tipoEquipamiento": [
+            "centros-deportivos",
+            "pabellones-deportivos"
+        ],
+        "telephone": "976 385 811",
+        "titularidadPublica": false,
+        "streetAddress": "Pº del Canal, 135",
+        "postalCode": "50007",
+        "portalId": "29075",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -0.8746893711556063,
+                41.628841053291865
+            ]
+        },
+        "latitud": 41.63070085614886,
+        "longitud": -0.873328343162825,
+        "creationDate": "2013-02-15T00:00:00",
+        "lastUpdated": "2021-03-23T07:36:49"
+    },
+    {
+        "id": "11947",
+        "title": "Pabellón Academia General Militar",
+        "tipoEquipamiento": [
+            "centros-deportivos",
+            "deporte",
+            "pabellones-deportivos"
+        ],
+        "telephone": "976 517 000",
+        "titularidadPublica": false,
+        "streetAddress": "Ctra. de Huesca, s/n",
+        "postalCode": "50090",
+        "portalId": "28356",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -0.8673211359593731,
+                41.70405783382492
+            ]
+        },
+        "latitud": 41.705917838559124,
+        "longitud": -0.865959473044504,
+        "creationDate": "2013-02-14T00:00:00",
+        "lastUpdated": "2021-03-23T07:36:49"
+    },
+    {
+        "id": "11981",
+        "title": "Pabellón Colegio Romareda",
+        "tipoEquipamiento": [
+            "centros-deportivos",
+            "deporte",
+            "pabellones-deportivos"
+        ],
+        "telephone": "976 562 017",
+        "titularidadPublica": false,
+        "streetAddress": "C/ Pedro IV el Ceremonioso, 1",
+        "postalCode": "50009",
+        "portalId": "2302",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -0.9083981776584351,
+                41.6331522216141
+            ]
+        },
+        "latitud": 41.635012068357725,
+        "longitud": -0.9070380944936706,
+        "creationDate": "2013-02-15T00:00:00",
+        "lastUpdated": "2021-03-23T07:36:49"
+    },
+    {
+        "id": "11991",
+        "title": "Pabellón Colegio Agustinos",
+        "tipoEquipamiento": [
+            "centros-deportivos",
+            "deporte",
+            "piscinas-de-verano",
+            "pabellones-deportivos"
+        ],
+        "telephone": "976 224 448",
+        "titularidadPublica": false,
+        "streetAddress": "Camino de las Torres, 79 - 89",
+        "postalCode": "50008",
+        "portalId": "25148",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -0.8842342240140068,
+                41.63974185896769
+            ]
+        },
+        "latitud": 41.641601699970465,
+        "longitud": -0.8828734012859185,
+        "creationDate": "2013-02-15T00:00:00",
+        "lastUpdated": "2021-03-23T07:36:49"
+    },
+    {
+        "id": "11950",
+        "title": "Pabellón de la Isla",
+        "tipoEquipamiento": [
+            "centros-deportivos",
+            "pabellones-deportivos"
+        ],
+        "titularidadPublica": false,
+        "streetAddress": "Camino Jarandin, s/n",
+        "postalCode": "50059",
+        "portalId": "2101",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -0.8300453445761513,
+                41.68592326263963
+            ]
+        },
+        "latitud": 41.68778320301316,
+        "longitud": -0.8286826478353893,
+        "distritoId": "Santa Isabel",
+        "creationDate": "2013-02-14T00:00:00",
+        "lastUpdated": "2021-03-23T07:36:49"
+    },
+    {
+        "id": "12000",
+        "title": "Pabellón El Olivar Casa Social",
+        "tipoEquipamiento": [
+            "centros-deportivos",
+            "pabellones-deportivos"
+        ],
+        "telephone": "976 306 336",
+        "titularidadPublica": false,
+        "streetAddress": "C/ Argualas, 50",
+        "postalCode": "50012",
+        "portalId": "20923",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -0.9166319550672059,
+                41.625669060344926
+            ]
+        },
+        "latitud": 41.6275289104888,
+        "longitud": -0.915272154589781,
+        "creationDate": "2013-02-15T00:00:00",
+        "lastUpdated": "2021-03-23T07:36:49"
+    },
+    {
+        "id": "11971",
+        "title": "Pabellón Colegio La Salle Montemolín",
+        "tipoEquipamiento": [
+            "centros-deportivos",
+            "deporte",
+            "pabellones-deportivos"
+        ],
+        "telephone": "976 416 306",
+        "titularidadPublica": false,
+        "streetAddress": "C/ José Galiay, 11",
+        "postalCode": "50008",
+        "portalId": "8788",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -0.8718426395936715,
+                41.63491466389191
+            ]
+        },
+        "latitud": 41.63677448095112,
+        "longitud": -0.8704814900089773,
+        "creationDate": "2013-02-15T00:00:00",
+        "lastUpdated": "2021-03-23T07:36:49"
+    },
+    {
+        "id": "107",
+        "title": "Centro Deportivo Municipal Miralbueno",
+        "tipoEquipamiento": [
+            "piscinas-municipales",
+            "centros-deportivos",
+            "deporte",
+            "piscinas-de-verano"
+        ],
+        "email": "cdmmiralbueno@zaragoza.es",
+        "telephone": "976 723801",
+        "url": "http://www.zaragoza.es/ciudad/deporte/",
+        "titularidadPublica": true,
+        "openingHours": "<ul>\r\t<li><strong>Apertura:</strong> el día 12 de junio en todos los Centros Deportivos Municipales</li>\r\t<li><strong>Cierre:</strong> el día 5 de septiembre en todos los CDM</li>\r</ul>\r\r<p><strong>Piscinas de Verano</strong></p>\r\r<ul>\r\t<li>De 10:30 a 21:00 horas</li>\r</ul>\r\r<p><a href=\"https://www.zaragoza.es/sede/servicio/tramite/4801\">Ver más información en el Trámite Abonos</a></p>\r",
+        "streetAddress": "C/ Manuel Calvo, 7",
+        "postalCode": "50011",
+        "portalId": "28303",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -0.9410585657924696,
+                41.65889818843888
+            ]
+        },
+        "latitud": 41.66075819134195,
+        "longitud": -0.9396992593467999,
+        "distritoId": "Miralbueno",
+        "description": "<div class=\"alert alert-danger\"><strong>Cerrada la piscina de chapoteo</strong> por una avería en la tubería de impulsión</div>\r<p>El CDM Miralbueno se encuentra situado en el Barrio del mismo nombre, entre la Ctra. del Aeropuerto y la de Madrid, al oeste de Zaragoza. En 1982 paso a ser de titularidad municipal. Miralbueno ha experimentado últimamente un considerable incremento de población, cuenta con unos 3.000 habitantes, como consecuencia a la proliferación de viviendas unifamiliares.</p>\r<p>El CDM fue reformado durante 2010 con fondos procedentes del Plan Español para el Estímulo de la Economía y el Empleo (Plan E). Cuenta con tres piscinas de verano y pistas exteriores de uso libre, además de una amplia zona verde.</p>\r<p>Junto a sus instalaciones se sitúa el campo de fútbol municipal y el campo de béisbol.</p>",
+        "creationDate": "2013-03-19T00:00:00",
+        "lastUpdated": "2021-11-04T08:54:26"
+    },
+    {
+        "id": "804",
+        "title": "Centro Deportivo Municipal Casetas Aguas Claras. Piscinas",
+        "tipoEquipamiento": [
+            "piscinas-municipales",
+            "centros-deportivos",
+            "deporte",
+            "piscinas-de-verano"
+        ],
+        "email": "cdmcasetas@zaragoza.es",
+        "telephone": "976 72 38 26",
+        "url": "http://www.zaragoza.es/ciudad/deporte/",
+        "titularidadPublica": true,
+        "openingHours": "<ul><li><strong>Apertura:</strong> el día 12 de junio en todos los Centros Deportivos Municipales\r</li><li><strong>Cierre:</strong> el día 5 de septiembre en todos los CDM</li></ul>\r\r\r<p><strong>Piscinas de Verano</strong></p>\r<ul><li>De 10:30 a 21:00 horas</li></ul>\r\r<p><a href=\"https://www.zaragoza.es/sede/servicio/tramite/4801\">Ver más información en el Trámite Abonos</a></p>",
+        "streetAddress": "Avda. Logroño, 107",
+        "postalCode": "50620",
+        "portalId": "28369",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -1.0354739587417288,
+                41.71889343402674
+            ]
+        },
+        "latitud": 41.72075390978554,
+        "longitud": -1.0341169525620881,
+        "distritoId": "Casetas",
+        "description": "<p>Titularidad: Municipal</p>",
+        "creationDate": "2008-01-10T00:00:00",
+        "lastUpdated": "2021-11-04T09:03:34"
+    },
+    {
+        "id": "2461",
+        "title": "Pabellón Deportivo Municipal Tenerías",
+        "tipoEquipamiento": [
+            "centros-deportivos",
+            "pabellones-deportivos"
+        ],
+        "telephone": "976 724 913",
+        "url": "http://www.zaragoza.es/deporte/",
+        "titularidadPublica": true,
+        "openingHours": "De 8:30 a 23 h.",
+        "streetAddress": "Pº Echegaray y Caballero, 162",
+        "postalCode": "50002",
+        "portalId": "32148",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -0.8719816943210051,
+                41.652030095178134
+            ]
+        },
+        "latitud": 41.653889959513606,
+        "longitud": -0.870620437453353,
+        "distritoId": "Casco Histórico",
+        "description": "<p>El PDM Tener&iacute;as est&aacute; situado en el Casco Hist&oacute;rico, anexo al Colegio P&uacute;blico del mismo nombre, junto al Rio Ebro. Su construcci&oacute;n es fruto del Convenio de Colaboraci&oacute;n entre el Ayuntamiento de Zaragoza y el Consejo Superior de Deportes. Dispone de una superficie de juego de 1232 m2  que podr&aacute; separarse en tres espacios independientes, permitiendo la pr&aacute;ctica de todas las modalidades deportivas de sala y la Educaci&oacute;n F&iacute;sica escolar, as&iacute; como el desarrollo de programas f&iacute;sico-recreativos para todos los vecinos y entidades del Barrio.</p>",
+        "creationDate": "2013-03-14T00:00:00",
+        "lastUpdated": "2021-11-09T07:48:21"
+    },
+    {
+        "id": "95",
+        "title": "Centro Deportivo Municipal Gran Via",
+        "tipoEquipamiento": [
+            "piscinas-municipales",
+            "centros-deportivos",
+            "deporte",
+            "piscinas-de-verano"
+        ],
+        "email": "cdmgranvia@zaragoza.es",
+        "telephone": "976 726167",
+        "url": "http://www.zaragoza.es/ciudad/deporte/",
+        "titularidadPublica": true,
+        "openingHours": "<ul><li><strong>Apertura:</strong> el día 12 de junio en todos los Centros Deportivos Municipales\r</li><li><strong>Cierre:</strong> el día 5 de septiembre en todos los CDM</li></ul>\r\r\r<p><strong>Piscinas de Verano</strong></p>\r<ul><li>De 10:30 a 21:00 horas</li></ul>\r<p><a href=\"https://www.zaragoza.es/sede/servicio/tramite/4801\">Ver más información en el Trámite Abonos</a></p>",
+        "streetAddress": "C/ Domingo Miral, 15",
+        "postalCode": "50009",
+        "portalId": "10329",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -0.9036751361171107,
+                41.6386504130726
+            ]
+        },
+        "latitud": 41.640510267636735,
+        "longitud": -0.9023148823248083,
+        "distritoId": "Universidad",
+        "description": "<p>El C.D.M. Gran Vía, antigua Sociedad Hípica, fue la primera instalación deportiva del Ayuntamiento de Zaragoza, abierta en el año 1980. Se encuentra ubicada en el Distrito nº4, Universidad. Esta zona típica del ensanche urbanístico de la Ciudad; se caracteriza por el alto número de Centros Escolares existentes en su entorno y la Universidad de Zaragoza. La Hípica, como se le conoce popularmente, goza de gran aceptación, especialmente entre el público joven, en época estival constituye un autentico lugar de encuentro y diversión.</p>\r<p>El Centro Deportivo destaca por su situación en la Ciudad, el nivel de sus pistas polideportivas, los 4.500 m2 de césped y las piscinas, totalmente renovadas. Cuenta, también, con un edificio central, restaurante y gimnasio, de interés arquitectónico ya que es un chalet de principio de siglo de estilo racionalista.</p>",
+        "creationDate": "2013-03-14T00:00:00",
+        "lastUpdated": "2021-11-04T09:21:16"
+    },
+    {
+        "id": "946",
+        "title": "Pabellon Deportivo Municipal Montañana",
+        "tipoEquipamiento": [
+            "centros-deportivos",
+            "pabellones-deportivos"
+        ],
+        "telephone": "976 726067",
+        "url": "http://www.zaragoza.es/ciudad/deporte/",
+        "titularidadPublica": true,
+        "streetAddress": "C/ Mayor, 115",
+        "postalCode": "50059",
+        "portalId": "26210",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -0.825807830248588,
+                41.68350813629326
+            ]
+        },
+        "latitud": 41.685368070832105,
+        "longitud": -0.8244450142305793,
+        "distritoId": "Montañana",
+        "description": "<p>El barrio rural de Montañana se encuentra situado al Noreste, a 7 Km. De la Ciudad. Tiene una población de 3.024 habitantes, con importantes perspectivas de crecimiento. Tradicionalmente el barrio ha sido agrícola pero en la actualidad la mayoría de la población trabaja en el sector industrial. En cuanto a los espacios y equipamientos para uso recreativo-deportivo destacan el Pabellón Deportivo y la Finca Municipal \"El Gran Capitán\" con el campo de fútbol. El pabellón fue inaugurado en 1992 y es la típica instalación de uso deportivo y social ofreciendo unos importantes servicios al barrio: Alcaldia, Servicios Sociales, Oficina de Correos y dos salas polivalentes para diferentes acitvidades. El PDM Montañana es muy utilizado por grupos de iniciación deportiva, deporte laboral y actividades físicas para adultos.<br />\r<a href=\"/ciudad/deporte/enlace/gestionmunicipal/calidad/brintro.htm\"><strong>Certificado por AENOR</strong></a></p>",
+        "creationDate": "2013-03-19T00:00:00",
+        "lastUpdated": "2021-11-09T07:48:21"
+    },
+    {
+        "id": "97",
+        "title": "Centro Deportivo Municipal La Jota . Piscinas",
+        "tipoEquipamiento": [
+            "piscinas-municipales",
+            "centros-deportivos",
+            "deporte",
+            "piscinas-de-verano"
+        ],
+        "email": "cdmlajota@zaragoza.es",
+        "telephone": "976 726415",
+        "url": "http://www.zaragoza.es/ciudad/deporte/",
+        "titularidadPublica": true,
+        "openingHours": "<ul><li><strong>Apertura:</strong> el día 12 de junio en todos los Centros Deportivos Municipales\r</li><li><strong>Cierre:</strong> el día 5 de septiembre en todos los CDM</li></ul>\r\r\r<p><strong>Piscinas de Verano</strong></p>\r<ul><li>De 10:30 a 21:00 horas</li></ul>\r<p><a href=\"https://www.zaragoza.es/sede/servicio/tramite/4801\">Ver más información en el Trámite Abonos</a></p>",
+        "streetAddress": "C/ Velilla de Ebro, 2",
+        "postalCode": "50014",
+        "portalId": "28452",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -0.8620687760468853,
+                41.65639271869475
+            ]
+        },
+        "latitud": 41.65825258660072,
+        "longitud": -0.8607072031539604,
+        "distritoId": "El Rabal",
+        "description": "<p>El C.D.M. La Jota se encuentra situado en el Distrito nº 10, Margen Izquierda, en el noreste de la Ciudad. Colindante con el nuevo Parque de Oriente y muy próxima al río Ebro.</p>\r<p>Fue inaugurada su 1ª Fase en 1990. Posteriormente se realizaron otras ampliaciones hasta completar la oferta deportiva actual.El C.D.M. La Jota es una instalación de tipo medio con una completa oferta de espacios deportivos al aire libre, es funcional y accesible, muy bien dimensionada.</p>\r<p>Con la reciente construcción de numerosas viviendas en esta zona de Zaragoza -La Jota y Nueva Ribera- esta Instalación Municipal se ha convertido, por sus altos índices de utilización, en un importante centro de actividad deportiva y recreativa para todos los vecinos del sector.</p>\r<p class=\"destacado\">Más Información</p>\r<ul>\r    <li><a href=\"http://www.zaragoza.es/ciudad/deporte/piscinas/verano/\">Piscinas de Verano</a></li>\r</ul>",
+        "creationDate": "2013-03-14T00:00:00",
+        "lastUpdated": "2022-09-13T12:31:32"
+    },
+    {
+        "id": "111",
+        "title": "Centro Deportivo Municipal Santa Isabel . Piscinas y pistas",
+        "tipoEquipamiento": [
+            "piscinas-municipales",
+            "centros-deportivos",
+            "deporte",
+            "piscinas-de-verano"
+        ],
+        "email": "cdmsantaisabel@zaragoza.es",
+        "telephone": "976 723805",
+        "url": "http://www.zaragoza.es/ciudad/deporte/",
+        "titularidadPublica": true,
+        "openingHours": "<ul><li><strong>Apertura:</strong> el día 12 de junio en todos los Centros Deportivos Municipales\r</li><li><strong>Cierre:</strong> el día 5 de septiembre en todos los CDM</li></ul>\r\r\r<p><strong>Piscinas de Verano</strong></p>\r<ul><li>De 10:30 a 21:00 horas</li></ul>\r<p><a href=\"https://www.zaragoza.es/sede/servicio/tramite/4801\">Ver más información en el Trámite Abonos</a></p>",
+        "streetAddress": "C/ Mamblas, 3",
+        "postalCode": "50016",
+        "portalId": "28374",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -0.8229842353469876,
+                41.66381612110632
+            ]
+        },
+        "latitud": 41.66567600837397,
+        "longitud": -0.8216214309510993,
+        "distritoId": "Santa Isabel",
+        "description": "<p>EL CDM Sta. Isabel está situado en el Barrio de Santa Isabel, Ctra. de Barcelona, al este de Zaragoza. Desde el centro de la Ciudad se accede por la Avda. de Cataluña. Es uno de los barrios rurales que en los últimos años ha experimentado un mayor aumento de población, actualmente cuenta con más de 8.000 habitantes.</p>\r<p>El CDM Sta. Isabel fue inaugurado en el año 1986. Recientemente se ha efectuado una profunda remodelación: piscinas, sistemas de depuración, bar, riego y aumento de la superficie disponible.</p>\r<p class=\"destacado\">Más Información</p>\r<ul>\r    <li><a href=\"http://www.zaragoza.es/ciudad/deporte/piscinas/verano/\">Piscinas de Verano</a></li>\r</ul>",
+        "creationDate": "2013-04-17T00:00:00",
+        "lastUpdated": "2021-11-04T08:57:06"
+    },
+    {
+        "id": "112",
+        "title": "Pabellon Deportivo Municipal Santo Domingo",
+        "tipoEquipamiento": [
+            "centros-deportivos",
+            "pabellones-deportivos"
+        ],
+        "telephone": "976 446 965",
+        "url": "http://www.zaragoza.es/ciudad/deporte/",
+        "titularidadPublica": true,
+        "streetAddress": "Pº Echegaray y Caballero, 74",
+        "postalCode": "50003",
+        "portalId": "24849",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -0.8855339012569962,
+                41.65603864312897
+            ]
+        },
+        "latitud": 41.65789853004267,
+        "longitud": -0.8841730115478519,
+        "distritoId": "Casco Histórico",
+        "description": "<p>El PDM Santo Domingo es un pabellón deportivo cubierto situado en el Casco Histórico, Distrito Municipal nº 1, junto al Río Ebro y anexo al Colegio Público Santo Domingo. Su construcción es fruto del Convenio de Colaboración Ayuntamiento de Zaragoza-Ministerio de Educación. Se inauguró en 1994, y consta de una pista de 617 m2, que permite la práctica de baloncesto y voleibol, así como otras actividades de iniciación deportiva y Educación Física escolar.</p>\r<p>En la actualidad, es gestionado por la <a href=\"http://www.fabasket.com/\">Federación Aragonesa de Baloncesto</a></p>",
+        "creationDate": "2013-03-18T00:00:00",
+        "lastUpdated": "2021-11-09T07:48:21"
+    },
+    {
+        "id": "115",
+        "title": "Centro Deportivo Municipal Alberto Maestro",
+        "tipoEquipamiento": [
+            "piscinas-municipales",
+            "centros-deportivos",
+            "deporte",
+            "piscinas-de-verano",
+            "piscinas-cubiertas"
+        ],
+        "email": "cdmalbertomaestro@zaragoza.es",
+        "telephone": "976 726073 ",
+        "url": "http://www.zaragoza.es/ciudad/deporte/",
+        "titularidadPublica": true,
+        "openingHours": "<ul><li><strong>Apertura:</strong> el día 12 de junio en todos los Centros Deportivos Municipales\r</li><li><strong>Cierre:</strong> el día 5 de septiembre en todos los CDM</li></ul>\r<p><strong>Piscinas de Verano</strong></p>\r<ul><li>De 10:30 a 21:00 horas</li></ul>\r\r<p><a href=\"https://www.zaragoza.es/sede/portal/deporte/piscinas-cubiertas-calendario\">Piscinas Cubiertas</a></p>\r\r",
+        "streetAddress": "Avda. Las Torres, 2",
+        "postalCode": "50002",
+        "portalId": "1401",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -0.8661596161175746,
+                41.64798527098067
+            ]
+        },
+        "latitud": 41.649845119142995,
+        "longitud": -0.8647982169285116,
+        "distritoId": "Casco Histórico",
+        "description": "<p><em><strong>El CDM Alberto Maestro </strong></em>se encuentra situado entre el barrio de Las Fuentes y el Casco Histórico, junto a la margen derecha del Río Huerva. La Instalación, Piscina Climatizada y Pabellón, comenzaron su funcionamiento en 1996 y fue inaugurada en su totalidad en 1997.</p>\r<p><em><strong>El CDM Alberto Maestro</strong></em> es una instalación modélica en todos sus aspectos. Desde el punto de vista arquitectónico, destaca por su funcionalidad, pureza de líneas, luminosidad y su implantación en el entorno urbanístico como elemento singular. Esta Instalación se ha construido en tres fases. En la 1ª se realizó la Piscina Cubierta y el Pabellón Polideportivo con toda la batería de servicios comunes, como núcleo central de todo el complejo deportivo. En la 2ª fase, con un planteamiento concéntrico en relación a la 1ª, se realizaron tres piscinas y las pistas exteriores, rematando todo el espacio con el frontón cubierto. Y, finalmente, en la 3ª Fase, se ha construido los vestuarios de toda la zona exterior y el restaurante con la pérgola, como una zona abierta al río Huerva y al Parque Lineal.</p>",
+        "creationDate": "2021-11-04T00:00:00",
+        "lastUpdated": "2021-12-16T13:12:12"
+    },
+    {
+        "id": "11995",
+        "title": "Pabellón I.E.S. Goya",
+        "tipoEquipamiento": [
+            "centros-deportivos",
+            "pabellones-deportivos"
+        ],
+        "telephone": "976 358 222",
+        "titularidadPublica": false,
+        "streetAddress": "Avda. Francisco de Goya, 45",
+        "postalCode": "50006",
+        "portalId": "29038",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -0.8922998434341872,
+                41.64157629188822
+            ]
+        },
+        "latitud": 41.64343614480598,
+        "longitud": -0.8909392422042844,
+        "distritoId": "Centro",
+        "creationDate": "2013-02-15T00:00:00",
+        "lastUpdated": "2021-03-23T07:36:49"
+    },
+    {
+        "id": "11957",
+        "title": "Pabellón Colegio Cristo Rey",
+        "tipoEquipamiento": [
+            "centros-deportivos",
+            "deporte",
+            "pabellones-deportivos"
+        ],
+        "titularidadPublica": false,
+        "streetAddress": "Avda. Academia General Militar, 80",
+        "postalCode": "50015",
+        "portalId": "39711",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -0.872389881322886,
+                41.68517148564445
+            ]
+        },
+        "latitud": 41.687031442224985,
+        "longitud": -0.8710284546370991,
+        "distritoId": "San Gregorio",
+        "creationDate": "2013-02-14T00:00:00",
+        "lastUpdated": "2021-03-23T07:36:49"
+    },
+    {
+        "id": "11960",
+        "title": "Pabellón Colegio Maristas",
+        "tipoEquipamiento": [
+            "centros-deportivos",
+            "deporte",
+            "pabellones-deportivos"
+        ],
+        "telephone": "976 519 655",
+        "titularidadPublica": false,
+        "streetAddress": "C/ Rafael Alberti, 5",
+        "postalCode": "50018",
+        "portalId": "3417",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -0.8842928657314063,
+                41.667740950591075
+            ]
+        },
+        "latitud": 41.66960086880824,
+        "longitud": -0.8829318682564951,
+        "creationDate": "2013-02-14T00:00:00",
+        "lastUpdated": "2021-03-23T07:36:49"
+    },
+    {
+        "id": "11998",
+        "title": "Pabellón Centro Natación Helios",
+        "tipoEquipamiento": [
+            "centros-deportivos",
+            "deporte",
+            "pabellones-deportivos"
+        ],
+        "telephone": "976 520 255",
+        "titularidadPublica": false,
+        "streetAddress": "Parque Macanaz",
+        "postalCode": "50018",
+        "portalId": "42177",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -0.8865237851282626,
+                41.657037679385674
+            ]
+        },
+        "latitud": 41.65889756988698,
+        "longitud": -0.8851629177377071,
+        "creationDate": "2013-02-15T00:00:00",
+        "lastUpdated": "2021-03-23T07:36:49"
+    },
+    {
+        "id": "11977",
+        "title": "Pabellón Colegio Enrique de Ossó",
+        "tipoEquipamiento": [
+            "centros-deportivos",
+            "deporte",
+            "pabellones-deportivos"
+        ],
+        "telephone": "976 331 838",
+        "titularidadPublica": false,
+        "streetAddress": "C/ Enrique de Ossó, 2-4",
+        "postalCode": "50017",
+        "portalId": "1169",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -0.9168691767238218,
+                41.64469378335268
+            ]
+        },
+        "latitud": 41.6465536846772,
+        "longitud": -0.9155092641656299,
+        "creationDate": "2013-02-15T00:00:00",
+        "lastUpdated": "2021-03-23T07:36:49"
+    },
+    {
+        "id": "102",
+        "title": "Pabellon Deportivo Municipal Arrabal",
+        "tipoEquipamiento": [
+            "centros-deportivos",
+            "pabellones-deportivos"
+        ],
+        "telephone": "976 515 555",
+        "url": "http://www.zaragoza.es/deporte/",
+        "titularidadPublica": true,
+        "streetAddress": "C/ Cañón de Añisclo, 6 Dpdo.",
+        "postalCode": "50015",
+        "portalId": "28292",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -0.8751608359953857,
+                41.662249686887264
+            ]
+        },
+        "latitud": 41.66410958217666,
+        "longitud": -0.8737996050272996,
+        "distritoId": "El Rabal",
+        "description": "<p>El PDM Arrabal es un pabell&oacute;n deportivo cubierto situado en la Margen Izquierda, muy pr&oacute;ximo al Parque T&iacute;o Jorge, anexo al Colegio P&uacute;blico Eugenio L&oacute;pez. Su construcci&oacute;n es fruto del Convenio de Colaboraci&oacute;n Ayuntamiento de Zaragoza-Ministerio de Educaci&oacute;n. Se inaugur&oacute; en 1991.Es una instalaci&oacute;n deportiva muy funcional. La pista del P.D.M. Arrabal tiene unas dimensiones de 43 x 27 metros. De pavimento sint&eacute;tico, puede dividirse en tres espacios independientes para entrenamientos y partidos de competici&oacute;n. Tambi&eacute;n tienen lugar la Educaci&oacute;n F&iacute;sica escolar y la iniciaci&oacute;n deportiva.En cuanto a sus aspectos arquitect&oacute;nicos, destaca su distribuci&oacute;n de espacios, las diferentes circulaciones y la zona de servicios para los deportistas con 4 vestuarios de equipos, dos de ellos adaptados al uso de disminuidos.</p>",
+        "creationDate": "2013-03-18T00:00:00",
+        "lastUpdated": "2021-11-09T07:48:21"
+    },
+    {
+        "id": "2426",
+        "title": "Centro Deportivo Municipal Actur",
+        "tipoEquipamiento": [
+            "piscinas-municipales",
+            "centros-deportivos",
+            "deporte",
+            "piscinas-de-verano"
+        ],
+        "email": "cdmactur@zaragoza.es",
+        "telephone": "976 726163",
+        "url": "http://www.zaragoza.es/ciudad/deporte/",
+        "titularidadPublica": true,
+        "openingHours": "<ul><li><strong>Apertura:</strong> el día 12 de junio en todos los Centros Deportivos Municipales\r</li><li><strong>Cierre:</strong> el día 5 de septiembre en todos los CDM</li></ul>\r<p><strong>Piscinas de Verano</strong></p>\r<ul><li>De 10:30 a 21:00 horas</li></ul>\r\r\r\r<p><a href=\"https://www.zaragoza.es/sede/servicio/tramite/4801\">Ver más información en el Trámite Abonos</a></p>\r",
+        "streetAddress": "C/ Pablo Ruíz Picasso, 2 tpl.",
+        "postalCode": "50018",
+        "portalId": "835",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -0.8836808584218891,
+                41.67179182307619
+            ]
+        },
+        "latitud": 41.67365175207663,
+        "longitud": -0.8823198234658185,
+        "distritoId": "Actur - Rey Fernando",
+        "description": "<p>El C.D.M. Actur fue la primera instalaci&oacute;n deportiva del Ayuntamiento de Zaragoza en la Margen Izquierda, abierta en el a&ntilde;o 1987, y est&aacute; ubicada en uno de los barrios con mayor expansi&oacute;n y crecimiento en las &uacute;ltimas decadas. El C.D.M. se caracteriza por ser un gran centro deportivo al aire libre. De oto&ntilde;o a primavera el acceso es abierto, dentro del concepto de parque deportivo. Ofrece una gran diversidad de espacios recreativos y deportivo con m&aacute;s de 8.000 m2 de c&eacute;sped. De sus equipamientos, destaca por su singularidad el roc&oacute;dromo. El centro se complet&oacute; con la construcci&oacute;n del Pabell&oacute;n Actur V, que permite la pr&aacute;ctica de todos los deportes de sala.</p>",
+        "creationDate": "2013-03-14T00:00:00",
+        "lastUpdated": "2021-11-04T09:02:02"
+    },
+    {
+        "id": "2959",
+        "title": "Pabellón Deportivo Municipal San Gregorio",
+        "tipoEquipamiento": [
+            "centros-deportivos",
+            "pabellones-deportivos"
+        ],
+        "telephone": "976 726418",
+        "url": "http://www.zaragoza.es/ciudad/deporte/",
+        "titularidadPublica": true,
+        "openingHours": "Laborables de 08 a 23 horas\rSábados de 08 a 23 horas\rDomingos y festivos de 08 a 15 horas",
+        "streetAddress": "Avda. San Gregorio, 2",
+        "postalCode": "50015",
+        "portalId": "1306",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -0.8647596845613935,
+                41.687621231728706
+            ]
+        },
+        "latitud": 41.689481188423564,
+        "longitud": -0.8633980255560962,
+        "distritoId": "San Gregorio",
+        "description": "<p>El P.D.M. es una instalación orientada a dar servicio para el deporte en edad escolar y el deporte de competición local y autonómica en el barrio rural de San Gregorio.El centro tiene cercano un  Colegio Público del mismo nombre, así como el Campo Municipal de Futbol de San Gregorio.<br />\r<a href=\"/ciudad/deporte/enlace/gestionmunicipal/calidad/brintro.htm\"><strong>Certificado por AENOR</strong></a></p>",
+        "creationDate": "2013-03-19T00:00:00",
+        "lastUpdated": "2022-09-13T12:24:39"
+    },
+    {
+        "id": "807",
+        "title": "Pabellon Deportivo Municipal Alejandro Perez Blanque ( La Cartuja)",
+        "tipoEquipamiento": [
+            "centros-deportivos",
+            "pabellones-deportivos"
+        ],
+        "telephone": "976 500 358",
+        "url": "http://www.zaragoza.es/ciudad/deporte/",
+        "titularidadPublica": true,
+        "streetAddress": "Avda. de la Constitución, 2",
+        "postalCode": "50720",
+        "portalId": "1434",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -0.8263528701247457,
+                41.606094566237765
+            ]
+        },
+        "latitud": 41.607954301056175,
+        "longitud": -0.8249905810160414,
+        "distritoId": "La Cartuja Baja",
+        "description": "<p>Su construcción es fruto del Convenio entre el Ayuntamiento de Zaragoza y el Ministerio de Educación, y la colaboración de la Diputación General de Aragón. Fue inaugurado en 1998.El Pabellón Cubierto de La Cartuja es una instalación muy polivalente. Permite la practica de la mayoría de los deportes de sala, especialmente, el patinaje por el tipo de superficie. Destaca su graderío con capacidad para 290 espectadores y su escenario, pudiéndose compaginar el uso deportivo con el cultural.<br />\r<a href=\"/ciudad/deporte/enlace/gestionmunicipal/calidad/brintro.htm\"><strong>Certificado por AENOR</strong></a></p>",
+        "creationDate": "2013-03-19T00:00:00",
+        "lastUpdated": "2021-11-09T07:48:21"
+    },
+    {
+        "id": "3024",
+        "title": "Centro Deportivo Municipal Duquesa Villahermosa",
+        "tipoEquipamiento": [
+            "centros-deportivos",
+            "deporte",
+            "piscinas-cubiertas",
+            "deporte:-fitness"
+        ],
+        "email": "info@duquesavillahermosa.es",
+        "telephone": "976 91 01 81",
+        "url": "http://www.zaragoza.es/ciudad/deporte/",
+        "titularidadPublica": true,
+        "openingHours": "<p><a href=\"https://www.zaragoza.es/sede/portal/deporte/piscinas-cubiertas-calendario\">Piscinas Cubiertas</a></p>",
+        "streetAddress": "Pza. de la Convivencia, 3",
+        "postalCode": "50010",
+        "portalId": "39024",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -0.9087838582624511,
+                41.64498374646587
+            ]
+        },
+        "latitud": 41.6468436264052,
+        "longitud": -0.9074237119463309,
+        "distritoId": "Delicias",
+        "description": "<p>El <strong>Centro Deportivo Municipal Duquesa Villahermosa</strong> es una instalación para el deporte en edad escolar ( iniciación deportiva y educación física curricular ) y el deporte para todos en el distrito de Delicias, el  más poblado de Zaragoza y con menor dotación de espacios deportivos municipales.El centro tiene un área de influencia de unos 75.000 habitantes, con un entorno de población con alta densidad demográfica y núcleos poblacionales muy diversos dentro del propio Distrito. Tiene colindante un colegio público al que dará servicio preferente el pabellón . Para este entorno, las ofertas actuales privadas o sociales no cubren la demanda actual , tanto en el campo del deporte en edad escolar, como en la oferta general de actividades físico-deportivas para el conjunto de la población. Por ello se han proyectado espacios considerados básicos dentro del sistema deportivo local : pabellón de uso escolar y para competición local, piscinas cubiertas y, como novedad y elemento complementario, un Área de Fitness y Salud.</p>\r<p>Web de la empresa adjudicataria: <a href=\"http://duquesavillahermosa.es/\">www.duquesavillahermosa.es/</a></p>",
+        "creationDate": "2013-03-18T00:00:00",
+        "lastUpdated": "2021-12-16T13:15:50"
+    },
+    {
+        "id": "11984",
+        "title": "Pabellón Colegio Corazonistas 2",
+        "tipoEquipamiento": [
+            "centros-deportivos",
+            "deporte",
+            "pabellones-deportivos"
+        ],
+        "telephone": "976 224 864",
+        "titularidadPublica": false,
+        "streetAddress": "Pº de la MIna, 4-10",
+        "postalCode": "50001",
+        "portalId": "39795",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -0.880093301057299,
+                41.64516945219861
+            ]
+        },
+        "latitud": 41.64702930456679,
+        "longitud": -0.8787323236025764,
+        "creationDate": "2013-02-15T00:00:00",
+        "lastUpdated": "2021-03-23T07:36:49"
+    },
+    {
+        "id": "11988",
+        "title": "Pabellón Colegio Moncayo San Valero",
+        "tipoEquipamiento": [
+            "centros-deportivos",
+            "deporte",
+            "pabellones-deportivos"
+        ],
+        "telephone": "976 751 259",
+        "titularidadPublica": false,
+        "streetAddress": "C/ Juan Pablo II, 58",
+        "postalCode": "50009",
+        "portalId": "34146",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -0.9103730376696499,
+                41.635886890687274
+            ]
+        },
+        "latitud": 41.637746750391194,
+        "longitud": -0.9090129939550792,
+        "creationDate": "2013-02-15T00:00:00",
+        "lastUpdated": "2021-03-23T07:36:49"
+    },
+    {
+        "id": "11993",
+        "title": "Pabellón C.P. Doctor Azúa",
+        "tipoEquipamiento": [
+            "centros-deportivos",
+            "deporte",
+            "pabellones-deportivos"
+        ],
+        "telephone": "976 306 592",
+        "titularidadPublica": false,
+        "streetAddress": "C/ Pedro III El Grande, 4",
+        "postalCode": "50009",
+        "portalId": "3096",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -0.906846049081801,
+                41.635753273750296
+            ]
+        },
+        "latitud": 41.63761312319201,
+        "longitud": -0.9054859051172962,
+        "distritoId": "Universidad",
+        "creationDate": "2013-02-15T09:53:34",
+        "lastUpdated": "2021-03-23T07:36:49"
+    },
+    {
+        "id": "11974",
+        "title": "Pabellón Colegio Montearagón",
+        "tipoEquipamiento": [
+            "centros-deportivos",
+            "deporte",
+            "pabellones-deportivos"
+        ],
+        "telephone": "976 562 267",
+        "titularidadPublica": false,
+        "streetAddress": "Pº Reyes de Aragón, 21",
+        "postalCode": "50009",
+        "portalId": "14679",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -0.9083574882613834,
+                41.62430711815334
+            ]
+        },
+        "latitud": 41.62616694082087,
+        "longitud": -0.9069974594033448,
+        "creationDate": "2013-02-15T09:12:13",
+        "lastUpdated": "2021-03-23T07:36:49"
+    },
+    {
+        "id": "11987",
+        "title": "Pabellón Colegio Sagrado Corazón",
+        "tipoEquipamiento": [
+            "centros-deportivos",
+            "deporte",
+            "pabellones-deportivos"
+        ],
+        "telephone": "976 466 282",
+        "titularidadPublica": false,
+        "streetAddress": "C/ Poeta Pablo Neruda, 35",
+        "postalCode": "50018",
+        "portalId": "19387",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -0.8844023035841102,
+                41.668440244548385
+            ]
+        },
+        "latitud": 41.670300164807955,
+        "longitud": -0.883041305886008,
+        "creationDate": "2013-02-15T00:00:00",
+        "lastUpdated": "2021-03-23T07:36:49"
+    },
+    {
+        "id": "12001",
+        "title": "Pabellón El Olivar Casa Social (Edificio Nuevo)",
+        "tipoEquipamiento": [
+            "centros-deportivos",
+            "pabellones-deportivos"
+        ],
+        "telephone": "976 306 336",
+        "titularidadPublica": false,
+        "streetAddress": "C/ Argualas, 50",
+        "postalCode": "50012",
+        "portalId": "20923",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -0.9166319550672059,
+                41.625669060344926
+            ]
+        },
+        "latitud": 41.6275289104888,
+        "longitud": -0.915272154589781,
+        "creationDate": "2013-02-15T10:15:58",
+        "lastUpdated": "2021-03-23T07:36:49"
+    },
+    {
+        "id": "11980",
+        "title": "Pabellón Colegio Pompiliano",
+        "tipoEquipamiento": [
+            "centros-deportivos",
+            "deporte",
+            "pabellones-deportivos"
+        ],
+        "telephone": "976 276 492",
+        "titularidadPublica": false,
+        "streetAddress": "Pº Ruiseñores, 28",
+        "postalCode": "50006",
+        "portalId": "17878",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -0.8911048331923699,
+                41.63416580213843
+            ]
+        },
+        "latitud": 41.63602563375237,
+        "longitud": -0.8897442446669631,
+        "creationDate": "2013-02-15T09:23:32",
+        "lastUpdated": "2021-03-23T07:36:49"
+    },
+    {
+        "id": "11983",
+        "title": "Pabellón Colegio Sagrada Familia",
+        "tipoEquipamiento": [
+            "centros-deportivos",
+            "deporte",
+            "pabellones-deportivos"
+        ],
+        "telephone": "976 560 125",
+        "titularidadPublica": false,
+        "streetAddress": "Pº Infantes de España, 4",
+        "postalCode": "50012",
+        "portalId": "1005",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -0.9090793761630539,
+                41.624896955348035
+            ]
+        },
+        "latitud": 41.626756781692755,
+        "longitud": -0.90771936427411,
+        "creationDate": "2013-02-15T09:29:52",
+        "lastUpdated": "2021-03-23T07:36:49"
+    }
+]

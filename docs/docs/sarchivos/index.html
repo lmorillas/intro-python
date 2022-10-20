@@ -1,0 +1,494 @@
+<!doctype html>
+<html lang="es" class="no-js">
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="generator" content="Hugo 0.103.1" />
+<meta name="robots" content="index, follow">
+
+
+<link rel="shortcut icon" href="/intro-python/favicons/favicon.ico" >
+<link rel="apple-touch-icon" href="/intro-python/favicons/apple-touch-icon-180x180.png" sizes="180x180">
+<link rel="icon" type="image/png" href="/intro-python/favicons/favicon-16x16.png" sizes="16x16">
+<link rel="icon" type="image/png" href="/intro-python/favicons/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/intro-python/favicons/android-36x36.png" sizes="36x36">
+<link rel="icon" type="image/png" href="/intro-python/favicons/android-48x48.png" sizes="48x48">
+<link rel="icon" type="image/png" href="/intro-python/favicons/android-72x72.png" sizes="72x72">
+<link rel="icon" type="image/png" href="/intro-python/favicons/android-96x96.png" sizes="96x96">
+<link rel="icon" type="image/png" href="/intro-python/favicons/android-144x144.png" sizes="144x144">
+<link rel="icon" type="image/png" href="/intro-python/favicons/android-192x192.png" sizes="192x192">
+
+<title>Sistema de archivos | Introducción a Python</title>
+<meta name="description" content="Archivos
+">
+<meta property="og:title" content="Sistema de archivos" />
+<meta property="og:description" content="Archivos
+" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://lmorillas.github.io/intro-python/docs/sarchivos/" /><meta property="article:section" content="docs" />
+<meta property="article:published_time" content="2021-09-15T00:00:00+00:00" />
+<meta property="article:modified_time" content="2021-09-15T00:00:00+00:00" /><meta property="og:site_name" content="Introducción a Python" />
+
+<meta itemprop="name" content="Sistema de archivos">
+<meta itemprop="description" content="Archivos
+"><meta itemprop="datePublished" content="2021-09-15T00:00:00+00:00" />
+<meta itemprop="dateModified" content="2021-09-15T00:00:00+00:00" />
+<meta itemprop="wordCount" content="461">
+<meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Sistema de archivos"/>
+<meta name="twitter:description" content="Archivos
+"/>
+
+
+
+
+<link rel="preload" href="/intro-python/scss/main.scss" as="style">
+<link href="/intro-python/scss/main.scss" rel="stylesheet" integrity="">
+
+<script
+  src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha384-vtXRMe3mGCbOeY7l30aIg8H9p3GdeSe4IFlP6G8JMa7o7lXvnz3GFKzPxzJdPfGK"
+  crossorigin="anonymous"></script>
+
+  </head>
+  <body class="td-page">
+    <header>
+      
+<nav class="js-navbar-scroll navbar navbar-expand navbar-dark flex-column flex-md-row td-navbar">
+        <a class="navbar-brand" href="/intro-python/">
+		<span class="navbar-logo"></span><span class="font-weight-bold">Introducción a Python</span>
+	</a>
+	<div class="td-navbar-nav-scroll ml-md-auto" id="main_navbar">
+		<ul class="navbar-nav mt-2 mt-lg-0">
+			
+			
+			
+			
+		</ul>
+	</div>
+	<div class="navbar-nav d-none d-lg-block"></div>
+</nav>
+
+    </header>
+    <div class="container-fluid td-outer">
+      <div class="td-main">
+        <div class="row flex-xl-nowrap">
+          <aside class="col-12 col-md-3 col-xl-2 td-sidebar d-print-none">
+            
+<div id="td-sidebar-menu" class="td-sidebar__inner">
+  <form class="td-sidebar__search d-flex align-items-center">
+    
+    <button class="btn btn-link td-sidebar__toggle d-md-none p-0 ml-3 fas fa-bars" type="button" data-toggle="collapse" data-target="#td-section-nav" aria-controls="td-section-nav" aria-expanded="false" aria-label="Toggle section navigation">
+    </button>
+  </form>
+  <nav class="collapse td-sidebar-nav foldable-nav" id="td-section-nav">
+    <ul class="td-sidebar-nav__section pr-md-3 ul-0">
+      <li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child active-path" id="m-intro-pythondocs-li">
+  <a href="/intro-python/docs/" title="Inmersión en Python" class="align-left pl-0 td-sidebar-link td-sidebar-link__section tree-root" id="m-intro-pythondocs"><span class="">Python</span></a>
+  <ul class="ul-1">
+    <li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-intro-pythondocsinstalacion-li">
+  <input type="checkbox" id="m-intro-pythondocsinstalacion-check"/>
+  <label for="m-intro-pythondocsinstalacion-check"><a href="/intro-python/docs/instalacion/" class="align-left pl-0  td-sidebar-link td-sidebar-link__page" id="m-intro-pythondocsinstalacion"><span class="">Instalación</span></a></label>
+  
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-intro-pythondocscontenido-li">
+  <input type="checkbox" id="m-intro-pythondocscontenido-check"/>
+  <label for="m-intro-pythondocscontenido-check"><a href="/intro-python/docs/contenido/" class="align-left pl-0  td-sidebar-link td-sidebar-link__page" id="m-intro-pythondocscontenido"><span class="">Contenidos</span></a></label>
+  
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-intro-pythondocsjupyter-li">
+  <input type="checkbox" id="m-intro-pythondocsjupyter-check"/>
+  <label for="m-intro-pythondocsjupyter-check"><a href="/intro-python/docs/jupyter/" class="align-left pl-0  td-sidebar-link td-sidebar-link__page" id="m-intro-pythondocsjupyter"><span class="">Jupyter</span></a></label>
+  
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-intro-pythondocsprimeros-pasos-li">
+  <input type="checkbox" id="m-intro-pythondocsprimeros-pasos-check"/>
+  <label for="m-intro-pythondocsprimeros-pasos-check"><a href="/intro-python/docs/primeros-pasos/" class="align-left pl-0  td-sidebar-link td-sidebar-link__page" id="m-intro-pythondocsprimeros-pasos"><span class="">Primeros pasos</span></a></label>
+  
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-intro-pythondocscontenedores-li">
+  <input type="checkbox" id="m-intro-pythondocscontenedores-check"/>
+  <label for="m-intro-pythondocscontenedores-check"><a href="/intro-python/docs/contenedores/" class="align-left pl-0  td-sidebar-link td-sidebar-link__page" id="m-intro-pythondocscontenedores"><span class="">Contenedores</span></a></label>
+  
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-intro-pythondocsbucles-li">
+  <input type="checkbox" id="m-intro-pythondocsbucles-check"/>
+  <label for="m-intro-pythondocsbucles-check"><a href="/intro-python/docs/bucles/" class="align-left pl-0  td-sidebar-link td-sidebar-link__page" id="m-intro-pythondocsbucles"><span class="">Bucles</span></a></label>
+  
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-intro-pythondocsfunciones-li">
+  <input type="checkbox" id="m-intro-pythondocsfunciones-check"/>
+  <label for="m-intro-pythondocsfunciones-check"><a href="/intro-python/docs/funciones/" class="align-left pl-0  td-sidebar-link td-sidebar-link__page" id="m-intro-pythondocsfunciones"><span class="">Funciones</span></a></label>
+  
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-intro-pythondocsarchivos-li">
+  <input type="checkbox" id="m-intro-pythondocsarchivos-check"/>
+  <label for="m-intro-pythondocsarchivos-check"><a href="/intro-python/docs/archivos/" class="align-left pl-0  td-sidebar-link td-sidebar-link__page" id="m-intro-pythondocsarchivos"><span class="">Archivos</span></a></label>
+  
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child active-path" id="m-intro-pythondocssarchivos-li">
+  <input type="checkbox" id="m-intro-pythondocssarchivos-check" checked/>
+  <label for="m-intro-pythondocssarchivos-check"><a href="/intro-python/docs/sarchivos/" class="align-left pl-0  active td-sidebar-link td-sidebar-link__page" id="m-intro-pythondocssarchivos"><span class="td-sidebar-nav-active-item">Sistema de archivos</span></a></label>
+  
+</li>
+  </ul>
+</li>
+    </ul>
+  </nav>
+</div>
+
+          </aside>
+          <aside class="d-none d-xl-block col-xl-2 td-sidebar-toc d-print-none">
+            
+            
+
+
+<div class="td-toc"><nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#linux-and-windows-paths">Linux and Windows Paths</a></li>
+      </ul>
+    </li>
+    <li><a href="#the-current-working-directory">The current working directory</a></li>
+    <li><a href="#crear-carpetas">Crear carpetas</a></li>
+    <li><a href="#validar-rutas-y-archivos">Validar rutas y archivos</a>
+      <ul>
+        <li><a href="#existe-el-archivo-o-directorio">Existe el archivo o directorio?</a></li>
+        <li><a href="#comprobando-si-es-un-archivo">Comprobando si es un archivo</a></li>
+        <li><a href="#o-si-es-directorio">O si es directorio</a></li>
+      </ul>
+    </li>
+    <li><a href="#tamaño-de-un-archivo-en-bytes">Tamaño de un archivo en bytes</a></li>
+    <li><a href="#listar-directorios">Listar directorios</a>
+      <ul>
+        <li><a href="#tamaño-de-un-directorio">Tamaño de un directorio</a></li>
+      </ul>
+    </li>
+    <li><a href="#copiar-archivos-y-carpetas">Copiar archivos y carpetas</a></li>
+    <li><a href="#mover-y-renombrar">Mover y renombrar</a></li>
+    <li><a href="#eliminar-archivos-y-carpetas">Eliminar archivos y carpetas</a></li>
+  </ul>
+</nav></div>
+
+
+
+            
+
+	
+		
+
+
+
+  
+  
+
+	
+		
+
+
+
+  
+  
+
+	
+
+          </aside>
+          <main class="col-12 col-md-9 col-xl-8 pl-md-5" role="main">
+            
+  
+
+            <nav aria-label="breadcrumb" class="td-breadcrumbs">
+  <ol class="breadcrumb">
+  <li class="breadcrumb-item">
+    <a href="https://lmorillas.github.io/intro-python/docs/">Python</a>
+  </li>
+  <li class="breadcrumb-item active" aria-current="page">
+    <a href="https://lmorillas.github.io/intro-python/docs/sarchivos/" aria-disabled="true" class="btn-link disabled">Sistema de archivos</a>
+  </li>
+  </ol>
+</nav>
+            
+<div class="td-content">
+	<h1>Sistema de archivos</h1>
+	<div class="lead">Archivos</div>
+	<header class="article-meta">
+		
+
+  
+    
+
+
+  
+    
+
+
+  
+
+		
+	</header>    
+	
+
+<div class="pageinfo pageinfo-primary">
+<h3 id="objetivos">Objetivos:</h3>
+<ul>
+<li>Archivos y directorios</li>
+<li>Windows y linux</li>
+</ul>
+
+</div>
+
+<h1 id="gestión-de-archivos-y-directorios">Gestión de archivos y directorios</h1>
+<h3 id="linux-and-windows-paths">Linux and Windows Paths</h3>
+<p>En windows y linux, los directorios se separan de forma diferente. En windows, se usa <code>\</code> y en linux, se usa <code>/</code>. Por ejemplo, en windows, el directorio <code>C:\Users\joe</code>  en linux <code>/home/joe</code></p>
+<p>Tenemos que usar <code>os.path.join</code></p>
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#ce5c00;font-weight:bold">&gt;&gt;&gt;</span> <span style="color:#204a87;font-weight:bold">import</span> <span style="color:#000">os</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#ce5c00;font-weight:bold">&gt;&gt;&gt;</span> <span style="color:#000">os</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">path</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">join</span><span style="color:#000;font-weight:bold">(</span><span style="color:#4e9a06">&#39;usr&#39;</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#4e9a06">&#39;bin&#39;</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#4e9a06">&#39;spam&#39;</span><span style="color:#000;font-weight:bold">)</span>
+</span></span><span style="display:flex;"><span><span style="color:#8f5902;font-style:italic"># &#39;usr\\bin\\spam&#39;</span>
+</span></span></code></pre></div><p>o <code>pathlib</code></p>
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#ce5c00;font-weight:bold">&gt;&gt;&gt;</span> <span style="color:#204a87;font-weight:bold">from</span> <span style="color:#000">pathlib</span> <span style="color:#204a87;font-weight:bold">import</span> <span style="color:#000">Path</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#ce5c00;font-weight:bold">&gt;&gt;&gt;</span> <span style="color:#204a87">print</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">Path</span><span style="color:#000;font-weight:bold">(</span><span style="color:#4e9a06">&#39;usr&#39;</span><span style="color:#000;font-weight:bold">)</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">joinpath</span><span style="color:#000;font-weight:bold">(</span><span style="color:#4e9a06">&#39;bin&#39;</span><span style="color:#000;font-weight:bold">)</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">joinpath</span><span style="color:#000;font-weight:bold">(</span><span style="color:#4e9a06">&#39;spam&#39;</span><span style="color:#000;font-weight:bold">))</span>
+</span></span><span style="display:flex;"><span><span style="color:#8f5902;font-style:italic"># usr/bin/spam</span>
+</span></span></code></pre></div><p>Ejemplo en Windows:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#ce5c00;font-weight:bold">&gt;&gt;&gt;</span> <span style="color:#000">my_files</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000;font-weight:bold">[</span><span style="color:#4e9a06">&#39;accounts.txt&#39;</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#4e9a06">&#39;details.csv&#39;</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#4e9a06">&#39;invite.docx&#39;</span><span style="color:#000;font-weight:bold">]</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#ce5c00;font-weight:bold">&gt;&gt;&gt;</span> <span style="color:#204a87;font-weight:bold">for</span> <span style="color:#000">filename</span> <span style="color:#204a87;font-weight:bold">in</span> <span style="color:#000">my_files</span><span style="color:#000;font-weight:bold">:</span>
+</span></span><span style="display:flex;"><span><span style="color:#ce5c00;font-weight:bold">...</span>     <span style="color:#204a87">print</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">os</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">path</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">join</span><span style="color:#000;font-weight:bold">(</span><span style="color:#4e9a06">&#39;C:</span><span style="color:#4e9a06">\\</span><span style="color:#4e9a06">Users</span><span style="color:#4e9a06">\\</span><span style="color:#4e9a06">asweigart&#39;</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#000">filename</span><span style="color:#000;font-weight:bold">))</span>
+</span></span><span style="display:flex;"><span><span style="color:#ce5c00;font-weight:bold">...</span>
+</span></span><span style="display:flex;"><span><span style="color:#8f5902;font-style:italic"># C:\Users\asweigart\accounts.txt</span>
+</span></span><span style="display:flex;"><span><span style="color:#8f5902;font-style:italic"># C:\Users\asweigart\details.csv</span>
+</span></span><span style="display:flex;"><span><span style="color:#8f5902;font-style:italic"># C:\Users\asweigart\invite.docx</span>
+</span></span></code></pre></div><h2 id="the-current-working-directory">The current working directory</h2>
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#ce5c00;font-weight:bold">&gt;&gt;&gt;</span> <span style="color:#204a87;font-weight:bold">import</span> <span style="color:#000">os</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#ce5c00;font-weight:bold">&gt;&gt;&gt;</span> <span style="color:#000">os</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">getcwd</span><span style="color:#000;font-weight:bold">()</span>
+</span></span><span style="display:flex;"><span><span style="color:#8f5902;font-style:italic"># &#39;C:\\Python34&#39;</span>
+</span></span><span style="display:flex;"><span><span style="color:#ce5c00;font-weight:bold">&gt;&gt;&gt;</span> <span style="color:#000">os</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">chdir</span><span style="color:#000;font-weight:bold">(</span><span style="color:#4e9a06">&#39;C:</span><span style="color:#4e9a06">\\</span><span style="color:#4e9a06">Windows</span><span style="color:#4e9a06">\\</span><span style="color:#4e9a06">System32&#39;</span><span style="color:#000;font-weight:bold">)</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#ce5c00;font-weight:bold">&gt;&gt;&gt;</span> <span style="color:#000">os</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">getcwd</span><span style="color:#000;font-weight:bold">()</span>
+</span></span><span style="display:flex;"><span><span style="color:#8f5902;font-style:italic"># &#39;C:\\Windows\\System32&#39;</span>
+</span></span></code></pre></div><p>En linux</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#ce5c00;font-weight:bold">&gt;&gt;&gt;</span> <span style="color:#204a87;font-weight:bold">from</span> <span style="color:#000">pathlib</span> <span style="color:#204a87;font-weight:bold">import</span> <span style="color:#000">Path</span>
+</span></span><span style="display:flex;"><span><span style="color:#ce5c00;font-weight:bold">&gt;&gt;&gt;</span> <span style="color:#204a87;font-weight:bold">from</span> <span style="color:#000">os</span> <span style="color:#204a87;font-weight:bold">import</span> <span style="color:#000">chdir</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#ce5c00;font-weight:bold">&gt;&gt;&gt;</span> <span style="color:#204a87">print</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">Path</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">cwd</span><span style="color:#000;font-weight:bold">())</span>
+</span></span><span style="display:flex;"><span><span style="color:#8f5902;font-style:italic"># /home/asweigart</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#ce5c00;font-weight:bold">&gt;&gt;&gt;</span> <span style="color:#000">chdir</span><span style="color:#000;font-weight:bold">(</span><span style="color:#4e9a06">&#39;/usr/lib/python3.6&#39;</span><span style="color:#000;font-weight:bold">)</span>
+</span></span><span style="display:flex;"><span><span style="color:#ce5c00;font-weight:bold">&gt;&gt;&gt;</span> <span style="color:#204a87">print</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">Path</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">cwd</span><span style="color:#000;font-weight:bold">())</span>
+</span></span><span style="display:flex;"><span><span style="color:#8f5902;font-style:italic"># /usr/lib/python3.6</span>
+</span></span></code></pre></div><h2 id="crear-carpetas">Crear carpetas</h2>
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#ce5c00;font-weight:bold">&gt;&gt;&gt;</span> <span style="color:#204a87;font-weight:bold">import</span> <span style="color:#000">os</span>
+</span></span><span style="display:flex;"><span><span style="color:#ce5c00;font-weight:bold">&gt;&gt;&gt;</span> <span style="color:#000">os</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">makedirs</span><span style="color:#000;font-weight:bold">(</span><span style="color:#4e9a06">&#39;C:</span><span style="color:#4e9a06">\\</span><span style="color:#4e9a06">delicious</span><span style="color:#4e9a06">\\</span><span style="color:#4e9a06">walnut</span><span style="color:#4e9a06">\\</span><span style="color:#4e9a06">waffles&#39;</span><span style="color:#000;font-weight:bold">)</span>
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#ce5c00;font-weight:bold">&gt;&gt;&gt;</span> <span style="color:#204a87;font-weight:bold">from</span> <span style="color:#000">pathlib</span> <span style="color:#204a87;font-weight:bold">import</span> <span style="color:#000">Path</span>
+</span></span><span style="display:flex;"><span><span style="color:#ce5c00;font-weight:bold">&gt;&gt;&gt;</span> <span style="color:#000">cwd</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000">Path</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">cwd</span><span style="color:#000;font-weight:bold">()</span>
+</span></span><span style="display:flex;"><span><span style="color:#ce5c00;font-weight:bold">&gt;&gt;&gt;</span> <span style="color:#000;font-weight:bold">(</span><span style="color:#000">cwd</span> <span style="color:#ce5c00;font-weight:bold">/</span> <span style="color:#4e9a06">&#39;delicious&#39;</span> <span style="color:#ce5c00;font-weight:bold">/</span> <span style="color:#4e9a06">&#39;walnut&#39;</span> <span style="color:#ce5c00;font-weight:bold">/</span> <span style="color:#4e9a06">&#39;waffles&#39;</span><span style="color:#000;font-weight:bold">)</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">mkdir</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">parents</span><span style="color:#ce5c00;font-weight:bold">=</span><span style="color:#204a87;font-weight:bold">True</span><span style="color:#000;font-weight:bold">)</span>
+</span></span></code></pre></div><h2 id="validar-rutas-y-archivos">Validar rutas y archivos</h2>
+<h3 id="existe-el-archivo-o-directorio">Existe el archivo o directorio?</h3>
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#ce5c00;font-weight:bold">&gt;&gt;&gt;</span> <span style="color:#204a87;font-weight:bold">import</span> <span style="color:#000">os</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#ce5c00;font-weight:bold">&gt;&gt;&gt;</span> <span style="color:#000">os</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">path</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">exists</span><span style="color:#000;font-weight:bold">(</span><span style="color:#4e9a06">&#39;.&#39;</span><span style="color:#000;font-weight:bold">)</span>
+</span></span><span style="display:flex;"><span><span style="color:#8f5902;font-style:italic"># True</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#ce5c00;font-weight:bold">&gt;&gt;&gt;</span> <span style="color:#000">os</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">path</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">exists</span><span style="color:#000;font-weight:bold">(</span><span style="color:#4e9a06">&#39;setup.py&#39;</span><span style="color:#000;font-weight:bold">)</span>
+</span></span><span style="display:flex;"><span><span style="color:#8f5902;font-style:italic"># True</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#ce5c00;font-weight:bold">&gt;&gt;&gt;</span> <span style="color:#000">os</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">path</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">exists</span><span style="color:#000;font-weight:bold">(</span><span style="color:#4e9a06">&#39;/etc&#39;</span><span style="color:#000;font-weight:bold">)</span>
+</span></span><span style="display:flex;"><span><span style="color:#8f5902;font-style:italic"># True</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#ce5c00;font-weight:bold">&gt;&gt;&gt;</span> <span style="color:#000">os</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">path</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">exists</span><span style="color:#000;font-weight:bold">(</span><span style="color:#4e9a06">&#39;nonexistentfile&#39;</span><span style="color:#000;font-weight:bold">)</span>
+</span></span><span style="display:flex;"><span><span style="color:#8f5902;font-style:italic"># False</span>
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#204a87;font-weight:bold">from</span> <span style="color:#000">pathlib</span> <span style="color:#204a87;font-weight:bold">import</span> <span style="color:#000">Path</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#ce5c00;font-weight:bold">&gt;&gt;&gt;</span> <span style="color:#000">Path</span><span style="color:#000;font-weight:bold">(</span><span style="color:#4e9a06">&#39;.&#39;</span><span style="color:#000;font-weight:bold">)</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">exists</span><span style="color:#000;font-weight:bold">()</span>
+</span></span><span style="display:flex;"><span><span style="color:#8f5902;font-style:italic"># True</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#ce5c00;font-weight:bold">&gt;&gt;&gt;</span> <span style="color:#000">Path</span><span style="color:#000;font-weight:bold">(</span><span style="color:#4e9a06">&#39;setup.py&#39;</span><span style="color:#000;font-weight:bold">)</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">exists</span><span style="color:#000;font-weight:bold">()</span>
+</span></span><span style="display:flex;"><span><span style="color:#8f5902;font-style:italic"># True</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#ce5c00;font-weight:bold">&gt;&gt;&gt;</span> <span style="color:#000">Path</span><span style="color:#000;font-weight:bold">(</span><span style="color:#4e9a06">&#39;/etc&#39;</span><span style="color:#000;font-weight:bold">)</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">exists</span><span style="color:#000;font-weight:bold">()</span>
+</span></span><span style="display:flex;"><span><span style="color:#8f5902;font-style:italic"># True</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#ce5c00;font-weight:bold">&gt;&gt;&gt;</span> <span style="color:#000">Path</span><span style="color:#000;font-weight:bold">(</span><span style="color:#4e9a06">&#39;nonexistentfile&#39;</span><span style="color:#000;font-weight:bold">)</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">exists</span><span style="color:#000;font-weight:bold">()</span>
+</span></span><span style="display:flex;"><span><span style="color:#8f5902;font-style:italic"># False</span>
+</span></span></code></pre></div><h3 id="comprobando-si-es-un-archivo">Comprobando si es un archivo</h3>
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#ce5c00;font-weight:bold">&gt;&gt;&gt;</span> <span style="color:#204a87;font-weight:bold">import</span> <span style="color:#000">os</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#ce5c00;font-weight:bold">&gt;&gt;&gt;</span> <span style="color:#000">os</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">path</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">isfile</span><span style="color:#000;font-weight:bold">(</span><span style="color:#4e9a06">&#39;setup.py&#39;</span><span style="color:#000;font-weight:bold">)</span>
+</span></span><span style="display:flex;"><span><span style="color:#8f5902;font-style:italic"># True</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#ce5c00;font-weight:bold">&gt;&gt;&gt;</span> <span style="color:#000">os</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">path</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">isfile</span><span style="color:#000;font-weight:bold">(</span><span style="color:#4e9a06">&#39;/home&#39;</span><span style="color:#000;font-weight:bold">)</span>
+</span></span><span style="display:flex;"><span><span style="color:#8f5902;font-style:italic"># False</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#ce5c00;font-weight:bold">&gt;&gt;&gt;</span> <span style="color:#000">os</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">path</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">isfile</span><span style="color:#000;font-weight:bold">(</span><span style="color:#4e9a06">&#39;nonexistentfile&#39;</span><span style="color:#000;font-weight:bold">)</span>
+</span></span><span style="display:flex;"><span><span style="color:#8f5902;font-style:italic"># False</span>
+</span></span></code></pre></div><h3 id="o-si-es-directorio">O si es directorio</h3>
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#ce5c00;font-weight:bold">&gt;&gt;&gt;</span> <span style="color:#204a87;font-weight:bold">import</span> <span style="color:#000">os</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#ce5c00;font-weight:bold">&gt;&gt;&gt;</span> <span style="color:#000">os</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">path</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">isdir</span><span style="color:#000;font-weight:bold">(</span><span style="color:#4e9a06">&#39;/&#39;</span><span style="color:#000;font-weight:bold">)</span>
+</span></span><span style="display:flex;"><span><span style="color:#8f5902;font-style:italic"># True</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#ce5c00;font-weight:bold">&gt;&gt;&gt;</span> <span style="color:#000">os</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">path</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">isdir</span><span style="color:#000;font-weight:bold">(</span><span style="color:#4e9a06">&#39;setup.py&#39;</span><span style="color:#000;font-weight:bold">)</span>
+</span></span><span style="display:flex;"><span><span style="color:#8f5902;font-style:italic"># False</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#ce5c00;font-weight:bold">&gt;&gt;&gt;</span> <span style="color:#000">os</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">path</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">isdir</span><span style="color:#000;font-weight:bold">(</span><span style="color:#4e9a06">&#39;/spam&#39;</span><span style="color:#000;font-weight:bold">)</span>
+</span></span><span style="display:flex;"><span><span style="color:#8f5902;font-style:italic"># False</span>
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#ce5c00;font-weight:bold">&gt;&gt;&gt;</span> <span style="color:#204a87;font-weight:bold">from</span> <span style="color:#000">pathlib</span> <span style="color:#204a87;font-weight:bold">import</span> <span style="color:#000">Path</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#ce5c00;font-weight:bold">&gt;&gt;&gt;</span> <span style="color:#000">Path</span><span style="color:#000;font-weight:bold">(</span><span style="color:#4e9a06">&#39;/&#39;</span><span style="color:#000;font-weight:bold">)</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">is_dir</span><span style="color:#000;font-weight:bold">()</span>
+</span></span><span style="display:flex;"><span><span style="color:#8f5902;font-style:italic"># True</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#ce5c00;font-weight:bold">&gt;&gt;&gt;</span> <span style="color:#000">Path</span><span style="color:#000;font-weight:bold">(</span><span style="color:#4e9a06">&#39;setup.py&#39;</span><span style="color:#000;font-weight:bold">)</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">is_dir</span><span style="color:#000;font-weight:bold">()</span>
+</span></span><span style="display:flex;"><span><span style="color:#8f5902;font-style:italic"># False</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#ce5c00;font-weight:bold">&gt;&gt;&gt;</span> <span style="color:#000">Path</span><span style="color:#000;font-weight:bold">(</span><span style="color:#4e9a06">&#39;/spam&#39;</span><span style="color:#000;font-weight:bold">)</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">is_dir</span><span style="color:#000;font-weight:bold">()</span>
+</span></span><span style="display:flex;"><span><span style="color:#8f5902;font-style:italic"># False</span>
+</span></span></code></pre></div><h2 id="tamaño-de-un-archivo-en-bytes">Tamaño de un archivo en bytes</h2>
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#ce5c00;font-weight:bold">&gt;&gt;&gt;</span> <span style="color:#204a87;font-weight:bold">import</span> <span style="color:#000">os</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#ce5c00;font-weight:bold">&gt;&gt;&gt;</span> <span style="color:#000">os</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">path</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">getsize</span><span style="color:#000;font-weight:bold">(</span><span style="color:#4e9a06">&#39;C:</span><span style="color:#4e9a06">\\</span><span style="color:#4e9a06">Windows</span><span style="color:#4e9a06">\\</span><span style="color:#4e9a06">System32</span><span style="color:#4e9a06">\\</span><span style="color:#4e9a06">calc.exe&#39;</span><span style="color:#000;font-weight:bold">)</span>
+</span></span><span style="display:flex;"><span><span style="color:#8f5902;font-style:italic"># 776192</span>
+</span></span></code></pre></div><h2 id="listar-directorios">Listar directorios</h2>
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#ce5c00;font-weight:bold">&gt;&gt;&gt;</span> <span style="color:#204a87;font-weight:bold">import</span> <span style="color:#000">os</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#ce5c00;font-weight:bold">&gt;&gt;&gt;</span> <span style="color:#000">os</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">listdir</span><span style="color:#000;font-weight:bold">(</span><span style="color:#4e9a06">&#39;C:</span><span style="color:#4e9a06">\\</span><span style="color:#4e9a06">Windows</span><span style="color:#4e9a06">\\</span><span style="color:#4e9a06">System32&#39;</span><span style="color:#000;font-weight:bold">)</span>
+</span></span><span style="display:flex;"><span><span style="color:#8f5902;font-style:italic"># [&#39;0409&#39;, &#39;12520437.cpx&#39;, &#39;12520850.cpx&#39;, &#39;5U877.ax&#39;, &#39;aaclient.dll&#39;,</span>
+</span></span><span style="display:flex;"><span><span style="color:#8f5902;font-style:italic"># --snip--</span>
+</span></span><span style="display:flex;"><span><span style="color:#8f5902;font-style:italic"># &#39;xwtpdui.dll&#39;, &#39;xwtpw32.dll&#39;, &#39;zh-CN&#39;, &#39;zh-HK&#39;, &#39;zh-TW&#39;, &#39;zipfldr.dll&#39;]</span>
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#ce5c00;font-weight:bold">&gt;&gt;&gt;</span> <span style="color:#204a87;font-weight:bold">from</span> <span style="color:#000">pathlib</span> <span style="color:#204a87;font-weight:bold">import</span> <span style="color:#000">Path</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#ce5c00;font-weight:bold">&gt;&gt;&gt;</span> <span style="color:#204a87;font-weight:bold">for</span> <span style="color:#000">f</span> <span style="color:#204a87;font-weight:bold">in</span> <span style="color:#000">Path</span><span style="color:#000;font-weight:bold">(</span><span style="color:#4e9a06">&#39;/usr/bin&#39;</span><span style="color:#000;font-weight:bold">)</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">iterdir</span><span style="color:#000;font-weight:bold">():</span>
+</span></span><span style="display:flex;"><span><span style="color:#ce5c00;font-weight:bold">...</span>     <span style="color:#204a87">print</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">f</span><span style="color:#000;font-weight:bold">)</span>
+</span></span><span style="display:flex;"><span><span style="color:#ce5c00;font-weight:bold">...</span>
+</span></span><span style="display:flex;"><span><span style="color:#8f5902;font-style:italic"># ...</span>
+</span></span><span style="display:flex;"><span><span style="color:#8f5902;font-style:italic"># /usr/bin/tiff2rgba</span>
+</span></span><span style="display:flex;"><span><span style="color:#8f5902;font-style:italic"># /usr/bin/iconv</span>
+</span></span><span style="display:flex;"><span><span style="color:#8f5902;font-style:italic"># /usr/bin/ldd</span>
+</span></span><span style="display:flex;"><span><span style="color:#8f5902;font-style:italic"># /usr/bin/cache_restore</span>
+</span></span><span style="display:flex;"><span><span style="color:#8f5902;font-style:italic"># /usr/bin/udiskie</span>
+</span></span><span style="display:flex;"><span><span style="color:#8f5902;font-style:italic"># /usr/bin/unix2dos</span>
+</span></span><span style="display:flex;"><span><span style="color:#8f5902;font-style:italic"># /usr/bin/t1reencode</span>
+</span></span><span style="display:flex;"><span><span style="color:#8f5902;font-style:italic"># /usr/bin/epstopdf</span>
+</span></span><span style="display:flex;"><span><span style="color:#8f5902;font-style:italic"># /usr/bin/idle3</span>
+</span></span><span style="display:flex;"><span><span style="color:#8f5902;font-style:italic"># ...</span>
+</span></span></code></pre></div><h3 id="tamaño-de-un-directorio">Tamaño de un directorio</h3>
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#ce5c00;font-weight:bold">&gt;&gt;&gt;</span> <span style="color:#204a87;font-weight:bold">import</span> <span style="color:#000">os</span>
+</span></span><span style="display:flex;"><span><span style="color:#ce5c00;font-weight:bold">&gt;&gt;&gt;</span> <span style="color:#000">total_size</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#0000cf;font-weight:bold">0</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#ce5c00;font-weight:bold">&gt;&gt;&gt;</span> <span style="color:#204a87;font-weight:bold">for</span> <span style="color:#000">filename</span> <span style="color:#204a87;font-weight:bold">in</span> <span style="color:#000">os</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">listdir</span><span style="color:#000;font-weight:bold">(</span><span style="color:#4e9a06">&#39;C:</span><span style="color:#4e9a06">\\</span><span style="color:#4e9a06">Windows</span><span style="color:#4e9a06">\\</span><span style="color:#4e9a06">System32&#39;</span><span style="color:#000;font-weight:bold">):</span>
+</span></span><span style="display:flex;"><span><span style="color:#ce5c00;font-weight:bold">...</span>     <span style="color:#000">total_size</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000">total_size</span> <span style="color:#ce5c00;font-weight:bold">+</span> <span style="color:#000">os</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">path</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">getsize</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">os</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">path</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">join</span><span style="color:#000;font-weight:bold">(</span><span style="color:#4e9a06">&#39;C:</span><span style="color:#4e9a06">\\</span><span style="color:#4e9a06">Windows</span><span style="color:#4e9a06">\\</span><span style="color:#4e9a06">System32&#39;</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#000">filename</span><span style="color:#000;font-weight:bold">))</span>
+</span></span><span style="display:flex;"><span><span style="color:#ce5c00;font-weight:bold">...</span>
+</span></span><span style="display:flex;"><span><span style="color:#ce5c00;font-weight:bold">&gt;&gt;&gt;</span> <span style="color:#204a87">print</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">total_size</span><span style="color:#000;font-weight:bold">)</span>
+</span></span><span style="display:flex;"><span><span style="color:#8f5902;font-style:italic"># 1117846456</span>
+</span></span></code></pre></div><h2 id="copiar-archivos-y-carpetas">Copiar archivos y carpetas</h2>
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#ce5c00;font-weight:bold">&gt;&gt;&gt;</span> <span style="color:#204a87;font-weight:bold">import</span> <span style="color:#000">shutil</span><span style="color:#ce5c00;font-weight:bold">,</span> <span style="color:#000">os</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#ce5c00;font-weight:bold">&gt;&gt;&gt;</span> <span style="color:#000">os</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">chdir</span><span style="color:#000;font-weight:bold">(</span><span style="color:#4e9a06">&#39;C:</span><span style="color:#4e9a06">\\</span><span style="color:#4e9a06">&#39;</span><span style="color:#000;font-weight:bold">)</span>
+</span></span><span style="display:flex;"><span><span style="color:#ce5c00;font-weight:bold">&gt;&gt;&gt;</span> <span style="color:#000">shutil</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">copy</span><span style="color:#000;font-weight:bold">(</span><span style="color:#4e9a06">&#39;C:</span><span style="color:#4e9a06">\\</span><span style="color:#4e9a06">spam.txt&#39;</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#4e9a06">&#39;C:</span><span style="color:#4e9a06">\\</span><span style="color:#4e9a06">delicious&#39;</span><span style="color:#000;font-weight:bold">)</span>
+</span></span><span style="display:flex;"><span><span style="color:#8f5902;font-style:italic"># C:\\delicious\\spam.txt&#39;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#ce5c00;font-weight:bold">&gt;&gt;&gt;</span> <span style="color:#000">shutil</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">copy</span><span style="color:#000;font-weight:bold">(</span><span style="color:#4e9a06">&#39;eggs.txt&#39;</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#4e9a06">&#39;C:</span><span style="color:#4e9a06">\\</span><span style="color:#4e9a06">delicious</span><span style="color:#4e9a06">\\</span><span style="color:#4e9a06">eggs2.txt&#39;</span><span style="color:#000;font-weight:bold">)</span>
+</span></span><span style="display:flex;"><span><span style="color:#8f5902;font-style:italic"># &#39;C:\\delicious\\eggs2.txt&#39;</span>
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#ce5c00;font-weight:bold">&gt;&gt;&gt;</span> <span style="color:#204a87;font-weight:bold">import</span> <span style="color:#000">shutil</span><span style="color:#ce5c00;font-weight:bold">,</span> <span style="color:#000">os</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#ce5c00;font-weight:bold">&gt;&gt;&gt;</span> <span style="color:#000">os</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">chdir</span><span style="color:#000;font-weight:bold">(</span><span style="color:#4e9a06">&#39;C:</span><span style="color:#4e9a06">\\</span><span style="color:#4e9a06">&#39;</span><span style="color:#000;font-weight:bold">)</span>
+</span></span><span style="display:flex;"><span><span style="color:#ce5c00;font-weight:bold">&gt;&gt;&gt;</span> <span style="color:#000">shutil</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">copytree</span><span style="color:#000;font-weight:bold">(</span><span style="color:#4e9a06">&#39;C:</span><span style="color:#4e9a06">\\</span><span style="color:#4e9a06">bacon&#39;</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#4e9a06">&#39;C:</span><span style="color:#4e9a06">\\</span><span style="color:#4e9a06">bacon_backup&#39;</span><span style="color:#000;font-weight:bold">)</span>
+</span></span><span style="display:flex;"><span><span style="color:#8f5902;font-style:italic"># &#39;C:\\bacon_backup&#39;</span>
+</span></span></code></pre></div><h2 id="mover-y-renombrar">Mover y renombrar</h2>
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#ce5c00;font-weight:bold">&gt;&gt;&gt;</span> <span style="color:#204a87;font-weight:bold">import</span> <span style="color:#000">shutil</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#ce5c00;font-weight:bold">&gt;&gt;&gt;</span> <span style="color:#000">shutil</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">move</span><span style="color:#000;font-weight:bold">(</span><span style="color:#4e9a06">&#39;C:</span><span style="color:#4e9a06">\\</span><span style="color:#4e9a06">bacon.txt&#39;</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#4e9a06">&#39;C:</span><span style="color:#4e9a06">\\</span><span style="color:#4e9a06">eggs&#39;</span><span style="color:#000;font-weight:bold">)</span>
+</span></span><span style="display:flex;"><span><span style="color:#8f5902;font-style:italic"># &#39;C:\\eggs\\bacon.txt&#39;</span>
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#ce5c00;font-weight:bold">&gt;&gt;&gt;</span> <span style="color:#000">shutil</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">move</span><span style="color:#000;font-weight:bold">(</span><span style="color:#4e9a06">&#39;C:</span><span style="color:#4e9a06">\\</span><span style="color:#4e9a06">bacon.txt&#39;</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#4e9a06">&#39;C:</span><span style="color:#4e9a06">\\</span><span style="color:#4e9a06">eggs</span><span style="color:#4e9a06">\\</span><span style="color:#4e9a06">new_bacon.txt&#39;</span><span style="color:#000;font-weight:bold">)</span>
+</span></span><span style="display:flex;"><span><span style="color:#8f5902;font-style:italic"># &#39;C:\\eggs\\new_bacon.txt&#39;</span>
+</span></span></code></pre></div><h2 id="eliminar-archivos-y-carpetas">Eliminar archivos y carpetas</h2>
+<ul>
+<li>
+<p>Calling <code>os.unlink(path)</code> or <code>Path.unlink()</code> will delete the file at path.</p>
+</li>
+<li>
+<p>Calling <code>os.rmdir(path)</code> or <code>Path.rmdir()</code> will delete the folder at path. This folder must be empty of any files or folders.</p>
+</li>
+<li>
+<p>Calling <code>shutil.rmtree(path)</code> will remove the folder at path, and all files and folders it contains will also be deleted.</p>
+</li>
+</ul>
+
+	
+	
+	
+</div>
+
+
+          </main>
+        </div>
+      </div>
+      
+<footer class="bg-dark py-5 row d-print-none">
+  <div class="container-fluid mx-sm-5">
+    <div class="row">
+      <div class="col-6 col-sm-4 text-xs-center order-sm-2">
+        
+      </div>
+      <div class="col-6 col-sm-4 text-right text-xs-center order-sm-3">
+        
+      </div>
+      <div class="col-12 col-sm-4 text-center py-2 order-sm-2">
+        <small class="text-white">&copy; 2022 @lmorillas Derechos reservados</small>
+        <small class="ml-1"><a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Política de privacidad</a></small>
+	
+		
+	
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"
+    integrity="sha512-UR25UO94eTnCVwjbXozyeVd6ZqpaAE9naiEUBK/A+QDbfSTQFhPGj5lOR6d8tsgbBk84Ggb5A3EkjsOgPRPcKA=="
+    crossorigin="anonymous"></script>
+
+
+<script src="https://cdn.jsdelivr.net/npm/mermaid@8.13.4/dist/mermaid.min.js" integrity="sha512-JERecFUBbsm75UpkVheAuDOE8NdHjQBrPACfEQYPwvPG+fjgCpHAz1Jw2ci9EXmd3DdfiWth3O3CQvcfEg8gsA==" crossorigin="anonymous"></script>
+
+
+
+<style>
+.markmap > svg {
+  width: 100%;
+  height: 300px;
+}
+</style>
+<script>
+window.markmap = {
+  autoLoader: { manual: true },
+};
+</script>
+<script src="https://cdn.jsdelivr.net/npm/markmap-autoloader"></script>
+
+
+<script src='/js/tabpane-persist.js'></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="/intro-python/js/main.min.dfcd2e847de723d00d159e68374fb7fba0cc5f64a5eac86361dea4a5ad3e54c3.js" integrity="sha256-380uhH3nI9ANFZ5oN0&#43;3&#43;6DMX2Sl6shjYd6kpa0&#43;VMM=" crossorigin="anonymous"></script>
+
+
+
+
+  </body>
+</html>
