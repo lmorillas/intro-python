@@ -1,0 +1,500 @@
+<!doctype html>
+<html lang="es" class="no-js">
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="generator" content="Hugo 0.102.3" />
+<link rel="alternate" type="application/rss&#43;xml" href="https://lmorillas.github.io/intro-python/docs/clases/index.xml">
+<meta name="robots" content="index, follow">
+
+
+<link rel="shortcut icon" href="/intro-python/favicons/favicon.ico" >
+<link rel="apple-touch-icon" href="/intro-python/favicons/apple-touch-icon-180x180.png" sizes="180x180">
+<link rel="icon" type="image/png" href="/intro-python/favicons/favicon-16x16.png" sizes="16x16">
+<link rel="icon" type="image/png" href="/intro-python/favicons/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/intro-python/favicons/android-36x36.png" sizes="36x36">
+<link rel="icon" type="image/png" href="/intro-python/favicons/android-48x48.png" sizes="48x48">
+<link rel="icon" type="image/png" href="/intro-python/favicons/android-72x72.png" sizes="72x72">
+<link rel="icon" type="image/png" href="/intro-python/favicons/android-96x96.png" sizes="96x96">
+<link rel="icon" type="image/png" href="/intro-python/favicons/android-144x144.png" sizes="144x144">
+<link rel="icon" type="image/png" href="/intro-python/favicons/android-192x192.png" sizes="192x192">
+
+<title>Clases | Introducción a Python</title>
+<meta name="description" content="Clases en py
+">
+<meta property="og:title" content="Clases" />
+<meta property="og:description" content="Clases en py
+" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://lmorillas.github.io/intro-python/docs/clases/" /><meta property="og:site_name" content="Introducción a Python" />
+
+<meta itemprop="name" content="Clases">
+<meta itemprop="description" content="Clases en py
+"><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Clases"/>
+<meta name="twitter:description" content="Clases en py
+"/>
+
+
+
+
+<link rel="preload" href="/intro-python/scss/main.min.6f9a61915ae86417164c61d275528c590ac6e5f9dadf5e49cacc7e18108a8014.css" as="style">
+<link href="/intro-python/scss/main.min.6f9a61915ae86417164c61d275528c590ac6e5f9dadf5e49cacc7e18108a8014.css" rel="stylesheet" integrity="">
+
+<script
+  src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha384-vtXRMe3mGCbOeY7l30aIg8H9p3GdeSe4IFlP6G8JMa7o7lXvnz3GFKzPxzJdPfGK"
+  crossorigin="anonymous"></script>
+
+  </head>
+  <body class="td-section">
+    <header>
+      
+<nav class="js-navbar-scroll navbar navbar-expand navbar-dark flex-column flex-md-row td-navbar">
+        <a class="navbar-brand" href="/intro-python/">
+		<span class="navbar-logo"></span><span class="font-weight-bold">Introducción a Python</span>
+	</a>
+	<div class="td-navbar-nav-scroll ml-md-auto" id="main_navbar">
+		<ul class="navbar-nav mt-2 mt-lg-0">
+			
+			
+			
+			
+		</ul>
+	</div>
+	<div class="navbar-nav d-none d-lg-block"></div>
+</nav>
+
+    </header>
+    <div class="container-fluid td-outer">
+      <div class="td-main">
+        <div class="row flex-xl-nowrap">
+          <aside class="col-12 col-md-3 col-xl-2 td-sidebar d-print-none">
+            
+<div id="td-sidebar-menu" class="td-sidebar__inner">
+  <form class="td-sidebar__search d-flex align-items-center">
+    
+    <button class="btn btn-link td-sidebar__toggle d-md-none p-0 ml-3 fas fa-bars" type="button" data-toggle="collapse" data-target="#td-section-nav" aria-controls="td-section-nav" aria-expanded="false" aria-label="Toggle section navigation">
+    </button>
+  </form>
+  <nav class="collapse td-sidebar-nav foldable-nav" id="td-section-nav">
+    <ul class="td-sidebar-nav__section pr-md-3 ul-0">
+      <li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child active-path" id="m-intro-pythondocs-li">
+  <a href="/intro-python/docs/" title="Inmersión en Python" class="align-left pl-0 td-sidebar-link td-sidebar-link__section tree-root" id="m-intro-pythondocs"><span class="">Python</span></a>
+  <ul class="ul-1">
+    <li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-intro-pythondocsinstalacion-li">
+  <input type="checkbox" id="m-intro-pythondocsinstalacion-check"/>
+  <label for="m-intro-pythondocsinstalacion-check"><a href="/intro-python/docs/instalacion/" class="align-left pl-0  td-sidebar-link td-sidebar-link__page" id="m-intro-pythondocsinstalacion"><span class="">Instalación</span></a></label>
+  
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-intro-pythondocscontenido-li">
+  <input type="checkbox" id="m-intro-pythondocscontenido-check"/>
+  <label for="m-intro-pythondocscontenido-check"><a href="/intro-python/docs/contenido/" class="align-left pl-0  td-sidebar-link td-sidebar-link__page" id="m-intro-pythondocscontenido"><span class="">Contenidos</span></a></label>
+  
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-intro-pythondocsjupyter-li">
+  <input type="checkbox" id="m-intro-pythondocsjupyter-check"/>
+  <label for="m-intro-pythondocsjupyter-check"><a href="/intro-python/docs/jupyter/" class="align-left pl-0  td-sidebar-link td-sidebar-link__page" id="m-intro-pythondocsjupyter"><span class="">Jupyter</span></a></label>
+  
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-intro-pythondocsprimeros-pasos-li">
+  <input type="checkbox" id="m-intro-pythondocsprimeros-pasos-check"/>
+  <label for="m-intro-pythondocsprimeros-pasos-check"><a href="/intro-python/docs/primeros-pasos/" class="align-left pl-0  td-sidebar-link td-sidebar-link__page" id="m-intro-pythondocsprimeros-pasos"><span class="">Primeros pasos</span></a></label>
+  
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-intro-pythondocscontenedores-li">
+  <input type="checkbox" id="m-intro-pythondocscontenedores-check"/>
+  <label for="m-intro-pythondocscontenedores-check"><a href="/intro-python/docs/contenedores/" class="align-left pl-0  td-sidebar-link td-sidebar-link__page" id="m-intro-pythondocscontenedores"><span class="">Contenedores</span></a></label>
+  
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-intro-pythondocsbucles-li">
+  <input type="checkbox" id="m-intro-pythondocsbucles-check"/>
+  <label for="m-intro-pythondocsbucles-check"><a href="/intro-python/docs/bucles/" class="align-left pl-0  td-sidebar-link td-sidebar-link__page" id="m-intro-pythondocsbucles"><span class="">Bucles</span></a></label>
+  
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-intro-pythondocsfunciones-li">
+  <input type="checkbox" id="m-intro-pythondocsfunciones-check"/>
+  <label for="m-intro-pythondocsfunciones-check"><a href="/intro-python/docs/funciones/" class="align-left pl-0  td-sidebar-link td-sidebar-link__page" id="m-intro-pythondocsfunciones"><span class="">Funciones</span></a></label>
+  
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-intro-pythondocsarchivos-li">
+  <input type="checkbox" id="m-intro-pythondocsarchivos-check"/>
+  <label for="m-intro-pythondocsarchivos-check"><a href="/intro-python/docs/archivos/" class="align-left pl-0  td-sidebar-link td-sidebar-link__page" id="m-intro-pythondocsarchivos"><span class="">Archivos</span></a></label>
+  
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-intro-pythondocssarchivos-li">
+  <input type="checkbox" id="m-intro-pythondocssarchivos-check"/>
+  <label for="m-intro-pythondocssarchivos-check"><a href="/intro-python/docs/sarchivos/" class="align-left pl-0  td-sidebar-link td-sidebar-link__page" id="m-intro-pythondocssarchivos"><span class="">Sistema de archivos</span></a></label>
+  
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child active-path" id="m-intro-pythondocsclases-li">
+  <input type="checkbox" id="m-intro-pythondocsclases-check" checked/>
+  <label for="m-intro-pythondocsclases-check"><a href="/intro-python/docs/clases/" class="align-left pl-0  active td-sidebar-link td-sidebar-link__section" id="m-intro-pythondocsclases"><span class="td-sidebar-nav-active-item">Clases</span></a></label>
+  
+</li>
+  </ul>
+</li>
+    </ul>
+  </nav>
+</div>
+
+          </aside>
+          <aside class="d-none d-xl-block col-xl-2 td-sidebar-toc d-print-none">
+            
+            
+
+
+<div class="td-toc"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#what-are-classes">What are classes?</a></li>
+    <li><a href="#creating-a-class">Creating a class</a></li>
+    <li><a href="#using-a-class">Using a class</a></li>
+    <li><a href="#modifying-attributes">Modifying attributes</a></li>
+    <li><a href="#naming-conventions">Naming conventions</a></li>
+    <li><a href="#class-inheritance">Class inheritance</a>
+      <ul>
+        <li><a href="#sobreescribiendo-métodos-de-la-clase-madre">Sobreescribiendo métodos de la clase madre</a></li>
+      </ul>
+    </li>
+    <li><a href="#instances-as-attributes">Instances as attributes</a></li>
+    <li><a href="#understanding-self">Understanding self</a></li>
+    <li><a href="#understanding-__init__">Understanding &lsquo;<code>__init__()</code></a></li>
+  </ul>
+</nav></div>
+
+
+
+            
+
+	
+		
+
+
+
+  
+  
+
+	
+		
+
+
+
+  
+  
+
+	
+
+          </aside>
+          <main class="col-12 col-md-9 col-xl-8 pl-md-5" role="main">
+            
+  
+
+            <nav aria-label="breadcrumb" class="td-breadcrumbs">
+  <ol class="breadcrumb">
+  <li class="breadcrumb-item">
+    <a href="https://lmorillas.github.io/intro-python/docs/">Python</a>
+  </li>
+  <li class="breadcrumb-item active" aria-current="page">
+    <a href="https://lmorillas.github.io/intro-python/docs/clases/" aria-disabled="true" class="btn-link disabled">Clases</a>
+  </li>
+  </ol>
+</nav>
+            
+<div class="td-content">
+	<h1>Clases</h1>
+  <div class="lead">Clases en py</div>
+	<header class="article-meta">
+		
+
+  
+    
+
+
+  
+    
+
+
+  
+
+		
+	</header>
+	
+
+<div class="pageinfo pageinfo-primary">
+<h3 id="objetivos">Objetivos:</h3>
+<ul>
+<li>Creación de objetos con clases definidas por el usuario</li>
+</ul>
+<p>Tienes este documento como un <a href="Introducci%C3%B3n_a_las_clases.ipynb">notebook</a> si quieres practicar con él (<em>usa guardar como en el enlace para descargarlo</em>).</p>
+
+</div>
+
+<h2 id="what-are-classes">What are classes?</h2>
+<p>Classes are the foundation of object-oriented
+programming. Classes represent real-world things
+you want to model in your programs: for example
+dogs, cars, and robots. You use a class to make
+objects, which are specific instances of dogs, cars,
+and robots. A class defines the general behavior that
+a whole category of objects can have, and the
+information that can be associated with those objects.
+Classes can inherit from each other – you can
+write a class that extends the functionality of an
+existing class. This allows you to code efficiently for a
+wide variety of situations.</p>
+<h2 id="creating-a-class">Creating a class</h2>
+<p>Consider how we might model a car. What information
+would we associate with a car, and what behavior would it
+have? The information is stored in variables called
+attributes, and the behavior is represented by functions.
+Functions that are part of a class are called methods.</p>
+<p><strong>The Car class</strong></p>
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#204a87;font-weight:bold">class</span> <span style="color:#000">Car</span><span style="color:#000;font-weight:bold">:</span>
+</span></span><span style="display:flex;"><span><span style="color:#4e9a06">&#34;&#34;&#34;A simple attempt to model a car.&#34;&#34;&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#204a87;font-weight:bold">def</span> <span style="color:#000">__init__</span><span style="color:#000;font-weight:bold">(</span><span style="color:#3465a4">self</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#000">make</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#000">model</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#000">year</span><span style="color:#000;font-weight:bold">):</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#4e9a06">&#34;&#34;&#34;Initialize car attributes.&#34;&#34;&#34;</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#3465a4">self</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">make</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000">make</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#3465a4">self</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">model</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000">model</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#3465a4">self</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">year</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000">year</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#8f5902;font-style:italic"># Fuel capacity and level in gallons.</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#3465a4">self</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">fuel_capacity</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#0000cf;font-weight:bold">15</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#3465a4">self</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">fuel_level</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#0000cf;font-weight:bold">0</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#204a87;font-weight:bold">def</span> <span style="color:#000">fill_tank</span><span style="color:#000;font-weight:bold">(</span><span style="color:#3465a4">self</span><span style="color:#000;font-weight:bold">):</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#4e9a06">&#34;&#34;&#34;Fill gas tank to capacity.&#34;&#34;&#34;</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#3465a4">self</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">fuel_level</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#3465a4">self</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">fuel_capacity</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#204a87">print</span><span style="color:#000;font-weight:bold">(</span><span style="color:#4e9a06">&#34;Fuel tank is full.&#34;</span><span style="color:#000;font-weight:bold">)</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#204a87;font-weight:bold">def</span> <span style="color:#000">drive</span><span style="color:#000;font-weight:bold">(</span><span style="color:#3465a4">self</span><span style="color:#000;font-weight:bold">):</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#4e9a06">&#34;&#34;&#34;Simulate driving.&#34;&#34;&#34;</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#204a87">print</span><span style="color:#000;font-weight:bold">(</span><span style="color:#4e9a06">&#34;The car is moving.&#34;</span><span style="color:#000;font-weight:bold">)</span>
+</span></span></code></pre></div><h2 id="using-a-class">Using a class</h2>
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#8f5902;font-style:italic"># Creating an object from a class</span>
+</span></span><span style="display:flex;"><span><span style="color:#000">my_car</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000">Car</span><span style="color:#000;font-weight:bold">(</span><span style="color:#4e9a06">&#39;audi&#39;</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#4e9a06">&#39;a4&#39;</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#0000cf;font-weight:bold">2016</span><span style="color:#000;font-weight:bold">)</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#8f5902;font-style:italic"># Accessing attribute values</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#204a87">print</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">my_car</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">make</span><span style="color:#000;font-weight:bold">)</span>
+</span></span><span style="display:flex;"><span><span style="color:#204a87">print</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">my_car</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">model</span><span style="color:#000;font-weight:bold">)</span>
+</span></span><span style="display:flex;"><span><span style="color:#204a87">print</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">my_car</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">year</span><span style="color:#000;font-weight:bold">)</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#8f5902;font-style:italic"># Calling methods</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#000">my_car</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">fill_tank</span><span style="color:#000;font-weight:bold">()</span>
+</span></span><span style="display:flex;"><span><span style="color:#000">my_car</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">drive</span><span style="color:#000;font-weight:bold">()</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#8f5902;font-style:italic"># Creating multiple objects</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#000">my_car</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000">Car</span><span style="color:#000;font-weight:bold">(</span><span style="color:#4e9a06">&#39;audi&#39;</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#4e9a06">&#39;a4&#39;</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#0000cf;font-weight:bold">2019</span><span style="color:#000;font-weight:bold">)</span>
+</span></span><span style="display:flex;"><span><span style="color:#000">my_old_car</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000">Car</span><span style="color:#000;font-weight:bold">(</span><span style="color:#4e9a06">&#39;subaru&#39;</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#4e9a06">&#39;outback&#39;</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#0000cf;font-weight:bold">2015</span><span style="color:#000;font-weight:bold">)</span>
+</span></span><span style="display:flex;"><span><span style="color:#000">my_truck</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000">Car</span><span style="color:#000;font-weight:bold">(</span><span style="color:#4e9a06">&#39;toyota&#39;</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#4e9a06">&#39;tacoma&#39;</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#0000cf;font-weight:bold">2012</span><span style="color:#000;font-weight:bold">)</span>
+</span></span></code></pre></div><h2 id="modifying-attributes">Modifying attributes</h2>
+<p>You can modify an attribute&rsquo;s value directly, or you can
+write methods that manage updating values more carefully.</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#000">my_new_car</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000">Car</span><span style="color:#000;font-weight:bold">(</span><span style="color:#4e9a06">&#39;audi&#39;</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#4e9a06">&#39;a4&#39;</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#0000cf;font-weight:bold">2019</span><span style="color:#000;font-weight:bold">)</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#8f5902;font-style:italic"># Modifying an attribute directly</span>
+</span></span><span style="display:flex;"><span><span style="color:#000">my_new_car</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">fuel_level</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#0000cf;font-weight:bold">5</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#8f5902;font-style:italic"># Writing a method to update an attribute&#39;s value</span>
+</span></span><span style="display:flex;"><span><span style="color:#204a87;font-weight:bold">def</span> <span style="color:#000">update_fuel_level</span><span style="color:#000;font-weight:bold">(</span><span style="color:#3465a4">self</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#000">new_level</span><span style="color:#000;font-weight:bold">):</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#4e9a06">&#34;&#34;&#34;Update the fuel level.&#34;&#34;&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#204a87;font-weight:bold">if</span> <span style="color:#000">new_level</span> <span style="color:#ce5c00;font-weight:bold">&lt;=</span> <span style="color:#3465a4">self</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">fuel_capacity</span><span style="color:#000;font-weight:bold">:</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#3465a4">self</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">fuel_level</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000">new_level</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#204a87;font-weight:bold">else</span><span style="color:#000;font-weight:bold">:</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#204a87">print</span><span style="color:#000;font-weight:bold">(</span><span style="color:#4e9a06">&#34;The tank can&#39;t hold that much!&#34;</span><span style="color:#000;font-weight:bold">)</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#8f5902;font-style:italic"># Writing a method to increment an attribute&#39;s value</span>
+</span></span><span style="display:flex;"><span><span style="color:#204a87;font-weight:bold">def</span> <span style="color:#000">add_fuel</span><span style="color:#000;font-weight:bold">(</span><span style="color:#3465a4">self</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#000">amount</span><span style="color:#000;font-weight:bold">):</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#4e9a06">&#34;&#34;&#34;Add fuel to the tank.&#34;&#34;&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#204a87;font-weight:bold">if</span> <span style="color:#000;font-weight:bold">(</span><span style="color:#3465a4">self</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">fuel_level</span> <span style="color:#ce5c00;font-weight:bold">+</span> <span style="color:#000">amount</span> <span style="color:#ce5c00;font-weight:bold">&lt;=</span> <span style="color:#3465a4">self</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">fuel_capacity</span><span style="color:#000;font-weight:bold">):</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#3465a4">self</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">fuel_level</span> <span style="color:#ce5c00;font-weight:bold">+=</span> <span style="color:#000">amount</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#204a87">print</span><span style="color:#000;font-weight:bold">(</span><span style="color:#4e9a06">&#34;Added fuel.&#34;</span><span style="color:#000;font-weight:bold">)</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#204a87;font-weight:bold">else</span><span style="color:#000;font-weight:bold">:</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#204a87">print</span><span style="color:#000;font-weight:bold">(</span><span style="color:#4e9a06">&#34;The tank won&#39;t hold that much.&#34;</span><span style="color:#000;font-weight:bold">)</span>
+</span></span></code></pre></div><h2 id="naming-conventions">Naming conventions</h2>
+<p>In Python class names are written in CamelCase and object
+names are written in lowercase with underscores. Modules
+that contain classes should be named in lowercase with
+underscores.</p>
+<h2 id="class-inheritance">Class inheritance</h2>
+<p>If the class you&rsquo;re writing is a specialized version of another
+class, you can use inheritance. When one class inherits
+from another, it automatically takes on all the attributes and
+methods of the parent class. The child class is free to
+introduce new attributes and methods, and override
+attributes and methods of the parent class.
+To inherit from another class include the name of the
+parent class in parentheses when defining the new class.</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#8f5902;font-style:italic"># The __init__() method for a child class</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#204a87;font-weight:bold">class</span> <span style="color:#000">ElectricCar</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">Car</span><span style="color:#000;font-weight:bold">):</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#4e9a06">&#34;&#34;&#34;A simple model of an electric car.&#34;&#34;&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#204a87;font-weight:bold">def</span> <span style="color:#000">__init__</span><span style="color:#000;font-weight:bold">(</span><span style="color:#3465a4">self</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#000">make</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#000">model</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#000">year</span><span style="color:#000;font-weight:bold">):</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#4e9a06">&#34;&#34;&#34;Initialize an electric car.&#34;&#34;&#34;</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#204a87">super</span><span style="color:#000;font-weight:bold">()</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">__init__</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">make</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#000">model</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#000">year</span><span style="color:#000;font-weight:bold">)</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#8f5902;font-style:italic"># Attributes specific to electric cars.</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#8f5902;font-style:italic"># Battery capacity in kWh.</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#3465a4">self</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">battery_size</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#0000cf;font-weight:bold">75</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#8f5902;font-style:italic"># Charge level in %.</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#3465a4">self</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">charge_level</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#0000cf;font-weight:bold">0</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#8f5902;font-style:italic"># Nuevo método de la clase hija</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#204a87;font-weight:bold">def</span> <span style="color:#000">charge</span><span style="color:#000;font-weight:bold">(</span><span style="color:#3465a4">self</span><span style="color:#000;font-weight:bold">):</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#4e9a06">&#34;&#34;&#34;Fully charge the vehicle.&#34;&#34;&#34;</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#3465a4">self</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">charge_level</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#0000cf;font-weight:bold">100</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#204a87">print</span><span style="color:#000;font-weight:bold">(</span><span style="color:#4e9a06">&#34;The vehicle is fully charged.&#34;</span><span style="color:#000;font-weight:bold">)</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#8f5902;font-style:italic"># Using child methods and parent methods</span>
+</span></span><span style="display:flex;"><span><span style="color:#000">my_ecar</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000">ElectricCar</span><span style="color:#000;font-weight:bold">(</span><span style="color:#4e9a06">&#39;tesla&#39;</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#4e9a06">&#39;model s&#39;</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#0000cf;font-weight:bold">2019</span><span style="color:#000;font-weight:bold">)</span>
+</span></span><span style="display:flex;"><span><span style="color:#000">my_ecar</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">charge</span><span style="color:#000;font-weight:bold">()</span>
+</span></span><span style="display:flex;"><span><span style="color:#000">my_ecar</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">drive</span><span style="color:#000;font-weight:bold">()</span>
+</span></span></code></pre></div><h3 id="sobreescribiendo-métodos-de-la-clase-madre">Sobreescribiendo métodos de la clase madre</h3>
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#204a87;font-weight:bold">class</span> <span style="color:#000">ElectricCar</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">Car</span><span style="color:#000;font-weight:bold">):</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#ce5c00;font-weight:bold">--</span><span style="color:#000">snip</span><span style="color:#ce5c00;font-weight:bold">--</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#204a87;font-weight:bold">def</span> <span style="color:#000">fill_tank</span><span style="color:#000;font-weight:bold">(</span><span style="color:#3465a4">self</span><span style="color:#000;font-weight:bold">):</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#4e9a06">&#34;&#34;&#34;Display an error message.&#34;&#34;&#34;</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#204a87">print</span><span style="color:#000;font-weight:bold">(</span><span style="color:#4e9a06">&#34;This car has no fuel tank!&#34;</span><span style="color:#000;font-weight:bold">)</span>
+</span></span></code></pre></div><h2 id="instances-as-attributes">Instances as attributes</h2>
+<p>A class can have objects as attributes. This allows classes
+to work together to model complex situations.</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#8f5902;font-style:italic"># A Battery class</span>
+</span></span><span style="display:flex;"><span><span style="color:#204a87;font-weight:bold">class</span> <span style="color:#000">Battery</span><span style="color:#000;font-weight:bold">:</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#4e9a06">&#34;&#34;&#34;A battery for an electric car.&#34;&#34;&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#204a87;font-weight:bold">def</span> <span style="color:#000">__init__</span><span style="color:#000;font-weight:bold">(</span><span style="color:#3465a4">self</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#000">size</span><span style="color:#ce5c00;font-weight:bold">=</span><span style="color:#0000cf;font-weight:bold">75</span><span style="color:#000;font-weight:bold">):</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#4e9a06">&#34;&#34;&#34;Initialize battery attributes.&#34;&#34;&#34;</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#8f5902;font-style:italic"># Capacity in kWh, charge level in %.</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#3465a4">self</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">size</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000">size</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#3465a4">self</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">charge_level</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#0000cf;font-weight:bold">0</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#204a87;font-weight:bold">def</span> <span style="color:#000">get_range</span><span style="color:#000;font-weight:bold">(</span><span style="color:#3465a4">self</span><span style="color:#000;font-weight:bold">):</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#4e9a06">&#34;&#34;&#34;Return the battery&#39;s range.&#34;&#34;&#34;</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#204a87;font-weight:bold">if</span> <span style="color:#3465a4">self</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">size</span> <span style="color:#ce5c00;font-weight:bold">==</span> <span style="color:#0000cf;font-weight:bold">75</span><span style="color:#000;font-weight:bold">:</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#204a87;font-weight:bold">return</span> <span style="color:#0000cf;font-weight:bold">260</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#204a87;font-weight:bold">elif</span> <span style="color:#3465a4">self</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">size</span> <span style="color:#ce5c00;font-weight:bold">==</span> <span style="color:#0000cf;font-weight:bold">100</span><span style="color:#000;font-weight:bold">:</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#204a87;font-weight:bold">return</span> <span style="color:#0000cf;font-weight:bold">315</span>
+</span></span><span style="display:flex;"><span>  
+</span></span><span style="display:flex;"><span><span style="color:#8f5902;font-style:italic"># Using an instance as an attribute</span>
+</span></span><span style="display:flex;"><span><span style="color:#8f5902;font-style:italic"># Modifica el ElectricCar</span>
+</span></span><span style="display:flex;"><span><span style="color:#204a87;font-weight:bold">class</span> <span style="color:#000">ElectricCar</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">Car</span><span style="color:#000;font-weight:bold">):</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#ce5c00;font-weight:bold">--</span><span style="color:#000">snip</span><span style="color:#ce5c00;font-weight:bold">--</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#204a87;font-weight:bold">def</span> <span style="color:#000">__init__</span><span style="color:#000;font-weight:bold">(</span><span style="color:#3465a4">self</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#000">make</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#000">model</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#000">year</span><span style="color:#000;font-weight:bold">):</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#4e9a06">&#34;&#34;&#34;Initialize an electric car.&#34;&#34;&#34;</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#204a87">super</span><span style="color:#000;font-weight:bold">()</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">__init__</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">make</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#000">model</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#000">year</span><span style="color:#000;font-weight:bold">)</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#8f5902;font-style:italic"># Attribute specific to electric cars.</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#3465a4">self</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">battery</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000">Battery</span><span style="color:#000;font-weight:bold">()</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#204a87;font-weight:bold">def</span> <span style="color:#000">charge</span><span style="color:#000;font-weight:bold">(</span><span style="color:#3465a4">self</span><span style="color:#000;font-weight:bold">):</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#4e9a06">&#34;&#34;&#34;Fully charge the vehicle.&#34;&#34;&#34;</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#3465a4">self</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">battery</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">charge_level</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#0000cf;font-weight:bold">100</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#204a87">print</span><span style="color:#000;font-weight:bold">(</span><span style="color:#4e9a06">&#34;The vehicle is fully charged.&#34;</span><span style="color:#000;font-weight:bold">)</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#8f5902;font-style:italic"># Using the instance</span>
+</span></span><span style="display:flex;"><span><span style="color:#000">my_ecar</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000">ElectricCar</span><span style="color:#000;font-weight:bold">(</span><span style="color:#4e9a06">&#39;tesla&#39;</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#4e9a06">&#39;model x&#39;</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#0000cf;font-weight:bold">2019</span><span style="color:#000;font-weight:bold">)</span>
+</span></span><span style="display:flex;"><span><span style="color:#000">my_ecar</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">charge</span><span style="color:#000;font-weight:bold">()</span>
+</span></span><span style="display:flex;"><span><span style="color:#204a87">print</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">my_ecar</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">battery</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">get_range</span><span style="color:#000;font-weight:bold">())</span>
+</span></span><span style="display:flex;"><span><span style="color:#000">my_ecar</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">drive</span><span style="color:#000;font-weight:bold">()</span>
+</span></span></code></pre></div><h2 id="understanding-self">Understanding self</h2>
+<p>People often ask what the self variable represents. The
+self variable is a reference to an object that&rsquo;s been
+created from the class.</p>
+<p>The self variable provides a way to make other variables
+and objects available everywhere in a class. The self
+variable is automatically passed to each method that&rsquo;s
+called through an object, which is why you see it listed first
+in every method definition. Any variable attached to self is
+available everywhere in the class.</p>
+<h2 id="understanding-__init__">Understanding &lsquo;<code>__init__()</code></h2>
+<p>The <strong>init</strong>() method is a function that&rsquo;s part of a class,
+just like any other method. The only special thing about
+<strong>init</strong>() is that it&rsquo;s called automatically every time you
+make a new object from a class. If you accidentally misspell
+<strong>init</strong>(), the method will not be called and your object
+may not be created correctly.</p>
+
+        <div class="section-index">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</div>
+
+	
+	
+	
+</div>
+
+          </main>
+        </div>
+      </div>
+      
+<footer class="bg-dark py-5 row d-print-none">
+  <div class="container-fluid mx-sm-5">
+    <div class="row">
+      <div class="col-6 col-sm-4 text-xs-center order-sm-2">
+        
+      </div>
+      <div class="col-6 col-sm-4 text-right text-xs-center order-sm-3">
+        
+      </div>
+      <div class="col-12 col-sm-4 text-center py-2 order-sm-2">
+        <small class="text-white">&copy; 2022 @lmorillas Derechos reservados</small>
+        <small class="ml-1"><a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Política de privacidad</a></small>
+	
+		
+	
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"
+    integrity="sha512-UR25UO94eTnCVwjbXozyeVd6ZqpaAE9naiEUBK/A+QDbfSTQFhPGj5lOR6d8tsgbBk84Ggb5A3EkjsOgPRPcKA=="
+    crossorigin="anonymous"></script>
+
+
+<script src="https://cdn.jsdelivr.net/npm/mermaid@8.13.4/dist/mermaid.min.js" integrity="sha512-JERecFUBbsm75UpkVheAuDOE8NdHjQBrPACfEQYPwvPG+fjgCpHAz1Jw2ci9EXmd3DdfiWth3O3CQvcfEg8gsA==" crossorigin="anonymous"></script>
+
+
+
+<style>
+.markmap > svg {
+  width: 100%;
+  height: 300px;
+}
+</style>
+<script>
+window.markmap = {
+  autoLoader: { manual: true },
+};
+</script>
+<script src="https://cdn.jsdelivr.net/npm/markmap-autoloader"></script>
+
+
+<script src='/js/tabpane-persist.js'></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="/intro-python/js/main.min.dfcd2e847de723d00d159e68374fb7fba0cc5f64a5eac86361dea4a5ad3e54c3.js" integrity="sha256-380uhH3nI9ANFZ5oN0&#43;3&#43;6DMX2Sl6shjYd6kpa0&#43;VMM=" crossorigin="anonymous"></script>
+
+
+
+
+  </body>
+</html>

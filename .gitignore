@@ -6,3 +6,7 @@ tech-doc-hugo
 themes/docsy/
 mirar.md
 .hugo_build.lock
+env
+tmp
+.ipynb_checkpoints
+
