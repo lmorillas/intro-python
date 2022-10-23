@@ -232,7 +232,7 @@ called through an object, which is why you see it listed first
 in every method definition. Any variable attached to self is
 available everywhere in the class.
 
-## Understanding '`__init__()`
+## Understanding `__init__()`
 The __init__() method is a function that's part of a class,
 just like any other method. The only special thing about
 __init__() is that it's called automatically every time you

@@ -1,20 +1,323 @@
-<!doctype html><html lang=es class=no-js><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta name=generator content="Hugo 0.102.3"><meta name=robots content="index, follow"><link rel="shortcut icon" href=/intro-python/favicons/favicon.ico><link rel=apple-touch-icon href=/intro-python/favicons/apple-touch-icon-180x180.png sizes=180x180><link rel=icon type=image/png href=/intro-python/favicons/favicon-16x16.png sizes=16x16><link rel=icon type=image/png href=/intro-python/favicons/favicon-32x32.png sizes=32x32><link rel=icon type=image/png href=/intro-python/favicons/android-36x36.png sizes=36x36><link rel=icon type=image/png href=/intro-python/favicons/android-48x48.png sizes=48x48><link rel=icon type=image/png href=/intro-python/favicons/android-72x72.png sizes=72x72><link rel=icon type=image/png href=/intro-python/favicons/android-96x96.png sizes=96x96><link rel=icon type=image/png href=/intro-python/favicons/android-144x144.png sizes=144x144><link rel=icon type=image/png href=/intro-python/favicons/android-192x192.png sizes=192x192><title>Contenedores | Introducción a Python</title><meta name=description content="Listas, Diccionarios, Tuplas y Sets
-"><meta property="og:title" content="Contenedores"><meta property="og:description" content="Listas, Diccionarios, Tuplas y Sets
-"><meta property="og:type" content="article"><meta property="og:url" content="https://lmorillas.github.io/intro-python/docs/contenedores/"><meta property="article:section" content="docs"><meta property="article:published_time" content="2021-09-15T00:00:00+00:00"><meta property="article:modified_time" content="2022-10-18T12:39:11+02:00"><meta property="og:site_name" content="Introducción a Python"><meta itemprop=name content="Contenedores"><meta itemprop=description content="Listas, Diccionarios, Tuplas y Sets
-"><meta itemprop=datePublished content="2021-09-15T00:00:00+00:00"><meta itemprop=dateModified content="2022-10-18T12:39:11+02:00"><meta itemprop=wordCount content="21"><meta itemprop=keywords content><meta name=twitter:card content="summary"><meta name=twitter:title content="Contenedores"><meta name=twitter:description content="Listas, Diccionarios, Tuplas y Sets
-"><link rel=preload href=/intro-python/scss/main.min.6f9a61915ae86417164c61d275528c590ac6e5f9dadf5e49cacc7e18108a8014.css as=style><link href=/intro-python/scss/main.min.6f9a61915ae86417164c61d275528c590ac6e5f9dadf5e49cacc7e18108a8014.css rel=stylesheet integrity><script src=https://code.jquery.com/jquery-3.6.0.min.js integrity=sha384-vtXRMe3mGCbOeY7l30aIg8H9p3GdeSe4IFlP6G8JMa7o7lXvnz3GFKzPxzJdPfGK crossorigin=anonymous></script></head><body class=td-page><header><nav class="js-navbar-scroll navbar navbar-expand navbar-dark flex-column flex-md-row td-navbar"><a class=navbar-brand href=/intro-python/><span class=navbar-logo><svg id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512"><rect x="275.4" y="43.825" style="fill:#fc9942" width="89.7" height="30"/><path style="fill:#b4d241" d="M312.59.0v25.914c0 51.452-41.71 93.161-93.161 93.161v248.207H109.714V93.161C109.714 41.71 151.424.0 202.876.0H312.59z"/><rect y="411.86" style="fill:#8ca52d" width="512" height="100.14"/><rect x="36.571" y="311.72" style="fill:#a0be28" width="438.86" height="100.14"/><g><rect x="58.14" y="411.86" style="fill:#738c28" width="30" height="55.56"/><rect x="131.29" y="411.86" style="fill:#738c28" width="30" height="55.56"/><rect x="204.43" y="411.86" style="fill:#738c28" width="30" height="55.56"/><rect x="277.57" y="411.86" style="fill:#738c28" width="30" height="55.56"/><rect x="350.71" y="411.86" style="fill:#738c28" width="30" height="55.56"/><rect x="423.86" y="411.86" style="fill:#738c28" width="30" height="55.56"/><rect x="94.71" y="311.72" style="fill:#738c28" width="30" height="55.56"/><rect x="167.86" y="311.72" style="fill:#738c28" width="30" height="55.56"/><rect x="241" y="311.72" style="fill:#738c28" width="30" height="55.56"/><rect x="314.14" y="311.72" style="fill:#738c28" width="30" height="55.56"/><rect x="387.29" y="311.72" style="fill:#738c28" width="30" height="55.56"/></g><g><rect x="109.71" y="150.43" style="fill:#8ca52d" width="55.56" height="30"/><rect x="109.71" y="223.57" style="fill:#8ca52d" width="55.56" height="30"/></g><rect x="203.5" y="43.825" style="fill:#738c28" width="31.867" height="30"/><g/><g/><g/><g/><g/><g/><g/><g/><g/><g/><g/><g/><g/><g/><g/></svg></span><span class=font-weight-bold>Introducción a Python</span></a><div class="td-navbar-nav-scroll ml-md-auto" id=main_navbar><ul class="navbar-nav mt-2 mt-lg-0"></ul></div><div class="navbar-nav d-none d-lg-block"></div></nav></header><div class="container-fluid td-outer"><div class=td-main><div class="row flex-xl-nowrap"><aside class="col-12 col-md-3 col-xl-2 td-sidebar d-print-none"><div id=td-sidebar-menu class=td-sidebar__inner><form class="td-sidebar__search d-flex align-items-center"><button class="btn btn-link td-sidebar__toggle d-md-none p-0 ml-3 fas fa-bars" type=button data-toggle=collapse data-target=#td-section-nav aria-controls=td-section-nav aria-expanded=false aria-label="Toggle section navigation"></button></form><nav class="collapse td-sidebar-nav foldable-nav" id=td-section-nav><ul class="td-sidebar-nav__section pr-md-3 ul-0"><li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child active-path" id=m-intro-pythondocs-li><a href=/intro-python/docs/ title="Inmersión en Python" class="align-left pl-0 td-sidebar-link td-sidebar-link__section tree-root" id=m-intro-pythondocs><span>Python</span></a><ul class=ul-1><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id=m-intro-pythondocsinstalacion-li><input type=checkbox id=m-intro-pythondocsinstalacion-check>
-<label for=m-intro-pythondocsinstalacion-check><a href=/intro-python/docs/instalacion/ class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id=m-intro-pythondocsinstalacion><span>Instalación</span></a></label></li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id=m-intro-pythondocscontenido-li><input type=checkbox id=m-intro-pythondocscontenido-check>
-<label for=m-intro-pythondocscontenido-check><a href=/intro-python/docs/contenido/ class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id=m-intro-pythondocscontenido><span>Contenidos</span></a></label></li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id=m-intro-pythondocsjupyter-li><input type=checkbox id=m-intro-pythondocsjupyter-check>
-<label for=m-intro-pythondocsjupyter-check><a href=/intro-python/docs/jupyter/ class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id=m-intro-pythondocsjupyter><span>Jupyter</span></a></label></li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id=m-intro-pythondocsprimeros-pasos-li><input type=checkbox id=m-intro-pythondocsprimeros-pasos-check>
-<label for=m-intro-pythondocsprimeros-pasos-check><a href=/intro-python/docs/primeros-pasos/ class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id=m-intro-pythondocsprimeros-pasos><span>Primeros pasos</span></a></label></li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child active-path" id=m-intro-pythondocscontenedores-li><input type=checkbox id=m-intro-pythondocscontenedores-check checked>
-<label for=m-intro-pythondocscontenedores-check><a href=/intro-python/docs/contenedores/ class="align-left pl-0 active td-sidebar-link td-sidebar-link__page" id=m-intro-pythondocscontenedores><span class=td-sidebar-nav-active-item>Contenedores</span></a></label></li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id=m-intro-pythondocsbucles-li><input type=checkbox id=m-intro-pythondocsbucles-check>
-<label for=m-intro-pythondocsbucles-check><a href=/intro-python/docs/bucles/ class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id=m-intro-pythondocsbucles><span>Bucles</span></a></label></li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id=m-intro-pythondocsfunciones-li><input type=checkbox id=m-intro-pythondocsfunciones-check>
-<label for=m-intro-pythondocsfunciones-check><a href=/intro-python/docs/funciones/ class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id=m-intro-pythondocsfunciones><span>Funciones</span></a></label></li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id=m-intro-pythondocsarchivos-li><input type=checkbox id=m-intro-pythondocsarchivos-check>
-<label for=m-intro-pythondocsarchivos-check><a href=/intro-python/docs/archivos/ class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id=m-intro-pythondocsarchivos><span>Archivos</span></a></label></li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id=m-intro-pythondocssarchivos-li><input type=checkbox id=m-intro-pythondocssarchivos-check>
-<label for=m-intro-pythondocssarchivos-check><a href=/intro-python/docs/sarchivos/ class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id=m-intro-pythondocssarchivos><span>Sistema de archivos</span></a></label></li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id=m-intro-pythondocsclases-li><input type=checkbox id=m-intro-pythondocsclases-check>
-<label for=m-intro-pythondocsclases-check><a href=/intro-python/docs/clases/ class="align-left pl-0 td-sidebar-link td-sidebar-link__section" id=m-intro-pythondocsclases><span>Clases</span></a></label></li></ul></li></ul></nav></div></aside><aside class="d-none d-xl-block col-xl-2 td-sidebar-toc d-print-none"><div class=td-toc><nav id=TableOfContents><ul><li><a href=#listas>listas</a></li><li><a href=#diccionarios>diccionarios</a></li><li><a href=#tuplas>tuplas</a></li><li><a href=#sets>sets</a></li></ul></nav></div></aside><main class="col-12 col-md-9 col-xl-8 pl-md-5" role=main><nav aria-label=breadcrumb class=td-breadcrumbs><ol class=breadcrumb><li class=breadcrumb-item><a href=https://lmorillas.github.io/intro-python/docs/>Python</a></li><li class="breadcrumb-item active" aria-current=page><a href=https://lmorillas.github.io/intro-python/docs/contenedores/ aria-disabled=true class="btn-link disabled">Contenedores</a></li></ol></nav><div class=td-content><h1>Contenedores</h1><div class=lead>Listas, Diccionarios, Tuplas y Sets</div><header class=article-meta></header><div class="pageinfo pageinfo-primary"><h3 id=objetivos>Objetivos:</h3><ul><li>Tipos de objetos para almacenar datos</li></ul></div><h2 id=listas>listas</h2><ul><li><a href=https://colab.research.google.com/github/lmorillas/learn-python3/blob/master/beginner/notebooks/lists.ipynb>notebook</a></li><li><a href=https://colab.research.google.com/github/lmorillas/learn-python3/blob/master/beginner/exercises/lists_exercise.ipynb>ejercicio</a></li></ul><h2 id=diccionarios>diccionarios</h2><ul><li><a href=https://colab.research.google.com/github/lmorillas/learn-python3/blob/master/beginner/notebooks/dictionaries.ipynb>notebook</a></li><li><a href=https://colab.research.google.com/github/lmorillas/learn-python3/blob/master/beginner/exercises/dictionaries_exercise.ipynb>ejercicio</a></li></ul><h2 id=tuplas>tuplas</h2><ul><li><a href=https://colab.research.google.com/github/computationalcore/introduction-to-python/blob/master/2-data-structures/PY0101EN-2-1-Tuples.ipynb>Ejemplo tuplas en colab</a></li></ul><h2 id=sets>sets</h2><ul><li><a href=https://github.com/jmportilla/Complete-Python-Bootcamp/blob/master/Sets%20and%20Booleans.ipynb>https://github.com/jmportilla/Complete-Python-Bootcamp/blob/master/Sets%20and%20Booleans.ipynb</a></li><li><a href=https://github.com/jmportilla/Complete-Python-Bootcamp/blob/master/Advanced%20Sets.ipynb>https://github.com/jmportilla/Complete-Python-Bootcamp/blob/master/Advanced%20Sets.ipynb</a></li></ul><div class="text-muted mt-5 pt-3 border-top">Última modificación October 18, 2022: <a href=https://github.com/lmorillas/dwes/commit/7933fe17d3c40fd2589f7eee45397ccbe132e58c>collab (7933fe1)</a></div></div></main></div></div><footer class="bg-dark py-5 row d-print-none"><div class="container-fluid mx-sm-5"><div class=row><div class="col-6 col-sm-4 text-xs-center order-sm-2"></div><div class="col-6 col-sm-4 text-right text-xs-center order-sm-3"></div><div class="col-12 col-sm-4 text-center py-2 order-sm-2"><small class=text-white>&copy; 2022 @lmorillas Derechos reservados</small>
-<small class=ml-1><a href=https://policies.google.com/privacy target=_blank rel=noopener>Política de privacidad</a></small></div></div></div></footer></div><script src=https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js integrity=sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN crossorigin=anonymous></script>
-<script src=https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js integrity="sha512-UR25UO94eTnCVwjbXozyeVd6ZqpaAE9naiEUBK/A+QDbfSTQFhPGj5lOR6d8tsgbBk84Ggb5A3EkjsOgPRPcKA==" crossorigin=anonymous></script>
-<script src=https://cdn.jsdelivr.net/npm/mermaid@8.13.4/dist/mermaid.min.js integrity="sha512-JERecFUBbsm75UpkVheAuDOE8NdHjQBrPACfEQYPwvPG+fjgCpHAz1Jw2ci9EXmd3DdfiWth3O3CQvcfEg8gsA==" crossorigin=anonymous></script><style>.markmap>svg{width:100%;height:300px}</style><script>window.markmap={autoLoader:{manual:!0}}</script><script src=https://cdn.jsdelivr.net/npm/markmap-autoloader></script>
-<script src=/js/tabpane-persist.js></script>
-<script src=/intro-python/js/main.min.dfcd2e847de723d00d159e68374fb7fba0cc5f64a5eac86361dea4a5ad3e54c3.js integrity="sha256-380uhH3nI9ANFZ5oN0+3+6DMX2Sl6shjYd6kpa0+VMM=" crossorigin=anonymous></script></body></html>
+<!doctype html>
+<html lang="es" class="no-js">
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="generator" content="Hugo 0.102.3" />
+<meta name="robots" content="index, follow">
+
+
+<link rel="shortcut icon" href="/intro-python/favicons/favicon.ico" >
+<link rel="apple-touch-icon" href="/intro-python/favicons/apple-touch-icon-180x180.png" sizes="180x180">
+<link rel="icon" type="image/png" href="/intro-python/favicons/favicon-16x16.png" sizes="16x16">
+<link rel="icon" type="image/png" href="/intro-python/favicons/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/intro-python/favicons/android-36x36.png" sizes="36x36">
+<link rel="icon" type="image/png" href="/intro-python/favicons/android-48x48.png" sizes="48x48">
+<link rel="icon" type="image/png" href="/intro-python/favicons/android-72x72.png" sizes="72x72">
+<link rel="icon" type="image/png" href="/intro-python/favicons/android-96x96.png" sizes="96x96">
+<link rel="icon" type="image/png" href="/intro-python/favicons/android-144x144.png" sizes="144x144">
+<link rel="icon" type="image/png" href="/intro-python/favicons/android-192x192.png" sizes="192x192">
+
+<title>Contenedores | Introducción a Python</title>
+<meta name="description" content="Listas, Diccionarios, Tuplas y Sets
+">
+<meta property="og:title" content="Contenedores" />
+<meta property="og:description" content="Listas, Diccionarios, Tuplas y Sets
+" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://lmorillas.github.io/intro-python/docs/contenedores/" /><meta property="article:section" content="docs" />
+<meta property="article:published_time" content="2021-09-15T00:00:00+00:00" />
+<meta property="article:modified_time" content="2022-10-18T12:39:11+02:00" /><meta property="og:site_name" content="Introducción a Python" />
+
+<meta itemprop="name" content="Contenedores">
+<meta itemprop="description" content="Listas, Diccionarios, Tuplas y Sets
+"><meta itemprop="datePublished" content="2021-09-15T00:00:00+00:00" />
+<meta itemprop="dateModified" content="2022-10-18T12:39:11+02:00" />
+<meta itemprop="wordCount" content="21">
+<meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Contenedores"/>
+<meta name="twitter:description" content="Listas, Diccionarios, Tuplas y Sets
+"/>
+
+
+
+
+<link rel="preload" href="/intro-python/scss/main.min.6f9a61915ae86417164c61d275528c590ac6e5f9dadf5e49cacc7e18108a8014.css" as="style">
+<link href="/intro-python/scss/main.min.6f9a61915ae86417164c61d275528c590ac6e5f9dadf5e49cacc7e18108a8014.css" rel="stylesheet" integrity="">
+
+<script
+  src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha384-vtXRMe3mGCbOeY7l30aIg8H9p3GdeSe4IFlP6G8JMa7o7lXvnz3GFKzPxzJdPfGK"
+  crossorigin="anonymous"></script>
+
+  </head>
+  <body class="td-page">
+    <header>
+      
+<nav class="js-navbar-scroll navbar navbar-expand navbar-dark flex-column flex-md-row td-navbar">
+        <a class="navbar-brand" href="/intro-python/">
+		<span class="navbar-logo"><svg id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512"><rect x="275.4" y="43.825" style="fill:#fc9942" width="89.7" height="30"/><path style="fill:#b4d241" d="M312.59.0v25.914c0 51.452-41.71 93.161-93.161 93.161v248.207H109.714V93.161C109.714 41.71 151.424.0 202.876.0H312.59z"/><rect y="411.86" style="fill:#8ca52d" width="512" height="100.14"/><rect x="36.571" y="311.72" style="fill:#a0be28" width="438.86" height="100.14"/><g><rect x="58.14" y="411.86" style="fill:#738c28" width="30" height="55.56"/><rect x="131.29" y="411.86" style="fill:#738c28" width="30" height="55.56"/><rect x="204.43" y="411.86" style="fill:#738c28" width="30" height="55.56"/><rect x="277.57" y="411.86" style="fill:#738c28" width="30" height="55.56"/><rect x="350.71" y="411.86" style="fill:#738c28" width="30" height="55.56"/><rect x="423.86" y="411.86" style="fill:#738c28" width="30" height="55.56"/><rect x="94.71" y="311.72" style="fill:#738c28" width="30" height="55.56"/><rect x="167.86" y="311.72" style="fill:#738c28" width="30" height="55.56"/><rect x="241" y="311.72" style="fill:#738c28" width="30" height="55.56"/><rect x="314.14" y="311.72" style="fill:#738c28" width="30" height="55.56"/><rect x="387.29" y="311.72" style="fill:#738c28" width="30" height="55.56"/></g><g><rect x="109.71" y="150.43" style="fill:#8ca52d" width="55.56" height="30"/><rect x="109.71" y="223.57" style="fill:#8ca52d" width="55.56" height="30"/></g><rect x="203.5" y="43.825" style="fill:#738c28" width="31.867" height="30"/><g/><g/><g/><g/><g/><g/><g/><g/><g/><g/><g/><g/><g/><g/><g/></svg></span><span class="font-weight-bold">Introducción a Python</span>
+	</a>
+	<div class="td-navbar-nav-scroll ml-md-auto" id="main_navbar">
+		<ul class="navbar-nav mt-2 mt-lg-0">
+			
+			
+			
+			
+		</ul>
+	</div>
+	<div class="navbar-nav d-none d-lg-block"></div>
+</nav>
+
+    </header>
+    <div class="container-fluid td-outer">
+      <div class="td-main">
+        <div class="row flex-xl-nowrap">
+          <aside class="col-12 col-md-3 col-xl-2 td-sidebar d-print-none">
+            
+<div id="td-sidebar-menu" class="td-sidebar__inner">
+  <form class="td-sidebar__search d-flex align-items-center">
+    
+    <button class="btn btn-link td-sidebar__toggle d-md-none p-0 ml-3 fas fa-bars" type="button" data-toggle="collapse" data-target="#td-section-nav" aria-controls="td-section-nav" aria-expanded="false" aria-label="Toggle section navigation">
+    </button>
+  </form>
+  <nav class="collapse td-sidebar-nav foldable-nav" id="td-section-nav">
+    <ul class="td-sidebar-nav__section pr-md-3 ul-0">
+      <li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child active-path" id="m-intro-pythondocs-li">
+  <a href="/intro-python/docs/" title="Inmersión en Python" class="align-left pl-0 td-sidebar-link td-sidebar-link__section tree-root" id="m-intro-pythondocs"><span class="">Python</span></a>
+  <ul class="ul-1">
+    <li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-intro-pythondocsinstalacion-li">
+  <input type="checkbox" id="m-intro-pythondocsinstalacion-check"/>
+  <label for="m-intro-pythondocsinstalacion-check"><a href="/intro-python/docs/instalacion/" class="align-left pl-0  td-sidebar-link td-sidebar-link__page" id="m-intro-pythondocsinstalacion"><span class="">Instalación</span></a></label>
+  
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-intro-pythondocscontenido-li">
+  <input type="checkbox" id="m-intro-pythondocscontenido-check"/>
+  <label for="m-intro-pythondocscontenido-check"><a href="/intro-python/docs/contenido/" class="align-left pl-0  td-sidebar-link td-sidebar-link__page" id="m-intro-pythondocscontenido"><span class="">Contenidos</span></a></label>
+  
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-intro-pythondocsjupyter-li">
+  <input type="checkbox" id="m-intro-pythondocsjupyter-check"/>
+  <label for="m-intro-pythondocsjupyter-check"><a href="/intro-python/docs/jupyter/" class="align-left pl-0  td-sidebar-link td-sidebar-link__page" id="m-intro-pythondocsjupyter"><span class="">Jupyter</span></a></label>
+  
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-intro-pythondocsprimeros-pasos-li">
+  <input type="checkbox" id="m-intro-pythondocsprimeros-pasos-check"/>
+  <label for="m-intro-pythondocsprimeros-pasos-check"><a href="/intro-python/docs/primeros-pasos/" class="align-left pl-0  td-sidebar-link td-sidebar-link__page" id="m-intro-pythondocsprimeros-pasos"><span class="">Primeros pasos</span></a></label>
+  
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child active-path" id="m-intro-pythondocscontenedores-li">
+  <input type="checkbox" id="m-intro-pythondocscontenedores-check" checked/>
+  <label for="m-intro-pythondocscontenedores-check"><a href="/intro-python/docs/contenedores/" class="align-left pl-0  active td-sidebar-link td-sidebar-link__page" id="m-intro-pythondocscontenedores"><span class="td-sidebar-nav-active-item">Contenedores</span></a></label>
+  
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-intro-pythondocsbucles-li">
+  <input type="checkbox" id="m-intro-pythondocsbucles-check"/>
+  <label for="m-intro-pythondocsbucles-check"><a href="/intro-python/docs/bucles/" class="align-left pl-0  td-sidebar-link td-sidebar-link__page" id="m-intro-pythondocsbucles"><span class="">Bucles</span></a></label>
+  
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-intro-pythondocsfunciones-li">
+  <input type="checkbox" id="m-intro-pythondocsfunciones-check"/>
+  <label for="m-intro-pythondocsfunciones-check"><a href="/intro-python/docs/funciones/" class="align-left pl-0  td-sidebar-link td-sidebar-link__page" id="m-intro-pythondocsfunciones"><span class="">Funciones</span></a></label>
+  
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-intro-pythondocsarchivos-li">
+  <input type="checkbox" id="m-intro-pythondocsarchivos-check"/>
+  <label for="m-intro-pythondocsarchivos-check"><a href="/intro-python/docs/archivos/" class="align-left pl-0  td-sidebar-link td-sidebar-link__page" id="m-intro-pythondocsarchivos"><span class="">Archivos</span></a></label>
+  
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-intro-pythondocssarchivos-li">
+  <input type="checkbox" id="m-intro-pythondocssarchivos-check"/>
+  <label for="m-intro-pythondocssarchivos-check"><a href="/intro-python/docs/sarchivos/" class="align-left pl-0  td-sidebar-link td-sidebar-link__page" id="m-intro-pythondocssarchivos"><span class="">Sistema de archivos</span></a></label>
+  
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-intro-pythondocsclases-li">
+  <input type="checkbox" id="m-intro-pythondocsclases-check"/>
+  <label for="m-intro-pythondocsclases-check"><a href="/intro-python/docs/clases/" class="align-left pl-0  td-sidebar-link td-sidebar-link__section" id="m-intro-pythondocsclases"><span class="">Clases</span></a></label>
+  
+</li>
+  </ul>
+</li>
+    </ul>
+  </nav>
+</div>
+
+          </aside>
+          <aside class="d-none d-xl-block col-xl-2 td-sidebar-toc d-print-none">
+            
+            
+
+
+<div class="td-toc"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#listas">listas</a></li>
+    <li><a href="#diccionarios">diccionarios</a></li>
+    <li><a href="#tuplas">tuplas</a></li>
+    <li><a href="#sets">sets</a></li>
+  </ul>
+</nav></div>
+
+
+
+            
+
+	
+		
+
+
+
+  
+  
+
+	
+		
+
+
+
+  
+  
+
+	
+
+          </aside>
+          <main class="col-12 col-md-9 col-xl-8 pl-md-5" role="main">
+            
+  
+
+            <nav aria-label="breadcrumb" class="td-breadcrumbs">
+  <ol class="breadcrumb">
+  <li class="breadcrumb-item">
+    <a href="https://lmorillas.github.io/intro-python/docs/">Python</a>
+  </li>
+  <li class="breadcrumb-item active" aria-current="page">
+    <a href="https://lmorillas.github.io/intro-python/docs/contenedores/" aria-disabled="true" class="btn-link disabled">Contenedores</a>
+  </li>
+  </ol>
+</nav>
+            
+<div class="td-content">
+	<h1>Contenedores</h1>
+	<div class="lead">Listas, Diccionarios, Tuplas y Sets</div>
+	<header class="article-meta">
+		
+
+  
+    
+
+
+  
+    
+
+
+  
+
+		
+	</header>    
+	
+
+<div class="pageinfo pageinfo-primary">
+<h3 id="objetivos">Objetivos:</h3>
+<ul>
+<li>Tipos de objetos para almacenar datos</li>
+</ul>
+
+</div>
+
+<h2 id="listas">listas</h2>
+<ul>
+<li><a href="https://colab.research.google.com/github/lmorillas/learn-python3/blob/master/beginner/notebooks/lists.ipynb">notebook</a></li>
+<li><a href="https://colab.research.google.com/github/lmorillas/learn-python3/blob/master/beginner/exercises/lists_exercise.ipynb">ejercicio</a></li>
+</ul>
+<h2 id="diccionarios">diccionarios</h2>
+<ul>
+<li><a href="https://colab.research.google.com/github/lmorillas/learn-python3/blob/master/beginner/notebooks/dictionaries.ipynb">notebook</a></li>
+<li><a href="https://colab.research.google.com/github/lmorillas/learn-python3/blob/master/beginner/exercises/dictionaries_exercise.ipynb">ejercicio</a></li>
+</ul>
+<h2 id="tuplas">tuplas</h2>
+<ul>
+<li><a href="https://colab.research.google.com/github/computationalcore/introduction-to-python/blob/master/2-data-structures/PY0101EN-2-1-Tuples.ipynb">Ejemplo tuplas en colab</a></li>
+</ul>
+<h2 id="sets">sets</h2>
+<ul>
+<li><a href="https://github.com/jmportilla/Complete-Python-Bootcamp/blob/master/Sets%20and%20Booleans.ipynb">https://github.com/jmportilla/Complete-Python-Bootcamp/blob/master/Sets%20and%20Booleans.ipynb</a></li>
+<li><a href="https://github.com/jmportilla/Complete-Python-Bootcamp/blob/master/Advanced%20Sets.ipynb">https://github.com/jmportilla/Complete-Python-Bootcamp/blob/master/Advanced%20Sets.ipynb</a></li>
+</ul>
+
+	
+	
+	<div class="text-muted mt-5 pt-3 border-top">
+  Última modificación October 18, 2022: <a href="https://github.com/lmorillas/dwes/commit/7933fe17d3c40fd2589f7eee45397ccbe132e58c">collab (7933fe1)</a>
+</div>
+
+</div>
+
+
+          </main>
+        </div>
+      </div>
+      
+<footer class="bg-dark py-5 row d-print-none">
+  <div class="container-fluid mx-sm-5">
+    <div class="row">
+      <div class="col-6 col-sm-4 text-xs-center order-sm-2">
+        
+      </div>
+      <div class="col-6 col-sm-4 text-right text-xs-center order-sm-3">
+        
+      </div>
+      <div class="col-12 col-sm-4 text-center py-2 order-sm-2">
+        <small class="text-white">&copy; 2022 @lmorillas Derechos reservados</small>
+        <small class="ml-1"><a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Política de privacidad</a></small>
+	
+		
+	
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"
+    integrity="sha512-UR25UO94eTnCVwjbXozyeVd6ZqpaAE9naiEUBK/A+QDbfSTQFhPGj5lOR6d8tsgbBk84Ggb5A3EkjsOgPRPcKA=="
+    crossorigin="anonymous"></script>
+
+
+<script src="https://cdn.jsdelivr.net/npm/mermaid@8.13.4/dist/mermaid.min.js" integrity="sha512-JERecFUBbsm75UpkVheAuDOE8NdHjQBrPACfEQYPwvPG+fjgCpHAz1Jw2ci9EXmd3DdfiWth3O3CQvcfEg8gsA==" crossorigin="anonymous"></script>
+
+
+
+<style>
+.markmap > svg {
+  width: 100%;
+  height: 300px;
+}
+</style>
+<script>
+window.markmap = {
+  autoLoader: { manual: true },
+};
+</script>
+<script src="https://cdn.jsdelivr.net/npm/markmap-autoloader"></script>
+
+
+<script src='/js/tabpane-persist.js'></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="/intro-python/js/main.min.dfcd2e847de723d00d159e68374fb7fba0cc5f64a5eac86361dea4a5ad3e54c3.js" integrity="sha256-380uhH3nI9ANFZ5oN0&#43;3&#43;6DMX2Sl6shjYd6kpa0&#43;VMM=" crossorigin="anonymous"></script>
+
+
+
+
+  </body>
+</html>
