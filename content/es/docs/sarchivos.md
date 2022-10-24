@@ -18,7 +18,6 @@ description: >
 
 # Gestión de archivos y directorios
 
-
 ### Linux and Windows Paths
 
 En windows y linux, los directorios se separan de forma diferente. En windows, se usa `\` y en linux, se usa `/`. Por ejemplo, en windows, el directorio `C:\Users\joe`  en linux `/home/joe` 
@@ -279,5 +278,19 @@ from pathlib import Path
 - Calling `os.rmdir(path)` or `Path.rmdir()` will delete the folder at path. This folder must be empty of any files or folders.
 
 - Calling `shutil.rmtree(path)` will remove the folder at path, and all files and folders it contains will also be deleted.
+
+## Archivos zip
+
+* https://docs.python.org/3/library/zipfile.html
+* https://realpython.com/python-zipfile/
+
+```python
+>>> import zipfile
+
+>>> with zipfile.ZipFile("sample.zip", mode="r") as archive:
+        archive.printdir()   # listado
+        archive.getinfo("file.txt")  # info de un archivo
+        archive.extractall()  # extraer todo
+```
 
 

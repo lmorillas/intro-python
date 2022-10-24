@@ -33,7 +33,7 @@
 <meta itemprop="description" content="Archivos
 "><meta itemprop="datePublished" content="2021-09-15T00:00:00+00:00" />
 <meta itemprop="dateModified" content="2022-10-20T11:41:52+02:00" />
-<meta itemprop="wordCount" content="461">
+<meta itemprop="wordCount" content="487">
 <meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Sistema de archivos"/>
 <meta name="twitter:description" content="Archivos
@@ -164,6 +164,7 @@
     <li><a href="#copiar-archivos-y-carpetas">Copiar archivos y carpetas</a></li>
     <li><a href="#mover-y-renombrar">Mover y renombrar</a></li>
     <li><a href="#eliminar-archivos-y-carpetas">Eliminar archivos y carpetas</a></li>
+    <li><a href="#archivos-zip">Archivos zip</a></li>
   </ul>
 </nav></div>
 
@@ -411,7 +412,18 @@
 <p>Calling <code>shutil.rmtree(path)</code> will remove the folder at path, and all files and folders it contains will also be deleted.</p>
 </li>
 </ul>
-
+<h2 id="archivos-zip">Archivos zip</h2>
+<ul>
+<li><a href="https://docs.python.org/3/library/zipfile.html">https://docs.python.org/3/library/zipfile.html</a></li>
+<li><a href="https://realpython.com/python-zipfile/">https://realpython.com/python-zipfile/</a></li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#ce5c00;font-weight:bold">&gt;&gt;&gt;</span> <span style="color:#204a87;font-weight:bold">import</span> <span style="color:#000">zipfile</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#ce5c00;font-weight:bold">&gt;&gt;&gt;</span> <span style="color:#204a87;font-weight:bold">with</span> <span style="color:#000">zipfile</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">ZipFile</span><span style="color:#000;font-weight:bold">(</span><span style="color:#4e9a06">&#34;sample.zip&#34;</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#000">mode</span><span style="color:#ce5c00;font-weight:bold">=</span><span style="color:#4e9a06">&#34;r&#34;</span><span style="color:#000;font-weight:bold">)</span> <span style="color:#204a87;font-weight:bold">as</span> <span style="color:#000">archive</span><span style="color:#000;font-weight:bold">:</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#000">archive</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">printdir</span><span style="color:#000;font-weight:bold">()</span>   <span style="color:#8f5902;font-style:italic"># listado</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#000">archive</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">getinfo</span><span style="color:#000;font-weight:bold">(</span><span style="color:#4e9a06">&#34;file.txt&#34;</span><span style="color:#000;font-weight:bold">)</span>  <span style="color:#8f5902;font-style:italic"># info de un archivo</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#000">archive</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">extractall</span><span style="color:#000;font-weight:bold">()</span>  <span style="color:#8f5902;font-style:italic"># extraer todo</span>
+</span></span></code></pre></div>
 	
 	
 	<div class="text-muted mt-5 pt-3 border-top">
